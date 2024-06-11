@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Beyond Bare Queries: Open-Vocabulary Object Retrieval with 3D Scene Graph">
+  <meta name="keywords" content="3D scene understanding, open-vocabulary object retrieval, scene graph, large language model">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beyond Bare Queries: Open-Vocabulary Object Retrieval with 3D Scene Graph</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+    src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body>
+<section class="authors">
+  <div class="authors-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">Beyond Bare Queries: Open-Vocabulary Object Retrieval with 3D Scene Graph</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href=" ">Sergey Linok</a><sup>1*&#134;</sup>,</span>
+            <span class="author-block">
+              <a href=" ">Tatiana Zemskova</a><sup>1,2*</sup>,</span>
+            <span class="author-block">
+              <a href=" ">Svetlana Ladanova</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href=" ">Roman Titkov</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href=" ">Dmitry Yudin</a><sup>1,2&#134;</sup>,</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <sup>1</sup><span class="author-block">Moscow Institute of Physics and Technology (MIPT)</span>, 
+            <sup>2</sup><span class="author-block">AIRI</span>
+          </div>
+          <div class="is-size-6 publication-authors">
+            <sup>*</sup><span class="author-block">indicates equal contribution</span>
+            <sup>&#134;</sup><span class="author-block">means Co-corresponding author</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- Arxiv. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/linukc/bbq"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (Coming soon)</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="abstract">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+            Locating objects referred to in natural language poses a significant challenge for
+            autonomous agents. Existing CLIP-based open-vocabulary methods successfully
+            perform 3D object retrieval with simple (bare) queries but cannot cope with am-
+            biguous descriptions that demand an understanding of object relations. To tackle
+            this problem, we propose a modular approach called BBQ (Beyond Bare Queries),
+            which constructs 3D scene spatial graph representation with metric edges and uti-
+            lizes a large language model as a human-to-agent interface through our deductive
+            scene reasoning algorithm. BBQ employs robust DINO-powered associations to
+            form 3D objects, an advanced raycasting algorithm to project them to 2D, and a
+            vision-language model to describe them as graph nodes. On Replica and ScanNet
+            datasets, we show that the designed method accurately constructs 3D object-centric
+            maps. We have demonstrated that their quality takes a leading place for open-
+            vocabulary 3D semantic segmentation against other zero-shot methods. Also, we
+            show that leveraging spatial relations is especially effective for scenes containing
+            multiple entities of the same semantic class. On Sr3D and Nr3D benchmarks, our
+            deductive approach demonstrates a significant improvement, enabling retrieving
+            objects by complex queries compared to other state-of-the-art methods. Consider-
+            ing our design solutions, we achieved a processing speed approximately ×3 times
+            faster than the closest analog. This promising performance enables our approach for
+            usage in applied intelligent robotics projects.
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+<section class="Method">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Method</h2>
+          <div class="content has-text-justified">
+          <img src="./static/images/BBQ-GraphicalAbstract.png" 
+               class="interpolation-image" 
+               alt="Interpolate start reference image" 
+               style="width: 80%; height: auto; display: block; margin: 0 auto;">
+          <p class="video-description has-text-centered">Proposed BBQ approach leverages foundation models for high-performance construction of
+            an object-centric class-agnostic 3D map of a static indoor environment from a sequence of RGB-D
+            frames with known camera poses and calibration. To perform scene understanding, we represent
+            surroundings as a set of nodes with spatial relations. Utilizing a designed deductive scene reasoning
+            algorithm, our method closes the gap in human-to-agent communication by enabling free-form natural
+            language interaction with a scene-aware large language model.</p>
+          <img src="./static/images/BBQ-Scheme.png" 
+               class="interpolation-image" 
+               alt="Interpolate start reference image" 
+               style="width: 100%; height: auto; display: block; margin: 0 auto;">
+          <p class="video-description has-text-centered">An object-centric, class-agnostic 3D map is iteratively constructed from a sequence of
+            RGB-D camera frames and their poses by associating 2D SAM mask proposals with 3D objects
+            with deep DINO visual features and spatial constraints. To visually represent objects
+            after building the map, we select the best view based on the largest projected mask from K cluster
+            centroids that represent areas of object observations. We leverage LLaVA to describe
+            object visual properties. With the node’s text descriptions, spatial locations, and metric
+            edges we utilize LLM in our deductive reasoning algorithm to perform a 3D
+            object retrieval task.</p>
+</section>
+<section class="Results">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Results</h2>
+          <h1 class="title is-4">3D open-vocabulary semantic segmentation on Replica and ScanNet datasets</h2>
+            <div class="content has-text-justified">
+            <img src="./static/images/3DOVSemSeg_table.png" 
+              class="interpolation-image" 
+              alt="Interpolate start reference image" 
+              style="width: 80%; height: auto; display: block; margin: 0 auto;">
+            <img src="./static/images/3DOVSemSeg_Replica_room0.png" 
+               class="interpolation-image" 
+               alt="Interpolate start reference image" 
+               style="width: 100%; height: auto; display: block; margin: 0 auto;">
+          <h1 class="title is-4">3D referred object retrieval on the Sr3D/Nr3D datasets</h2>
+            <div class="content has-text-justified">
+            <img src="./static/images/3D_Retrieval_Nr3D_Sr3D_table.png" 
+              class="interpolation-image" 
+              alt="Interpolate start reference image" 
+              style="width: 80%; height: auto; display: block; margin: 0 auto;">
+            <img src="./static/images/QA_Sr3D_Nr3D.png" 
+               class="interpolation-image" 
+               alt="Interpolate start reference image" 
+               style="width: 100%; height: auto; display: block; margin: 0 auto;">
+          <h1 class="title is-4">Time consumption analysis</h2>
+            <div class="content has-text-justified">
+            <p>We perform time consumption analysis on a machine with <i>Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz</i> and <i>Tesla V100-SXM2-32GB</i>.
+              On Replica scenes with a mean of 30 detections per frame and 100 average number of objects, our pipeline runs with 1-1.5 fps per second for 3D object-centric map construction.
+              In contrast, our closest analog ConceptGraphs requires 4-5 seconds to perform the same task per step. 
+              We achieve such fast results due our design and fast components: MobileSAMv2 (~0.2s per frame), DINO embeddings (~0.12s per frame), GPU realization of DBSCAN noise removal (~0.005s per object),
+              IOU-based spatial similarities, GPU-based clusterization to drastically reduce best view search space for 3D to 2D raycasting projection.</p>
+
+</section>
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{TO DO}</code></pre>
+  </div>
+</section> -->
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            The souce code is borrowed from <a
+              href="https://github.com/nerfies/nerfies.github.io">nerfies</a>,
+              we thank the authors for sharing the templates.
+          </p>
+        </div>
+      </div>
+      <a href="https://mapmyvisitors.com/web/1bw4q"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=C6tYBi-zUAcUjn0-KFJV1KaftFhTp2GrOlPaCdmIs9c&cl=ffffff" /></a>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>
