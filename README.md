@@ -24,7 +24,7 @@
 ## Getting Started
 
 ### System Requirements
-25GB+ VRAM
+18GB+ vRAM
 
 ### Data Preparation
 

@@ -63,7 +63,7 @@ def describe_objects(objects, colors):
         template["bbox_center"] = [round(i, 1) for i in list(bbox.get_center())]
 
         ### caption
-        image = Image.open(object_["color_image_idx"]).convert("RGB")
+        image = Image.open(colors[object_["color_image_idx"]]).convert("RGB")
         mask = object_["mask"]
         image_crop = crop_image(image, mask)
         image_features = [image_crop]

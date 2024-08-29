@@ -9,7 +9,7 @@ from transformers import logging as hf_logging
 hf_logging.set_verbosity_error()
 from llava.utils import disable_torch_init
 from llava.model.builder import load_pretrained_model
-from llava.conversation import conv_templates, SeparatorStyle
+from llava.conversation import conv_templates
 from llava.mm_utils import (
     process_images,
     tokenizer_image_token,

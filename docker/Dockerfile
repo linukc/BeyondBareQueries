@@ -38,16 +38,23 @@ RUN git clone https://github.com/IDEA-Research/Grounded-Segment-Anything && cd G
     conda run -n bbq_env python -m pip install -e .
 
 RUN git clone https://github.com/ChaoningZhang/MobileSAM && cd MobileSAM && \
-    git checkout c12dd83cbe26dffdcc6a0f9e7be2f6fb024df0ed && conda run -n bbq_env python -m pip install -e .
-ENV PYTHONPATH=/home/${USER}/MobileSAM/MobileSAMv2:$PATH
-RUN conda run -n bbq_env python -m pip install onnx onnxsim gdown
+    git checkout c12dd83cbe26dffdcc6a0f9e7be2f6fb024df0ed && \
+    sed -i 's/"onnx",\s*//g; s/"onnxruntime",\s*//g' setup.py && \
+    sed -i 's/from \.export import \*//' /home/docker_user/MobileSAM/MobileSAMv2/efficientvit/apps/utils/__init__.py && \
+    conda run -n bbq_env python -m pip install -e .
+ENV PYTHONPATH=/home/${USER}/MobileSAM/MobileSAMv2:$PYTHONPATH
+RUN conda run -n bbq_env python -m pip install gdown
+ENV PATH ${CONDA_DIR}/envs/bbq_env/bin:$PATH
 RUN gdown 1dE-YAG-1mFCBmao2rHDp0n-PP4eH7SjE -O /home/docker_user/bbq_weights/mobilesamv2/ && \
     unzip /home/docker_user/bbq_weights/mobilesamv2/weight.zip -d /home/docker_user/bbq_weights/mobilesamv2/ && \
     cp /home/docker_user/MobileSAM/MobileSAMv2/PromptGuidedDecoder/Prompt_guided_Mask_Decoder.pt \
     /home/docker_user/bbq_weights/mobilesamv2/weight/
 
 RUN git clone https://github.com/haotian-liu/LLaVA.git && cd LLaVA && \
-    git checkout c121f0432da27facab705978f83c4ada465e46fd && conda run -n bbq_env python -m pip install -e .
+    git checkout c121f0432da27facab705978f83c4ada465e46fd && \
+    conda run -n bbq_env python -m pip install --upgrade timm==0.6.13 && \
+    sed -i 's/"torch==2\.1\.2",\s*"torchvision==0\.16\.2",\s*//g' pyproject.toml && \
+    conda run -n bbq_env python -m pip install -e .
 
 RUN useradd -m ${USER} --uid=${UID} \
     && usermod -s /bin/bash ${USER} \

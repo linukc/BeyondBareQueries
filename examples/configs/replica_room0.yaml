@@ -3,7 +3,7 @@ dataset:
   base_dir: /datasets/Replica
   sequence: "room0"
   start: 0
-  end: 10
+  end: -1
   stride: 5
   desired_height: 680
   desired_width: 1200
@@ -16,6 +16,7 @@ dataset:
     cy: 339.5
     png_depth_scale: 6553.5 # for depth image in png format
     crop_edge: 0
+  relative_pose: False
   device: "cpu"
 
 nodes_constructor:

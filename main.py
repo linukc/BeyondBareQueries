@@ -1,6 +1,8 @@
 import os
-import sys
 import argparse
+import warnings
+warnings.filterwarnings('ignore')
+from datetime import datetime
 
 import json
 import yaml
@@ -44,6 +46,7 @@ def set_seed(seed: int=18) -> None:
     logger.info(f"Random seed set as {seed}")
 
 def main(args):
+    hash = datetime.now()
     with open(args.config_path) as file:
         config = yaml.full_load(file)
     logger.info(f"Parsed arguments. Utilizing config from {args.config_path}.")
@@ -62,7 +65,7 @@ def main(args):
     logger.info('Finding 2D view to caption 3D objects.')
     nodes_constructor.project(
         poses=rgbd_dataset.poses,
-        intrinsics=rgbd_dataset[0][1]
+        intrinsics=rgbd_dataset[0][2]
     )
     torch.cuda.empty_cache()
 
@@ -74,8 +77,12 @@ def main(args):
     torch.cuda.empty_cache()
 
     logger.info('Saving results in json file.')
-    with open(os.path.join(config["output_path"], config["output_name"]), 'w') as f:
-        json.dump(nodes, f)
+    os.makedirs(config["nodes_constructor"]["output_path"], exist_ok=True)
+    with open(os.path.join(
+        config["nodes_constructor"]["output_path"],
+        hash.strftime("%m.%d.%Y_%H:%M:%S_") + config["nodes_constructor"]["output_name"]),
+        'w') as f:
+            json.dump(nodes, f)
 
 
 if __name__ == "__main__":
