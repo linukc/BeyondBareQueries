@@ -4,7 +4,7 @@ from loguru import logger
 
 from bbq.objects_map import ObjectsAssociator, DetectionsAssembler, \
     create_object_masks, describe_objects
-from bbq.objects_map.utils import MapObjectList, merge_objects
+from bbq.objects_map.utils import MapObjectList, merge_objects, postprocessing
 from bbq.models import DINOFeaturesExtractor, ClassAgnosticMaskGenerator
 
 
@@ -24,13 +24,10 @@ class NodesConstructor:
 
     def integrate(self, step_idx, frame):
         color, depth, intrinsics, pose = frame
-
         # generate class-agnostic masks
         masks_result = self.mask_generator(color)
-
         # generate DINO features
         descriptors = self.features_generator(color)
-
         # aggregate information about detected objects
         detected_objects = self.detections_assembler(
             step_idx, depth, intrinsics, pose, masks_result, descriptors)
@@ -38,7 +35,6 @@ class NodesConstructor:
         if len(detected_objects) == 0 and len(self.objects) != 0:
             logger.debug("no detected objects")
             return
-
         if len(self.objects) == 0:
             # add all detections to the map
             for i in range(len(detected_objects)):
@@ -47,13 +43,14 @@ class NodesConstructor:
 
         # objects accumulation
         self.objects = self.objects_mapper(detected_objects, self.objects)
-
-        # postprocessing
-        if step_idx > 0 and step_idx % self.config["merge_interval"] == 0:
+        if step_idx > 0 and step_idx % self.config["objects_associator"]["merge_interval"] == 0:
             self.objects = merge_objects(self.objects,
-                self.config["merge_objects_overlap_thresh"],
-                self.config["merge_objects_visual_sim_thresh"],
+                self.config["objects_associator"]["merge_objects_overlap_thresh"],
+                self.config["objects_associator"]["merge_objects_visual_sim_thresh"],
                 self.config["detections_assembler"]["downsample_voxel_size"])
+            
+    def postprocessing(self):
+        self.objects = postprocessing(self.objects, self.config)
 
     def project(self, poses, intrinsics):
         self.objects = create_object_masks(

@@ -171,7 +171,7 @@ class MapObjectList(DetectionList):
                 logger.warning("can't load descriptor")
 
             try:
-                new_obj['id'] = list(new_obj['id'])
+                new_obj['id'] = set(new_obj['id'])
             except:
                 logger.warning("can't load id")
 

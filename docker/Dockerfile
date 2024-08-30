@@ -3,8 +3,6 @@ FROM nvidia/cuda:11.8.0-devel-ubuntu22.04
 SHELL [ "/bin/bash", "-c" ]
 ENV DEBIAN_FRONTEND noninteractive
 ENV USER=docker_user
-ARG UID=1000
-ARG GID=1000
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
@@ -56,6 +54,10 @@ RUN git clone https://github.com/haotian-liu/LLaVA.git && cd LLaVA && \
     sed -i 's/"torch==2\.1\.2",\s*"torchvision==0\.16\.2",\s*//g' pyproject.toml && \
     conda run -n bbq_env python -m pip install -e .
 
+RUN conda run -n bbq_env python -m pip install xformers==0.0.22
+
+ARG UID=1000
+ARG GID=1000
 RUN useradd -m ${USER} --uid=${UID} \
     && usermod -s /bin/bash ${USER} \
     && usermod -a -G sudo ${USER} \

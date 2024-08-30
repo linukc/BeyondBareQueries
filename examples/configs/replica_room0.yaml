@@ -44,16 +44,17 @@ nodes_constructor:
     merge_det_obj_spatial_sim_thresh: 0.01
     merge_det_obj_visual_sim_thresh: 0.5
     downsample_voxel_size: 0.025
+    merge_interval: 20
+    merge_objects_overlap_thresh: 0.7
+    merge_objects_visual_sim_thresh: 0.4
   projector:
     num_views: 5
     top_k: 1
     desired_height: 680
     desired_width: 1200
-
-  filter_interval: -1
-  denoise_interval: -1
-  merge_interval: 20
-  merge_objects_overlap_thresh: 0.7
-  merge_objects_visual_sim_thresh: 0.4
+  postprocessing:
+    obj_min_points: 150
+    obj_min_detections: 3
   output_path: "/home/docker_user/BeyondBareQueries/output/scenes"
-  output_name: "replica_room0.json"
+  output_name_nodes: "replica_room0.json"
+  output_name_objects: "replica_room0_objects.pkl.gz"

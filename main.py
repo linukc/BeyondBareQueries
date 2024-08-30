@@ -1,4 +1,6 @@
 import os
+import gzip
+import pickle
 import argparse
 import warnings
 warnings.filterwarnings('ignore')
@@ -59,6 +61,7 @@ def main(args):
     for step_idx in tqdm(range(len(rgbd_dataset))):
         frame = rgbd_dataset[step_idx]
         nodes_constructor.integrate(step_idx, frame)
+    nodes_constructor.postprocessing()
     torch.cuda.empty_cache()
 
     # See Section 3.2
@@ -76,11 +79,20 @@ def main(args):
     )
     torch.cuda.empty_cache()
 
-    logger.info('Saving results in json file.')
+    logger.info('Saving objects.')
+    os.makedirs(config["nodes_constructor"]["output_path"], exist_ok=True)
+    results = {'objects': nodes_constructor.objects.to_serializable()}
+    with gzip.open(os.path.join(
+        config["nodes_constructor"]["output_path"],
+        hash.strftime("%m.%d.%Y_%H:%M:%S_") + config["nodes_constructor"]["output_name_objects"]),
+        'wb') as file:
+            pickle.dump(results, file)
+
+    logger.info('Saving graph nodes in json file.')
     os.makedirs(config["nodes_constructor"]["output_path"], exist_ok=True)
     with open(os.path.join(
         config["nodes_constructor"]["output_path"],
-        hash.strftime("%m.%d.%Y_%H:%M:%S_") + config["nodes_constructor"]["output_name"]),
+        hash.strftime("%m.%d.%Y_%H:%M:%S_") + config["nodes_constructor"]["output_name_nodes"]),
         'w') as f:
             json.dump(nodes, f)
 
@@ -92,6 +104,8 @@ if __name__ == "__main__":
     parser.add_argument("--config_path", default=r"examples/configs/replica_room0.yaml",
                         help="see example in default path")
     parser.add_argument("--logger_level", default="INFO")
+    parser.add_argument("--save_construction", default=False,
+                        help="save all steps to visualize mapping process")
     args = parser.parse_args()
 
     # Remove the default handler
