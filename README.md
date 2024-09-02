@@ -57,6 +57,12 @@ python3 main.py examples/configs/replica_room0.yaml #Replica
 python3 main.py examples/configs/scannet_scene0011_00.yaml #ScanNet
 ```
 
+To visualize construction process:
+```python
+python3 main.py examples/configs/replica_room0.yaml --save_path=output
+python3 visualize/show_construction.py --animation_folder=output
+```
+
 Construct 3D scene graph and enter natural language query. Inside container call script:
 ```python
 python3 query.py examples/scenes/replica_room0.json #Replica

@@ -50,7 +50,7 @@ class DetectionsAssembler:
         self.dbscan_min_points = dbscan_min_points
         self.image_area = image_area
 
-    def __call__(self, step_idx, depth, intrinsics, pose, masks_result, descriptors):
+    def __call__(self, step_idx, color, depth, intrinsics, pose, masks_result, descriptors):
         detection_list = DetectionList()
 
         # filter low confidence proposals
@@ -85,7 +85,7 @@ class DetectionsAssembler:
                 continue
 
             # create object pcd
-            camera_object_pcd = self.create_object_pcd(mask, depth, intrinsics)
+            camera_object_pcd = self.create_object_pcd(color, mask, depth, intrinsics)
             if len(camera_object_pcd.points) < max(self.min_points_threshold, 5):
                 logger.debug(f"""Skipping: num points {camera_object_pcd.points}
                              < min points {max(self.min_points_threshold, 5)}""")
@@ -182,7 +182,7 @@ class DetectionsAssembler:
             mask_sub[contained_idx[0][i]] = np.asarray(mask_, bool)
         return mask_sub
     
-    def create_object_pcd(self, mask, depth_array, cam_K):
+    def create_object_pcd(self, color, mask, depth_array, cam_K):
         depth_array = depth_array[..., 0].cpu().numpy()
         # Also remove points with invalid depth values
         mask = np.logical_and(mask, depth_array > 0)
@@ -213,9 +213,6 @@ class DetectionsAssembler:
         
         # Perturb the points a bit to avoid colinearity
         points += np.random.normal(0, 4e-3, points.shape)
-        
-        obj_color = (0.5, 0.5, 0.5)
-        colors = np.full(points.shape, obj_color)
 
         if points.shape[0] == 0:
             raise RuntimeError("zero points pcd")
@@ -223,6 +220,9 @@ class DetectionsAssembler:
         # Create an Open3D PointCloud object
         pcd = o3d.geometry.PointCloud()
         pcd.points = o3d.utility.Vector3dVector(points)
+        # colors = color.numpy()[mask] / 255.0
+        obj_color = np.random.rand(3)
+        colors = np.full(points.shape, obj_color)
         pcd.colors = o3d.utility.Vector3dVector(colors)
         
         return pcd

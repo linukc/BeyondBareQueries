@@ -40,10 +40,8 @@ def set_seed(seed: int=18) -> None:
     random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
-    # When running on the CuDNN backend, two further options must be set
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
-    # Set a fixed value for the hash seed
     os.environ["PYTHONHASHSEED"] = str(seed)
     logger.info(f"Random seed set as {seed}")
 
@@ -51,6 +49,11 @@ def main(args):
     hash = datetime.now()
     with open(args.config_path) as file:
         config = yaml.full_load(file)
+    if args.save_path:
+         os.makedirs(args.save_path, exist_ok=True)
+         with gzip.open(os.path.join(args.save_path, "meta.pkl.gz"), "wb") as file:
+            pickle.dump({"config": config}, file)
+        
     logger.info(f"Parsed arguments. Utilizing config from {args.config_path}.")
 
     nodes_constructor = NodesConstructor(config["nodes_constructor"])
@@ -60,7 +63,8 @@ def main(args):
     logger.info("Iterating over RGBD sequence to accumulate 3D objects.")
     for step_idx in tqdm(range(len(rgbd_dataset))):
         frame = rgbd_dataset[step_idx]
-        nodes_constructor.integrate(step_idx, frame)
+        nodes_constructor.integrate(step_idx, frame,
+            args.save_path)
     nodes_constructor.postprocessing()
     torch.cuda.empty_cache()
 
@@ -68,7 +72,7 @@ def main(args):
     logger.info('Finding 2D view to caption 3D objects.')
     nodes_constructor.project(
         poses=rgbd_dataset.poses,
-        intrinsics=rgbd_dataset[0][2]
+        intrinsics=rgbd_dataset.get_cam_K()
     )
     torch.cuda.empty_cache()
 
@@ -104,13 +108,11 @@ if __name__ == "__main__":
     parser.add_argument("--config_path", default=r"examples/configs/replica_room0.yaml",
                         help="see example in default path")
     parser.add_argument("--logger_level", default="INFO")
-    parser.add_argument("--save_construction", default=False,
-                        help="save all steps to visualize mapping process")
+    parser.add_argument("--save_path", default=None,
+                        help="folder to save all steps to visualize mapping process")
     args = parser.parse_args()
 
-    # Remove the default handler
     logger.remove()
-    # Add a custom handler with tqdm support and set the level
     logger.add(TqdmLoggingHandler(), level=args.logger_level, colorize=True)
 
     set_seed()

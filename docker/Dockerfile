@@ -20,7 +20,7 @@ RUN conda install -y -n bbq_env -c pytorch -c nvidia faiss-gpu=1.7.4 mkl=2021 bl
 RUN conda install -y -n bbq_env \
     https://anaconda.org/pytorch3d/pytorch3d/0.7.4/download/linux-64/pytorch3d-0.7.4-py310_cu118_pyt201.tar.bz2
 RUN conda run -n bbq_env python -m pip install h5py hydra-core open_clip_torch supervision loguru wget iopath \
-    torchpack pyyaml tqdm opencv-python natsort imageio onnxruntime open3d==0.17.0 fast-pytorch-kmeans
+    torchpack pyyaml tqdm opencv-python natsort imageio onnxruntime open3d==0.16.0 fast-pytorch-kmeans
 RUN conda run -n bbq_env python -m pip install --extra-index-url=https://pypi.nvidia.com cuml-cu11==24.8.*
 
 WORKDIR /home/${USER}
@@ -55,6 +55,7 @@ RUN git clone https://github.com/haotian-liu/LLaVA.git && cd LLaVA && \
     conda run -n bbq_env python -m pip install -e .
 
 RUN conda run -n bbq_env python -m pip install xformers==0.0.22
+RUN coda run -n bbq_env python -m pip install imageio[ffmpeg]
 
 ARG UID=1000
 ARG GID=1000

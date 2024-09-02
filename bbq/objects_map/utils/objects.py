@@ -209,9 +209,13 @@ def merge_obj2_into_obj1(obj1, obj2, downsample_voxel_size, run_dbscan=False, ar
             continue
 
     # merge pcd and bbox
+    color = np.array(obj1['pcd'].colors)[0]
     obj1['pcd'] += obj2['pcd']
     obj1['pcd'] = process_pcd(obj1['pcd'], downsample_voxel_size,
                             run_dbscan=run_dbscan)
+    
+    colors = np.full((len(obj1['pcd'].points), 3), color)
+    obj1['pcd'].colors = o3d.utility.Vector3dVector(colors) 
     obj1['bbox'] = get_bounding_box(obj1['pcd'])
     obj1['bbox'].color = [0, 1, 0]
 
