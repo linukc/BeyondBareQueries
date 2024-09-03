@@ -53,20 +53,20 @@ pip install -e .
 First, build 3D scene representation. Check config before run. Inside container call script:
 
 ```python
-python3 main.py examples/configs/replica_room0.yaml #Replica
-python3 main.py examples/configs/scannet_scene0011_00.yaml #ScanNet
+python3 main.py --config_path=examples/configs/replica_room0.yaml #Replica
+python3 main.py --config_path=examples/configs/scannet_scene0011_00.yaml #ScanNet
 ```
 
 To visualize construction process:
 ```python
-python3 main.py examples/configs/replica_room0.yaml --save_path=output
+python3 main.py --config_path=examples/configs/replica_room0.yaml --save_path=output
 python3 visualize/show_construction.py --animation_folder=output
 ```
 
 Construct 3D scene graph and enter natural language query. Inside container call script:
 ```python
-python3 query.py examples/scenes/replica_room0.json #Replica
-python3 query.py examples/scenes/scannet_scene0011_00.json #ScanNet
+python3 query.py --nodes=examples/scenes/replica_room0.json #Replica
+python3 query.py --nodes=examples/scenes/scannet_scene0011_00.json #ScanNet
 ```
 
 ## Acknowledgement
