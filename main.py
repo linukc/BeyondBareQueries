@@ -67,6 +67,11 @@ def main(args):
             args.save_path)
     nodes_constructor.postprocessing()
     torch.cuda.empty_cache()
+    if args.save_path:
+        results = {'objects': nodes_constructor.objects.to_serializable()}
+        with gzip.open(os.path.join(args.save_path,
+            f"frame_last_objects.pkl.gz"), "wb") as f:
+                pickle.dump(results, f)
 
     # See Section 3.2
     logger.info('Finding 2D view to caption 3D objects.')
