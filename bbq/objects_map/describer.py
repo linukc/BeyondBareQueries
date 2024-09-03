@@ -65,6 +65,7 @@ def describe_objects(objects, colors):
         ### caption
         image = Image.open(colors[object_["color_image_idx"]]).convert("RGB")
         mask = object_["mask"]
+        image = image.resize((mask.shape[1], mask.shape[0]), Image.LANCZOS)
         image_crop = crop_image(image, mask)
         image_features = [image_crop]
         image_sizes = [image.size for image in image_features]
