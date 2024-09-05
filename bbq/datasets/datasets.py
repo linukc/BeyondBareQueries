@@ -198,6 +198,12 @@ class GradSLAMDataset(torch.utils.data.Dataset):
         '''
         K = as_intrinsics_matrix([self.fx, self.fy, self.cx, self.cy])
         K = torch.from_numpy(K)
+        K = datautils.scale_intrinsics(
+            K, self.height_downsample_ratio, self.width_downsample_ratio
+        )
+        intrinsics = torch.eye(4).to(K)
+        intrinsics[:3, :3] = K
+
         return K
 
     def __getitem__(self, index):
