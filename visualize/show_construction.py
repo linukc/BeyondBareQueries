@@ -66,12 +66,13 @@ def main(args):
         result_frames.append(image_stack)
 
     vis.destroy_window()
-    imageio.mimwrite(args.video_save_path, result_frames, fps=5)
+    imageio.mimwrite(args.video_save_path, result_frames, fps=float(args.fps))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--animation_folder",
                         help="folder where the objects of the mapping process are stored.")
+    parser.add_argument("--fps", default=5)
     parser.add_argument("--video_save_path",
                         default="output.mp4")
     args = parser.parse_args()
