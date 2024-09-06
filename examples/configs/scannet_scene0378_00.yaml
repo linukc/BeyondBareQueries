@@ -28,8 +28,8 @@ nodes_constructor:
     load_size: 448
     stride: 7
     facet: "value"
-    num_patches_h: 55
-    num_patches_w: 73
+    num_patches_h: 63
+    num_patches_w: 85
   detections_assembler:
     mask_conf_threshold: 0.95
     mask_area_threshold: 500
