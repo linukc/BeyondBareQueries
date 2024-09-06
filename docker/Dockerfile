@@ -55,7 +55,7 @@ RUN git clone https://github.com/haotian-liu/LLaVA.git && cd LLaVA && \
     conda run -n bbq_env python -m pip install -e .
 
 RUN conda run -n bbq_env python -m pip install xformers==0.0.22
-RUN coda run -n bbq_env python -m pip install imageio[ffmpeg]
+RUN conda run -n bbq_env python -m pip install imageio[ffmpeg]
 
 ARG UID=1000
 ARG GID=1000
