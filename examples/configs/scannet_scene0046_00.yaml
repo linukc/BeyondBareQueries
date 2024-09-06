@@ -1,6 +1,6 @@
 dataset:
   name: "ScanNet"
-  base_dir: /datasets/ScanNet/
+  base_dir: /datasets/ScanNet/scans/
   sequence: "scene0046_00"
   start: 0
   end: -1
