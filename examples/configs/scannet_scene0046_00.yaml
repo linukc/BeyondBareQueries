@@ -1,5 +1,5 @@
 dataset:
-  name: "Replica"
+  name: "ScanNet"
   base_dir: /datasets/ScanNet/
   sequence: "scene0046_00"
   start: 0
