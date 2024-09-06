@@ -1,0 +1,60 @@
+dataset:
+  name: "Replica"
+  base_dir: /datasets/ScanNet/
+  sequence: "scene0011_00"
+  start: 0
+  end: -1
+  stride: 10
+  desired_height: 968
+  desired_width: 1296
+  camera_params:
+    image_height: 968
+    image_width: 1296
+    fx: 1169.621094
+    fy: 1167.105103
+    cx: 646.295044
+    cy: 489.927032
+    png_depth_scale: 1000.0 #for depth image in png format
+    crop_edge: 0
+  relative_pose: False
+  device: "cpu"
+
+nodes_constructor:
+  mask_generator:
+    model: "MobileSAM"
+    weights_path: "/home/docker_user/bbq_weights/mobilesamv2/weight"
+  dino_generator:
+    model: "dinov2_vits14_reg_lc"
+    load_size: 448
+    stride: 7
+    facet: "value"
+    num_patches_h: 55
+    num_patches_w: 73
+  detections_assembler:
+    mask_conf_threshold: 0.95
+    mask_area_threshold: 500
+    max_bbox_area_ratio: 0.75
+    min_points_threshold: 150
+    downsample_voxel_size: 0.025
+    dbscan_remove_noise: True
+    dbscan_eps: 0.05
+    dbscan_min_points: 7
+    image_area: 1254528 # desired_height * desired_width
+  objects_associator:
+    merge_det_obj_spatial_sim_thresh: 0.01
+    merge_det_obj_visual_sim_thresh: 0.5
+    downsample_voxel_size: 0.025
+    merge_interval: 20
+    merge_objects_overlap_thresh: 0.7
+    merge_objects_visual_sim_thresh: 0.4
+  projector:
+    num_views: 5
+    top_k: 1
+    desired_height: 968
+    desired_width: 1296
+  postprocessing:
+    obj_min_points: 300
+    obj_min_detections: 5
+  output_path: "/home/docker_user/BeyondBareQueries/output/scenes"
+  output_name_nodes: "scannet_scene0011_00.json"
+  output_name_objects: "scannet_scene0011_00_objects.pkl.gz"
