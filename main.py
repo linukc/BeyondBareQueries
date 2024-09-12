@@ -65,6 +65,7 @@ def main(args):
         frame = rgbd_dataset[step_idx]
         nodes_constructor.integrate(step_idx, frame,
             args.save_path)
+        torch.cuda.empty_cache()
     nodes_constructor.postprocessing()
     torch.cuda.empty_cache()
     if args.save_path:
