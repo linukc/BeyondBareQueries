@@ -18,7 +18,7 @@ Open-Vocabulary Object Grounding with 3D Scene Graph</h1>
     Aleksei Valenkov
   </p>
 
-  <h4 align="center"><a href="">arXiv</a> | <a href="https://github.com/linukc/BeyondBareQueries">Code</a></h4>
+  <h4 align="center"><a href="https://linukc.github.io/BeyondBareQueries/">Project</a> | <a href="">arXiv</a> | <a href="https://github.com/linukc/BeyondBareQueries">Code</a></h4>
   <div align="center"></div>
 </p>
 
