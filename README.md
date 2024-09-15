@@ -29,7 +29,7 @@ Open-Vocabulary Object Grounding with 3D Scene Graph</h1>
 ## Getting Started
 
 ### System Requirements
-10GB+ vRAM to run mapping and 16GB+ vRAM to run local LLM and vLLM
+10GB+ vRAM to run mapping and 16GB+ vRAM to run local LLM and vLLM.
 
 ### Data Preparation
 
