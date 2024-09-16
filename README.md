@@ -1,7 +1,7 @@
 <p align="center">
 
   <h1 align="center">Beyond Bare Queries: <br>
-Open-Vocabulary Object Grounding with 3D Scene Graph</h1>
+Open-Vocabulary Object Grounding <br> with 3D Scene Graph</h1>
   <p align="center">
     <a href="https://github.com/linukc">Linok Sergey</a>
     ·
