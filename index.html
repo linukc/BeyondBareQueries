@@ -52,7 +52,7 @@
             <span class="author-block">
               Dmitry Yudin<sup>1,2</sup>,</span>
             <span class="author-block">
-              Maxim Monastyrnyy<sup>3</sup>,</span>
+              Maxim Monastyrny<sup>3</sup>,</span>
             <span class="author-block">
               Aleksei Valenkov<sup>3</sup></span>
           </div>
@@ -103,32 +103,21 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          Locating objects referred to in natural language
-          poses a significant challenge for autonomous agents. Existing
-          CLIP-based open-vocabulary methods successfully perform 3D
-          object grounding with simple (bare) queries, but cannot cope
-          with ambiguous descriptions that demand an understanding
-          of object relations. To tackle this problem, we propose a
-          modular approach called BBQ (Beyond Bare Queries), which
-          constructs 3D scene graph representation with metric and
-          semantic edges and utilizes a large language model as a human-
-          to-agent interface through our deductive scene reasoning al-
-          gorithm. BBQ employs robust DINO-powered associations to
-          construct 3D object-centric map and an advanced raycasting
-          algorithm with a 2D vision-language model to describe them
-          as graph nodes. On the Replica and ScanNet datasets, we
-          have demonstrated that BBQ takes a leading place in open-
-          vocabulary 3D semantic segmentation compared to other zero-
-          shot methods. Also, we show that leveraging spatial relations
-          is especially effective for scenes containing multiple entities
-          of the same semantic class. On challenging Sr3D and Nr3D
-          benchmarks, our deductive approach demonstrates a significant
-          improvement, enabling objects grounding by complex queries
-          compared to other state-of-the-art methods. The combination
-          of our design choices and software implementation has resulted
-          in significant data processing speed in experiments on the edge
-          device. This promising performance enables the application of
-          our approach in intelligent robotics projects. 
+          Locating objects described in natural language presents a significant challenge for autonomous agents. 
+          Existing CLIP-based open-vocabulary methods successfully perform 3D object grounding with simple (bare) queries, 
+          but cannot cope with ambiguous descriptions that demand an understanding of object relations. 
+          To tackle this problem, we propose a modular approach called BBQ (Beyond Bare Queries), 
+          which constructs 3D scene graph representation with metric and semantic edges and utilizes a large language model as a 
+          human-to-agent interface through our deductive scene reasoning algorithm. BBQ employs robust DINO-powered associations to 
+          construct 3D object-centric map and an advanced raycasting algorithm with a 2D vision-language model to describe 
+          them as graph nodes. On the Replica and ScanNet datasets, we have demonstrated that BBQ takes a leading place in 
+          open-vocabulary 3D semantic segmentation compared to other zero-shot methods. Also, we show that leveraging spatial 
+          relations is especially effective for scenes containing multiple entities of the same semantic class. 
+          On challenging Sr3D+, Nr3D and ScanRefer benchmarks, our deductive approach demonstrates a significant improvement, 
+          enabling objects grounding by complex queries compared to other state-of-the-art methods. 
+          The combination of our design choices and software implementation has resulted in significant data processing speed 
+          in experiments on the robot on-board computer. This promising performance enables the application of our approach 
+          in intelligent robotics projects.
         </div>
       </div>
     </div>
@@ -145,29 +134,28 @@
                class="interpolation-image" 
                alt="Interpolate start reference image" 
                style="width: 80%; height: auto; display: block; margin: 0 auto;">
-          <p class="video-description has-text-centered">Proposed BBQ approach leverages foundation models for high-
-            performance construction of an object-centric class-agnostic 3D map of a
-            static indoor environment from a sequence of RGB-D frames with known
-            camera poses and calibration. To perform scene understanding, we represent
-            environment as a set of nodes with spatial relations. Utilizing a designed
-            deductive scene reasoning algorithm, our method enable efficient natural
-            language interaction with a scene-aware large language model.</p>
+          <p class="video-description has-text-centered">
+            Proposed BBQ approach leverages foundation models for high-performance construction of an object-centric class-agnostic 
+            3D map of a static indoor environment from a sequence of RGB-D frames with known camera poses and calibration. 
+            To perform scene understanding, we represent environment as a set of nodes with spatial relations. 
+            Utilizing a designed deductive scene reasoning algorithm, our method enable efficient natural language interaction 
+            with a scene-aware large language model.</p>
           <img src="./static/images/BBQ-Scheme.png" 
                class="interpolation-image" 
                alt="Interpolate start reference image" 
                style="width: 100%; height: auto; display: block; margin: 0 auto;">
           <p class="video-description has-text-centered">An object-centric class-agnostic 3D map is iteratively constructed from a sequence of RGB-D camera frames and their poses by associating 2D
-            SAM mask proposals with 3D objects with deep DINO visual features and spatial constraints (Sec. III-A). To visually represent objects after building the
-            map, we select the best view based on the largest projected mask from K cluster centroids that represent areas of object observations (Sec. III-B). We
-            leverage LLaVA to describe object visual properties (Sec. III-C). With the node’s text descriptions, spatial locations, metric and semantic edges (Sec.
-            III-D) we utilize LLM in our deductive reasoning algorithm (Sec. III-E) to perform a 3D object grounding task.</p>
+            MobileSAMv2 mask proposals with 3D objects with deep DINOv2 visual features and spatial constraints (Sec. III-A). To visually represent objects after
+            building the map, we select the best view based on the largest projected mask from L cluster centroids that represent areas of object observations (Sec.
+            III-B). We leverage LLaVA [15] to describe object visual properties (Sec. III-C). With the node’s text descriptions, spatial locations, metric and semantic
+            edges (Sec. III-D) we utilize LLM in our deductive reasoning algorithm (Sec. III-E) to perform a 3D object grounding task.</p>
 </section>
 <section class="Results">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Results</h2>
-          <h1 class="title is-4">3D open-vocabulary semantic segmentation on Replica and ScanNet datasets</h2>
+          <h1 class="title is-4">3D open-vocabulary semantic segmentation</h2>
             <div class="content has-text-justified">
             <img src="./static/images/3DOVSemSeg_table.png" 
               class="interpolation-image" 
@@ -177,23 +165,22 @@
                class="interpolation-image" 
                alt="Interpolate start reference image" 
                style="width: 100%; height: auto; display: block; margin: 0 auto;">
-          <!-- <h1 class="title is-4">3D referred object retrieval on the Sr3D/Nr3D datasets</h2>
+          <h1 class="title is-4">3D object grounding</h2>
+
             <div class="content has-text-justified">
-            <img src="./static/images/3D_Retrieval_Nr3D_Sr3D_table.png" 
+            <img src="./static/images/tab34.png" 
               class="interpolation-image" 
               alt="Interpolate start reference image" 
               style="width: 80%; height: auto; display: block; margin: 0 auto;">
-            <img src="./static/images/QA_Sr3D_Nr3D.png" 
+            <img src="./static/images/tab5.png" 
                class="interpolation-image" 
                alt="Interpolate start reference image" 
-               style="width: 100%; height: auto; display: block; margin: 0 auto;"> -->
-          <!-- <h1 class="title is-4">Time consumption analysis</h2>
-            <div class="content has-text-justified">
-            <p>We perform time consumption analysis on a machine with <i>Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz</i> and <i>Tesla V100-SXM2-32GB</i>.
-              On Replica scenes with a mean of 30 detections per frame and 100 average number of objects, our pipeline runs with 1-1.5 fps per second for 3D object-centric map construction.
-              In contrast, our closest analog ConceptGraphs requires 4-5 seconds to perform the same task per step. 
-              We achieve such fast results due our design and fast components: MobileSAMv2 (~0.2s per frame), DINO embeddings (~0.12s per frame), GPU realization of DBSCAN noise removal (~0.005s per object),
-              IOU-based spatial similarities, GPU-based clusterization to drastically reduce best view search space for 3D to 2D raycasting projection.</p> -->
+               style="width: 100%; height: auto; display: block; margin: 0 auto;">
+            <img src="./static/images/tab4.png" 
+               class="interpolation-image" 
+               alt="Interpolate start reference image" 
+               style="width: 60%; height: auto; display: block; margin: 0 auto;">
+
 
 <!-- </section>
 <section class="section" id="BibTeX">
