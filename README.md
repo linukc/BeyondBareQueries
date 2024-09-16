@@ -13,7 +13,7 @@ Open-Vocabulary Object Grounding with 3D Scene Graph</h1>
     ·
     Dmitry Yudin
     <br>
-    Maxim Monastyrnyy
+    Maxim Monastyrny
     ·
     Aleksei Valenkov
   </p>
