@@ -87,17 +87,17 @@ We base our work on the following paper codebase: [ConceptGraphs](https://github
 
 ## Citation
 If you find this work helpful, please consider citing our work as:
-<!-- ```
+```
 @misc{linok2024barequeriesopenvocabularyobject,
-      title={Beyond Bare Queries: Open-Vocabulary Object Retrieval with 3D Scene Graph}, 
-      author={Sergey Linok and Tatiana Zemskova and Svetlana Ladanova and Roman Titkov and Dmitry Yudin},
+      title={Beyond Bare Queries: Open-Vocabulary Object Grounding with 3D Scene Graph}, 
+      author={Sergey Linok and Tatiana Zemskova and Svetlana Ladanova and Roman Titkov and Dmitry Yudin and Maxim Monastyrny and Aleksei Valenkov},
       year={2024},
       eprint={2406.07113},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2406.07113}, 
 }
-``` -->
+```
 
 ## Contact
 Please create an issue on this repository for questions, comments and reporting bugs. Send an email to [Linok Sergey](linok.sa@phystech.edu) for other inquiries.
