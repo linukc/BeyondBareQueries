@@ -34,7 +34,7 @@ Open-Vocabulary Object Grounding <br> with 3D Scene Graph</h1>
 ### Data Preparation
 
 #### Replica
-Download the [Replica](https://github.com/facebookresearch/Replica-Dataset) RGB-D scan dataset using the downloading [script](https://github.com/cvg/nice-slam/blob/master/scripts/download_replica.sh) in [Nice-SLAM](https://github.com/cvg/nice-slam#replica-1). It contains rendered trajectories using the mesh models provided by the original Replica datasets.
+Download the Replica RGB-D scan dataset using the downloading [script](https://github.com/cvg/nice-slam/blob/master/scripts/download_replica.sh) in Nice-SLAM. It contains rendered trajectories using the mesh models provided by the original Replica datasets.
 
 #### ScanNet
 For ScanNet, please follow the instructions in [ScanNet](https://github.com/ScanNet/ScanNet).
