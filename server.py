@@ -294,10 +294,10 @@ def draw_answer(result, targets, anchors, relations, segmentation, depth, intrin
     if len(targets) > 0:
         points = np.array([
             obj['bbox_center'] for obj in result
-            if 'A wall on the side of a building' not in obj['description'] and obj['id'] in targets and obj['id'] not in anchors 
+            if 'A wall on the side of a building' not in obj['description'] and obj['id'] in targets 
         ])
         labels = [f"{obj['id']}: {obj['description']}" for obj in result
-                if 'A wall on the side of a building' not in obj['description'] and obj['id'] in targets and obj['id'] not in anchors 
+                if 'A wall on the side of a building' not in obj['description'] and obj['id'] in targets
                 ]  # Labels for each point
         
         # Extract X, Y, Z coordinates
@@ -313,10 +313,10 @@ def draw_answer(result, targets, anchors, relations, segmentation, depth, intrin
     if len(anchors) > 0:
         points = np.array([
             obj['bbox_center'] for obj in result
-            if 'A wall on the side of a building' not in obj['description'] and obj['id'] not in targets and obj['id'] in anchors 
+            if 'A wall on the side of a building' not in obj['description'] and obj['id'] in anchors 
         ])
         labels = [f"{obj['id']}: {obj['description']}" for obj in result
-                if 'A wall on the side of a building' not in obj['description'] and obj['id'] not in targets and obj['id'] in anchors 
+                if 'A wall on the side of a building' not in obj['description'] and obj['id'] in anchors 
                 ]  # Labels for each point
         
         # Extract X, Y, Z coordinates
