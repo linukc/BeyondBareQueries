@@ -278,6 +278,8 @@ class DINOFeaturesExtractor:
         if not include_cls:
             x = x[:, :, 1:, :]  # remove cls token
 
+        #print(x.shape, self.num_patches)
+        #exit()
         desc = x.permute(0, 2, 3, 1).flatten(start_dim=-2, end_dim=-1).unsqueeze(dim=1)  # Bx1xtx(dxh)
         #desc = desc.view(desc.shape[0], self.num_patches[0], self.num_patches[1], -1).permute(0, 3, 1, 2)
         return desc #torch.nn.functional.interpolate(desc, self.size_orig, mode="nearest")[0] # [H, W, D]

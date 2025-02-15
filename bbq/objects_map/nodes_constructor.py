@@ -33,9 +33,9 @@ class NodesConstructor:
         # generate DINO features
         descriptors = self.features_generator(color)
         # aggregate information about detected objects
-        detected_objects = self.detections_assembler(
+        detected_objects, segmentation_vis = self.detections_assembler(
             step_idx, color, depth, intrinsics, pose, masks_result, descriptors)
-        
+
         if len(detected_objects) == 0 and len(self.objects) != 0:
             logger.debug("no detected objects")
             return
@@ -47,16 +47,11 @@ class NodesConstructor:
 
         # objects accumulation
         self.objects = self.objects_mapper(detected_objects, self.objects)
-        if step_idx > 0 and step_idx % self.config["objects_associator"]["merge_interval"] == 0:
-            self.objects = merge_objects(self.objects,
-                self.config["objects_associator"]["merge_objects_overlap_thresh"],
-                self.config["objects_associator"]["merge_objects_visual_sim_thresh"],
-                self.config["detections_assembler"]["downsample_voxel_size"])
-        
         if save_path:
             results = {'objects': self.objects.to_serializable()}
             with gzip.open(os.path.join(save_path, f"frame_{step_idx}_objects.pkl.gz"), "wb") as f:
                 pickle.dump(results, f)
+        return segmentation_vis
             
     def postprocessing(self):
         self.objects = postprocessing(self.objects, self.config)

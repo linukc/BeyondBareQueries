@@ -18,7 +18,8 @@ class ClassAgnosticMaskGenerator:
     def __call__(self, image):
         image = image.cpu().to(torch.uint8).numpy()
         xyxy, mask, conf = self.model(image)
-        xyxy, mask, conf = xyxy.cpu().numpy(), mask.cpu().bool().numpy(), conf.cpu().numpy().flatten()
+        if torch.is_tensor(xyxy):
+            xyxy, mask, conf = xyxy.cpu().numpy(), mask.cpu().bool().numpy(), conf.cpu().numpy().flatten()
         detections = sv.Detections(
             xyxy=xyxy,
             confidence=conf,

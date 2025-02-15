@@ -10,7 +10,7 @@ from segment_anything import sam_model_registry, SamAutomaticMaskGenerator
 
 class SAMGenerator:
     SAM_ENCODER_VERSION = "vit_h"
-    SAM_CACHE_PATH = os.path.join(os.path.expanduser("~"), ".cache")
+    SAM_CACHE_PATH = os.path.join("/home/jovyan/Tatiana_Z/bbq_demo/weight/")
     SAM_CHECKPOINT_PATH = os.path.join(SAM_CACHE_PATH, "sam_vit_h_4b8939.pth")
 
     def __init__(self, weights_path):
@@ -22,9 +22,12 @@ class SAMGenerator:
             except:
                 raise RuntimeError("Can't load weights for SAM vit-h.")
 
+        print("Sam model registry")
         sam = sam_model_registry[self.SAM_ENCODER_VERSION](checkpoint=self.SAM_CHECKPOINT_PATH)
         device = "cuda" if torch.cuda.is_available() else "cpu"
+        print("Sam model initiated")
         sam.to(device)
+        print("Sam model to device")
         self.mask_generator = SamAutomaticMaskGenerator(
             model=sam,
             points_per_side=12,

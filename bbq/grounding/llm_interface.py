@@ -140,11 +140,8 @@ class Llama3:
             "target_objects": target_objects,
             "anchor_objects": anchor_objects
         }
-        return related_objects
 
-    def select_referred_object(self, object_query, related_objects_dict):
-        target_objects = related_objects_dict["target_objects"]
-        anchor_objects = related_objects_dict["anchor_objects"]
+        relations = []
 
         for i, ob1 in enumerate(target_objects):
             ob1['relations'] = []
@@ -160,6 +157,31 @@ class Llama3:
                     rel_string += f'The {ob1["description"]} with id {ob1["id"]} is {" and ".join(rels)} from the {ob2["description"]} with ids {ob2["id"]}.'
                 if len(rel_string) > 2:
                     ob1['relations'].append(rel_string)
+                relations.append((ob1['id'], ob2['id'], " , ".join(rels)))
+
+        return related_objects, relations, json_answer
+
+    def select_referred_object(self, object_query, related_objects_dict):
+        target_objects = related_objects_dict["target_objects"]
+        anchor_objects = related_objects_dict["anchor_objects"]
+
+        relations = []
+
+        for i, ob1 in enumerate(target_objects):
+            ob1['relations'] = []
+            for j, ob2 in enumerate(anchor_objects):
+                if ob1['id'] == ob2['id']:
+                    continue
+                
+                rel_string = ""
+                rels = get_semantic_edge(ob1["bbox_center"], ob2["bbox_center"], self.scene_center_point)
+                distance = np.linalg.norm(np.array(ob1["bbox_center"]) - np.array(ob2["bbox_center"]))
+                rels.append(f"at distance {np.round(distance,2)} m")
+                if len(rels) > 0:
+                    rel_string += f'The {ob1["description"]} with id {ob1["id"]} is {" and ".join(rels)} from the {ob2["description"]} with ids {ob2["id"]}.'
+                if len(rel_string) > 2:
+                    ob1['relations'].append(rel_string)
+                relations.append((ob1['id'], ob2['id'], " , ".join(rels)))
 
         related_objects = []
         for obj in target_objects:
@@ -188,4 +210,5 @@ class Llama3:
         decoded = self.tokenizer.batch_decode(generated_ids)
         LLMAnswer = decoded[0].split('"id": ')[-1]
         pred = int(''.join(c if c.isdigit() else '' for c in LLMAnswer.split("}")[0]))
-        return decoded[0], pred
+        pretty_answer = decoded[0].split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[-1].split('<|eot_id|>')[0]
+        return decoded[0], pred, relations, pretty_answer

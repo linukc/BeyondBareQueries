@@ -4,7 +4,7 @@ import open3d as o3d
 from PIL import Image
 from tqdm import tqdm
 from loguru import logger
-from bbq.models import LLaVaChat
+
 
 
 def get_xyxy_from_mask(mask):
@@ -45,8 +45,6 @@ def crop_image(image, mask, padding=30):
     return image_crop
 
 def describe_objects(objects, colors):
-    chat = LLaVaChat()
-    logger.info("LLaVA chat is initialized.")
     result = []
     query_base = """Describe visible object in front of you, 
     paying close attention to its spatial dimensions and visual attributes."""

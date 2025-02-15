@@ -199,10 +199,11 @@ def merge_obj2_into_obj1(obj1, obj2, downsample_voxel_size, run_dbscan=False, ar
     '''
 
     for k in obj1.keys():
-        if k not in ['pcd', 'bbox', 'descriptor', 'mask', 'id']:
+        if k not in ['pcd', 'bbox', 'descriptor', 'mask', 'id', 'local_mask', 'description']:
             if isinstance(obj1[k], list) or isinstance(obj1[k], int):
                 obj1[k] += obj2[k] # num detections
             else:
+                print(k)
                 # TODO: handle other types if needed in the future
                 raise NotImplementedError
         else: # pcd, bbox, descriptor, id are handled below
@@ -227,6 +228,9 @@ def merge_obj2_into_obj1(obj1, obj2, downsample_voxel_size, run_dbscan=False, ar
     
     # update id list
     obj1['id'].update(obj2['id'])
+    obj1['local_mask'] = obj2['local_mask']
+    
+    # pass
 
     return obj1
 

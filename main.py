@@ -6,6 +6,7 @@ import warnings
 warnings.filterwarnings('ignore')
 from datetime import datetime
 
+import cv2
 import json
 import yaml
 import torch
@@ -13,6 +14,7 @@ import random
 import numpy as np
 from tqdm import tqdm
 from loguru import logger
+import imageio
 
 from bbq.datasets import get_dataset
 from bbq.objects_map import NodesConstructor
@@ -57,16 +59,32 @@ def main(args):
     logger.info(f"Parsed arguments. Utilizing config from {args.config_path}.")
 
     nodes_constructor = NodesConstructor(config["nodes_constructor"])
-    rgbd_dataset = get_dataset(config["dataset"])
-
+    #rgbd_dataset = get_dataset(config["dataset"])
     # See Section 3.1
     logger.info("Iterating over RGBD sequence to accumulate 3D objects.")
-    for step_idx in tqdm(range(len(rgbd_dataset))):
-        frame = rgbd_dataset[step_idx]
-        nodes_constructor.integrate(step_idx, frame,
-            args.save_path)
-        torch.cuda.empty_cache()
-    nodes_constructor.postprocessing()
+    color_path = "datasets/room0/color/2025-02-10-120131_1.jpg"
+    #depth_path = self.depth_paths[index]
+    color = np.asarray(imageio.imread(color_path), dtype=float)
+    print(color.shape)
+    color = cv2.resize(
+        color,
+        (1200, 680),
+        interpolation=cv2.INTER_LINEAR,
+    )
+    #color = rgbd_dataset._preprocess_color(color) # resize
+    color = torch.from_numpy(color)
+    print(color.shape)
+
+    
+    color = color.to("cuda").type(torch.float)
+    
+    print(args.save_path)
+    frame = (color, None, None, None)
+    nodes_constructor.integrate(0, frame,
+        args.save_path)
+
+    torch.cuda.empty_cache()
+    #nodes_constructor.postprocessing()
     torch.cuda.empty_cache()
     if args.save_path:
         results = {'objects': nodes_constructor.objects.to_serializable()}
@@ -74,18 +92,10 @@ def main(args):
             f"frame_last_objects.pkl.gz"), "wb") as f:
                 pickle.dump(results, f)
 
-    # See Section 3.2
-    logger.info('Finding 2D view to caption 3D objects.')
-    nodes_constructor.project(
-        poses=rgbd_dataset.poses,
-        intrinsics=rgbd_dataset.get_cam_K()
-    )
-    torch.cuda.empty_cache()
-
     # See Section 3.3
     logger.info('Captioning 3D objects.')
     nodes = nodes_constructor.describe(
-        colors=rgbd_dataset.color_paths
+        colors=[color_path]
     )
     torch.cuda.empty_cache()
 

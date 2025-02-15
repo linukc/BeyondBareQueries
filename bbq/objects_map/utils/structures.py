@@ -132,9 +132,9 @@ class MapObjectList(DetectionList):
         for obj in self:
             s_obj_dict = copy.deepcopy(obj)
 
-            s_obj_dict['pcd_np'] = np.asarray(s_obj_dict['pcd'].points)
-            s_obj_dict['bbox_np'] = np.asarray(s_obj_dict['bbox'].get_box_points())
-            s_obj_dict['pcd_color_np'] = np.asarray(s_obj_dict['pcd'].colors)
+            #s_obj_dict['pcd_np'] = np.asarray(s_obj_dict['pcd'].points)
+            #s_obj_dict['bbox_np'] = np.asarray(s_obj_dict['bbox'].get_box_points())
+            #s_obj_dict['pcd_color_np'] = np.asarray(s_obj_dict['pcd'].colors)
 
             try:
                 s_obj_dict['descriptor'] = to_numpy(s_obj_dict['descriptor'])

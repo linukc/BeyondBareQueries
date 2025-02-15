@@ -58,13 +58,32 @@ class DetectionsAssembler:
         n_masks = len(masks_result["xyxy"])
         for mask_idx in range(n_masks):
             if masks_result['confidence'][mask_idx] < self.mask_conf_threshold:
-                logger.debug(f"skipping mask with a low confidence. idx = {mask_idx}")
+                logger.debug(f"skipping mask with a low confidence. idx = {mask_idx}, conf = {masks_result['confidence'][mask_idx]}")
             else:
                 idx_to_save.append(mask_idx)
+
+        colors = np.random.randint(0, 256, (n_masks, 3))
+        segmentation_vis = color.cpu().numpy()
+        # Overlay each mask on the image
+        for i in idx_to_save:
+            color_layer = np.zeros_like(segmentation_vis)  # Create a blank layer for color
+            for c in range(3):  # Apply random color to each channel
+                #color_layer[:, :, c] = masks_result["mask"][i] * colors[i][c]
+                #print( np.sum(masks_result["mask"][i]))
+                color_layer[:, :, c] = masks_result["mask"][i] * colors[i][c]
+            #print( np.sum(color_layer))
+            
+            # Blend mask with image
+            segmentation_vis = cv2.addWeighted(segmentation_vis, 1.0, color_layer, 0.5, 0)
+
+        # Save and show the final image
+        #cv2.imwrite("overlayed_masks_sam.png", image)
+        #exit()
         masks_result["mask"] = np.take(masks_result["mask"], idx_to_save, axis=0)
         masks_result["xyxy"] = np.take(masks_result["xyxy"], idx_to_save, axis=0)
         masks_result["confidence"] = np.take(masks_result["confidence"], idx_to_save, axis=0)
         
+
         # compute the containing relationship among all detections and subtract fg from bg objects
         masks_result['mask'] = self.mask_subtract_contained(masks_result['xyxy'], masks_result['mask'])
 
@@ -87,11 +106,11 @@ class DetectionsAssembler:
             # create object pcd
             camera_object_pcd = self.create_object_pcd(color, mask, depth, intrinsics)
             if len(camera_object_pcd.points) < max(self.min_points_threshold, 5):
-                logger.debug(f"""Skipping: num points {camera_object_pcd.points}
-                             < min points {max(self.min_points_threshold, 5)}""")
+                logger.debug(f"Skipping: num points {camera_object_pcd.points} < min points {max(self.min_points_threshold, 5)}")
                 continue
             elif len(camera_object_pcd.points) < max(2 * self.min_points_threshold, 5):
                 logger.debug(f"Warning: few points number for {mask_idx} - less than 2 * MIN_POINTS_THRESHOLD")
+
             global_object_pcd = camera_object_pcd.transform(pose.cpu().numpy())
 
             # filter noise
@@ -129,11 +148,12 @@ class DetectionsAssembler:
                 'bbox': pcd_bbox, # bbox
                 'descriptor': loc_descriptor, # descriptor  # [1, d]
                 'num_detections': 1, # number of detections (for filtering)
-                'id': {step_idx}, # detection frame idx (for projection)
+                'id': {step_idx}, # detection frame idx (for projection),
+                'local_mask': masks_result["mask"][mask_idx], # local mask (only for local graphs)
             }
             detection_list.append(detected_object)
 
-        return detection_list
+        return detection_list, segmentation_vis
 
     def mask_subtract_contained(self, xyxy, mask, th1=0.8, th2=0.7):
         '''

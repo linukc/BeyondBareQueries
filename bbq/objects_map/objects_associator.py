@@ -1,6 +1,8 @@
+import torch
 from bbq.objects_map.utils import process_pcd, get_bounding_box, \
     compute_spatial_similarities, compute_visual_similarities, merge_obj2_into_obj1
 
+from bbq.objects_map.utils import MapObjectList
 
 class ObjectsAssociator:
     def __init__(self,
@@ -28,12 +30,15 @@ class ObjectsAssociator:
         return scene_objects
 
     def merge_detections_to_objects(self, detected_objects, scene_objects, visual_sim, downsample_voxel_size):
+        
+        keep_index = []
         # Iterate through all detections and merge them into objects
         for i in range(visual_sim.shape[0]):
 
             # If not matched to any object, add it as a new object
             if visual_sim[i].max() == float('-inf'):
                 scene_objects.append(detected_objects[i])
+                keep_index.append(len(scene_objects))
 
             # Merge with most similar existing object
             else:
@@ -43,5 +48,10 @@ class ObjectsAssociator:
                 merged_obj = merge_obj2_into_obj1(matched_obj, matched_det,
                     downsample_voxel_size, run_dbscan=False, are_objects=False)
                 scene_objects[j] = merged_obj
+                keep_index.append(int(j))
+                #print(j)
+        #print(keep_index)
 
-        return scene_objects
+        new_objects = [obj for i, obj in enumerate(scene_objects) if i in keep_index]
+        objects = MapObjectList(new_objects)
+        return objects
