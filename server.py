@@ -213,7 +213,7 @@ def project_point_cloud_to_image(image, depth_image, camera_pose, intrinsics_mat
     point_cloud_camera_coords = (camera_pose @ point_cloud_homogeneous.T).T  # (N, 4)
     point_cloud_camera_coords = point_cloud_camera_coords[:, :3]  # Drop the homogeneous component
 
-    print(point_cloud_camera_coords)
+    #print(point_cloud_camera_coords)
 
     # Project points onto the image plane using the intrinsics matrix
     fx, fy = intrinsics_matrix[0, 0], intrinsics_matrix[1, 1]
@@ -363,7 +363,7 @@ def draw_answer(result, targets, anchors, relations, segmentation, depth, intrin
 
     for obj in result:
         if 'A wall on the side of a building' in obj['description'] or (int(obj['id']) not in targets and int(obj['id']) not in anchors):
-            print("Filtered 3D", int(obj['id']), targets, anchors)
+            #print("Filtered 3D", int(obj['id']), targets, anchors)
             continue
 
         cx, cy, cz = np.array(obj['bbox_center'])
@@ -380,7 +380,7 @@ def draw_answer(result, targets, anchors, relations, segmentation, depth, intrin
         ])
 
         box_2d = project_point_cloud_to_image(segmentation, depth, camera_pose, intrinsics, box_3d)
-        print(box_2d)
+        #print(box_2d)
         
         # Define box edges (pairs of points to connect)
         edges = [
@@ -391,7 +391,7 @@ def draw_answer(result, targets, anchors, relations, segmentation, depth, intrin
         
         # Draw the bounding box edges
         for (i, j) in edges:
-            print(tuple(box_2d[i]), tuple(box_2d[j]))
+            #print(tuple(box_2d[i]), tuple(box_2d[j]))
             cv2.line(segmentation, tuple(box_2d[i]), tuple(box_2d[j]), (0, 0, 255), 1)
         
         text = f"{obj['id']}: {obj['description']}"
@@ -419,7 +419,7 @@ def draw_answer(result, targets, anchors, relations, segmentation, depth, intrin
         ])
 
         line2d = project_point_cloud_to_image(segmentation, depth, camera_pose, intrinsics, line_3d)
-        print(line2d)
+        #print(line2d)
         cv2.line(segmentation, tuple(line2d[0]), tuple(line2d[1]), (255, 255, 0), 2)
 
         mid_x = int((line2d[0][0] + line2d[1][0]) / 2)
@@ -578,7 +578,7 @@ def main():
     filtered_relations = []
 
     for rel in relations:
-        print(rel, final_answer)
+        #print(rel, final_answer)
         if rel[0] == final_answer:
             targets.append(rel[0])
             anchors.append(rel[1])
