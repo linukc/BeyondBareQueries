@@ -85,6 +85,8 @@ python3 query.py --scene_file=examples/scenes/replica/room0.json --model_path=<y
 python3 query.py --scene_file=examples/scenes/scannet/scene0011_00.json --model_path=<your_path>/Meta-Llama-3-8B-Instruct #ScanNet
 ```
 
+To reproduce results in our paper go to [evaluation/object_grounding](evaluation/object_grounding) folder.
+
 ## Acknowledgement
 We base our work on the following paper codebase: [ConceptGraphs](https://github.com/concept-graphs/concept-graphs).
 

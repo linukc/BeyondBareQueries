@@ -1,0 +1,290 @@
+[
+  {
+    "target": 10,
+    "utterance": "This is a rectangle shaped tan/brown bathroom door for a stall. From this angle, it appears slightly to the left."
+  },
+  {
+    "target": 10,
+    "utterance": "This is a tan bathroom stall door. It is facing a toilet."
+  },
+  {
+    "target": 10,
+    "utterance": "This is a tan bathroom stall door. This bathroom stall door is for the stall with the window."
+  },
+  {
+    "target": 10,
+    "utterance": "This is a tan bathroom stall door. This bathroom stall door is on the last stall to the left."
+  },
+  {
+    "target": 10,
+    "utterance": "The door is wider than the other bathroom stall doors. The door is beige colored and opens to the handicapped stall."
+  },
+  {
+    "target": 18,
+    "utterance": "This is a tan paper towel dispenser. It's a mostly square shape and is to the right of both sinks."
+  },
+  {
+    "target": 18,
+    "utterance": "The paper towel dispenser is orange and on the wall. It is right of the sink."
+  },
+  {
+    "target": 18,
+    "utterance": "The paper towel dispener is orange and left of the trash can. It is in the middle of the wall."
+  },
+  {
+    "target": 18,
+    "utterance": "This is a square paper towel dispenser. It is to the right of the sink."
+  },
+  {
+    "target": 18,
+    "utterance": "The paper towel dispenser is a darkish tan color and has some gray stickers on it. It is hanging on the wall in between the silver trash can and the porcelain sink."
+  },
+  {
+    "target": 17,
+    "utterance": "This is another paper towel dispenser. This one is above the tan one, is mostly square and to the right of the two sinks."
+  },
+  {
+    "target": 17,
+    "utterance": "Hanging on the far wall directly in from of you is a brown paper towel dispenser. It is in between a sink and the wall-attached garbige bin. Beneath it is a hand dryer."
+  },
+  {
+    "target": 17,
+    "utterance": "It is wall mounted black paper dispenser above hand drier. A wall mounted trash can can be seen besides it."
+  },
+  {
+    "target": 17,
+    "utterance": "The paper towel dispenser is to the right of the sinks. It is dark colored and to the left of the trash can."
+  },
+  {
+    "target": 17,
+    "utterance": "This is a black,plastic,wall mounted paper towel dispenser. This paper towel dispenser is on the wall,above the tan dispenser and, to the right of the sinks."
+  },
+  {
+    "target": 8,
+    "utterance": "This is an average looking rectangle white door for an office building or an apartment for the outer doors maybe to the stairs. It's to the left of the bathroom stall."
+  },
+  {
+    "target": 8,
+    "utterance": "The door is beige with a dark bottom. The door is in the middle of a white wall."
+  },
+  {
+    "target": 8,
+    "utterance": "Directly in front of you is a door with a silver handle. To the left is a large square vent inserted into the bottom of the wall."
+  },
+  {
+    "target": 8,
+    "utterance": "A white door. It is in between walls."
+  },
+  {
+    "target": 8,
+    "utterance": "The door is the rightmost door on the wall directly across from the sinks. Its handle is on the right side of the door, and it has a small white grate over the gray kickplate at the bottom."
+  },
+  {
+    "target": 6,
+    "utterance": "This is an average looking white toilet like what you would find in an office building or store. It is round and below the rail in the stall."
+  },
+  {
+    "target": 6,
+    "utterance": "A white toilet bowl. It under a tissue holder."
+  },
+  {
+    "target": 6,
+    "utterance": "This is a white toilet. It is under a white toilet seat cover dispenser."
+  },
+  {
+    "target": 6,
+    "utterance": "It is a white wall mounted toilet. The toilet is in the stall to the far left."
+  },
+  {
+    "target": 6,
+    "utterance": "The toilet in the corner. The toilet is in the open in the corner."
+  },
+  {
+    "target": 22,
+    "utterance": "The toilet paper dispenser is black and on the left of the stall. It is above the toilet in height."
+  },
+  {
+    "target": 22,
+    "utterance": "A black tissue holder. It is right next to the toilet bowl."
+  },
+  {
+    "target": 22,
+    "utterance": "It is a plastic, wall mount toilet paper dispenser. The toilet paper dispenser is on the wall of the stall that is closest to the sinks."
+  },
+  {
+    "target": 22,
+    "utterance": "This is a plastic,wall mounted toilet paper dispenser. This toilet paper dispenser is on the wall next to the toilet, in the stall to the left of the sinks."
+  },
+  {
+    "target": 9,
+    "utterance": "The door is tan with a metal grating. The door is in the left corner."
+  },
+  {
+    "target": 9,
+    "utterance": "The white door is located in the corner of the room. It is on the opposite side of the hand towel dispenser."
+  },
+  {
+    "target": 9,
+    "utterance": "The door is the furthest door on the left side of the bathroom. It has a large gray and white grate on the bottom half of it, above the silver kickplate at the base."
+  },
+  {
+    "target": 9,
+    "utterance": "Door is present in front of the sinks. A wall mounted trash can can also be seen in the scene."
+  },
+  {
+    "target": 9,
+    "utterance": "The door with decoration. The fancy door is in the corner."
+  },
+  {
+    "target": 19,
+    "utterance": "A white lavatory. It is attached in the wall with the other one."
+  },
+  {
+    "target": 19,
+    "utterance": "A white lavatory. It is attached to the wall."
+  },
+  {
+    "target": 19,
+    "utterance": "Sink is wall mounted. Another sink can be seen besides this sink."
+  },
+  {
+    "target": 19,
+    "utterance": "The white sink is in the corner of the room. It is to the left of the other sink and liquid soap dispenser."
+  },
+  {
+    "target": 19,
+    "utterance": "The white sink is in the corner next to the wall of the bathroom stall. It is next to the sink on the right."
+  },
+  {
+    "target": 20,
+    "utterance": "A white lavatory. It is in between with the other lavatory and a brown machine attached to the wall."
+  },
+  {
+    "target": 20,
+    "utterance": "A white lavatory. It is in between another lavatory and a brown machine attached in the wall."
+  },
+  {
+    "target": 20,
+    "utterance": "This is a white sink. It is to the right of another sink."
+  },
+  {
+    "target": 20,
+    "utterance": "This sink is between another sink and a paper towel dispenser. A wall mounted trash can can also be seen besides the paper towel dispenser."
+  },
+  {
+    "target": 20,
+    "utterance": "The bathroom sink is white and squared off in the front for use while standing. The sink is located between the soap dispenser and paper towel dispenser."
+  },
+  {
+    "target": 21,
+    "utterance": "A tissue holder inside the comfort room. It is right behind the toilet bowl."
+  },
+  {
+    "target": 21,
+    "utterance": "A double tissue holder. It is above a metal like handle."
+  },
+  {
+    "target": 21,
+    "utterance": "It is a wall mounted toilet paper dispenser. The toilet dispenser is on the wall next to the toilet, in the last stall to the left."
+  },
+  {
+    "target": 21,
+    "utterance": "This is a wall mounted toilet paper dispenser. This toilet paper dispenser is mounted on the wall next to the toilet. This toilet paper dispenser is in the stall with the window."
+  },
+  {
+    "target": 21,
+    "utterance": "The toilet paper dispenser is a rectangular black and gray box with rolls of toilet paper at the base. The dispenser is on the tiled wall beside the toilet."
+  },
+  {
+    "target": 29,
+    "utterance": "A bathrom stall door sits to the left of two sinks. Just behind it is a toilet with a toilet-paper dispenser to its left, hangin on the wall."
+  },
+  {
+    "target": 29,
+    "utterance": "It is a white bathroom stall door. The stall door is on the stall that is closest to the sinks."
+  },
+  {
+    "target": 29,
+    "utterance": "This is a tan bathroom stall door. This bathroom stall door is on the first stall to the left of the sinks."
+  },
+  {
+    "target": 29,
+    "utterance": "This is a tan bathroom stall door. This bathroom stall door is on the stall closest to the sinks."
+  },
+  {
+    "target": 29,
+    "utterance": "The big bathroom stall door. The door is next to the toilet."
+  },
+  {
+    "target": 13,
+    "utterance": "A trash can hangs on the far wall in between the corner of the room and a paper towell dispenser. Sinks are to the left of the dispenser."
+  },
+  {
+    "target": 13,
+    "utterance": "The trash an is stainless steel. It is opposite to the door and to the right of the hand towel dispenser."
+  },
+  {
+    "target": 13,
+    "utterance": "This is a stainless steel, wall mounted trash can. This trash can is on the wall to the right of the sinks and the tan dispenser."
+  },
+  {
+    "target": 13,
+    "utterance": "The trash can is square and metallic. The trash can is mounted on the wall in the corner of the bathroom."
+  },
+  {
+    "target": 13,
+    "utterance": "The trash can in the wall. The trash can is next to the paper towel dispenser."
+  },
+  {
+    "target": 7,
+    "utterance": "In the first stall just to the left of two sinks is a toilet. Just before it is a door to the stall."
+  },
+  {
+    "target": 7,
+    "utterance": "This is a white toilet. This toilet is in the stall to the left of the sinks."
+  },
+  {
+    "target": 7,
+    "utterance": "The toilet in the stall. The toilet is by the toilet paper roll."
+  },
+  {
+    "target": 5,
+    "utterance": "This is a white toilet seat cover dispenser. It is above the toilet on the wall."
+  },
+  {
+    "target": 5,
+    "utterance": "It is wall mounted. A toilet can be seen under this."
+  },
+  {
+    "target": 5,
+    "utterance": "The highlighted object is wall mounted. A handle and a toilet can be seen under it."
+  },
+  {
+    "target": 5,
+    "utterance": "This is a white, wall mounted toilet seay cover dispenser. This toilet seat cover dispenser hangs above the toilet,in the stall with the window."
+  },
+  {
+    "target": 5,
+    "utterance": "There is a white toilet seat cover dispenser box within the bathroom stall. The box is on the wall, behind the toilet and directly above it."
+  },
+  {
+    "target": 12,
+    "utterance": "It is a black plastic, wall mounted soap dispenser. The soap dispenser is mounted on the wall above the two sinks."
+  },
+  {
+    "target": 12,
+    "utterance": "Soap dispenser is wall mounted. It is mounted between two sinks."
+  },
+  {
+    "target": 12,
+    "utterance": "It is on the wall in between two sinks. A paper towel dispenser and a hand drier can be seen on the seen."
+  },
+  {
+    "target": 12,
+    "utterance": "The soap dispenser is black and has a dark gray handle. It is hanging on the wall in between the two porcelain sinks, but it is to the right side of center between the two."
+  },
+  {
+    "target": 12,
+    "utterance": "The soap dispenser is black and has a push nozzle dispenser on the bottom. It is hanging on the wall in between the two sinks."
+  }
+]

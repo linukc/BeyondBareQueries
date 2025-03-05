@@ -46,3 +46,6 @@ bbq.egg-info
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints

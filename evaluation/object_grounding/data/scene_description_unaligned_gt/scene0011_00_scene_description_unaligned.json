@@ -1,0 +1,464 @@
+[
+  {
+    "id": 0,
+    "bbox_center": [
+      4.921,
+      4.145,
+      0.135
+    ],
+    "bbox_extent": [
+      4.969,
+      8.138,
+      0.29
+    ],
+    "object_tag": "floor"
+  },
+  {
+    "id": 1,
+    "bbox_center": [
+      2.757,
+      2.873,
+      0.477
+    ],
+    "bbox_extent": [
+      0.371,
+      3.197,
+      0.838
+    ],
+    "object_tag": "kitchen cabinet"
+  },
+  {
+    "id": 2,
+    "bbox_center": [
+      4.622,
+      3.533,
+      0.5
+    ],
+    "bbox_extent": [
+      1.472,
+      3.563,
+      0.858
+    ],
+    "object_tag": "table"
+  },
+  {
+    "id": 3,
+    "bbox_center": [
+      7.308,
+      1.353,
+      0.472
+    ],
+    "bbox_extent": [
+      0.299,
+      0.843,
+      0.801
+    ],
+    "object_tag": "armchair"
+  },
+  {
+    "id": 4,
+    "bbox_center": [
+      4.58,
+      5.737,
+      0.588
+    ],
+    "bbox_extent": [
+      0.675,
+      0.743,
+      0.986
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 5,
+    "bbox_center": [
+      4.284,
+      4.787,
+      0.586
+    ],
+    "bbox_extent": [
+      0.54,
+      0.55,
+      0.995
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 6,
+    "bbox_center": [
+      4.038,
+      3.84,
+      0.58
+    ],
+    "bbox_extent": [
+      0.585,
+      0.614,
+      1.003
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 7,
+    "bbox_center": [
+      3.967,
+      2.995,
+      0.565
+    ],
+    "bbox_extent": [
+      0.581,
+      0.579,
+      0.962
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 8,
+    "bbox_center": [
+      3.922,
+      2.179,
+      0.564
+    ],
+    "bbox_extent": [
+      0.609,
+      0.715,
+      0.978
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 9,
+    "bbox_center": [
+      4.365,
+      1.799,
+      0.581
+    ],
+    "bbox_extent": [
+      0.698,
+      0.551,
+      0.979
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 10,
+    "bbox_center": [
+      5.003,
+      2.315,
+      0.579
+    ],
+    "bbox_extent": [
+      0.518,
+      0.714,
+      0.968
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 11,
+    "bbox_center": [
+      5.198,
+      3.24,
+      0.58
+    ],
+    "bbox_extent": [
+      0.671,
+      0.571,
+      0.966
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 12,
+    "bbox_center": [
+      5.27,
+      4.095,
+      0.574
+    ],
+    "bbox_extent": [
+      0.57,
+      0.671,
+      0.998
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 13,
+    "bbox_center": [
+      5.312,
+      4.707,
+      0.581
+    ],
+    "bbox_extent": [
+      0.467,
+      0.517,
+      0.987
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 14,
+    "bbox_center": [
+      6.221,
+      6.762,
+      1.205
+    ],
+    "bbox_extent": [
+      0.332,
+      0.929,
+      2.327
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 15,
+    "bbox_center": [
+      5.942,
+      6.573,
+      0.509
+    ],
+    "bbox_extent": [
+      0.401,
+      0.395,
+      0.874
+    ],
+    "object_tag": "trash can"
+  },
+  {
+    "id": 16,
+    "bbox_center": [
+      4.64,
+      6.85,
+      1.246
+    ],
+    "bbox_extent": [
+      3.201,
+      0.354,
+      2.383
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 17,
+    "bbox_center": [
+      4.936,
+      6.679,
+      0.512
+    ],
+    "bbox_extent": [
+      1.67,
+      0.433,
+      0.845
+    ],
+    "object_tag": "table"
+  },
+  {
+    "id": 18,
+    "bbox_center": [
+      4.981,
+      6.802,
+      1.561
+    ],
+    "bbox_extent": [
+      1.551,
+      0.318,
+      0.983
+    ],
+    "object_tag": "tv"
+  },
+  {
+    "id": 19,
+    "bbox_center": [
+      3.105,
+      6.466,
+      1.046
+    ],
+    "bbox_extent": [
+      0.174,
+      1.047,
+      1.795
+    ],
+    "object_tag": "refrigerator"
+  },
+  {
+    "id": 20,
+    "bbox_center": [
+      2.751,
+      6.494,
+      1.636
+    ],
+    "bbox_extent": [
+      0.738,
+      1.051,
+      1.573
+    ],
+    "object_tag": "cabinet"
+  },
+  {
+    "id": 21,
+    "bbox_center": [
+      2.197,
+      3.692,
+      1.682
+    ],
+    "bbox_extent": [
+      0.421,
+      4.811,
+      1.675
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 22,
+    "bbox_center": [
+      2.502,
+      3.529,
+      2.454
+    ],
+    "bbox_extent": [
+      1.01,
+      4.566,
+      0.145
+    ],
+    "object_tag": "ceiling"
+  },
+  {
+    "id": 23,
+    "bbox_center": [
+      2.314,
+      5.14,
+      1.46
+    ],
+    "bbox_extent": [
+      0.222,
+      1.285,
+      1.206
+    ],
+    "object_tag": "window"
+  },
+  {
+    "id": 24,
+    "bbox_center": [
+      2.003,
+      2.169,
+      1.454
+    ],
+    "bbox_extent": [
+      0.344,
+      1.261,
+      1.249
+    ],
+    "object_tag": "window"
+  },
+  {
+    "id": 25,
+    "bbox_center": [
+      2.563,
+      3.646,
+      0.817
+    ],
+    "bbox_extent": [
+      0.994,
+      4.716,
+      0.187
+    ],
+    "object_tag": "kitchen counter"
+  },
+  {
+    "id": 26,
+    "bbox_center": [
+      2.392,
+      2.196,
+      0.74
+    ],
+    "bbox_extent": [
+      0.347,
+      0.797,
+      0.322
+    ],
+    "object_tag": "sink"
+  },
+  {
+    "id": 27,
+    "bbox_center": [
+      2.607,
+      0.761,
+      1.121
+    ],
+    "bbox_extent": [
+      0.269,
+      0.95,
+      2.075
+    ],
+    "object_tag": "refrigerator"
+  },
+  {
+    "id": 28,
+    "bbox_center": [
+      2.353,
+      0.795,
+      1.304
+    ],
+    "bbox_extent": [
+      0.715,
+      1.094,
+      2.428
+    ],
+    "object_tag": "cabinet"
+  },
+  {
+    "id": 29,
+    "bbox_center": [
+      4.1,
+      0.21,
+      1.341
+    ],
+    "bbox_extent": [
+      3.13,
+      0.204,
+      2.526
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 30,
+    "bbox_center": [
+      3.937,
+      0.087,
+      1.237
+    ],
+    "bbox_extent": [
+      1.907,
+      0.239,
+      2.322
+    ],
+    "object_tag": "door"
+  },
+  {
+    "id": 31,
+    "bbox_center": [
+      3.947,
+      0.144,
+      1.259
+    ],
+    "bbox_extent": [
+      1.956,
+      0.242,
+      2.327
+    ],
+    "object_tag": "doorframe"
+  },
+  {
+    "id": 32,
+    "bbox_center": [
+      5.339,
+      0.364,
+      0.515
+    ],
+    "bbox_extent": [
+      0.249,
+      0.337,
+      0.869
+    ],
+    "object_tag": "trash can"
+  }
+]

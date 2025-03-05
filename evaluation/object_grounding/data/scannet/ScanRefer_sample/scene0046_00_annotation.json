@@ -1,0 +1,334 @@
+[
+  {
+    "target": 32,
+    "utterance": "It is beige and it flushes the toilet. It is a button. It is between the sink and the bathtub on the top side of the toilet."
+  },
+  {
+    "target": 32,
+    "utterance": "The white toilet flush button is positioned above the toilet and on the left of the sink. Above the button is a shelf with toilet paper on it."
+  },
+  {
+    "target": 32,
+    "utterance": "A cabinet door. Located above the open toilet seat."
+  },
+  {
+    "target": 32,
+    "utterance": "This is bathroom flush button. The toilet flush button is above the toilet basin."
+  },
+  {
+    "target": 32,
+    "utterance": "There is a white toilet flush button above the toilet. It is to the left of the sink."
+  },
+  {
+    "target": 21,
+    "utterance": "It is the black door at the end of the hallway. It has a red and white sign on it."
+  },
+  {
+    "target": 21,
+    "utterance": "This is down at the end of a long hallway. It is between two doors. It is black. It is the black door at the end of the hallway."
+  },
+  {
+    "target": 21,
+    "utterance": "This is the blue door. It is at the end of the hallway. It is between two doors and has a red and white sign on it."
+  },
+  {
+    "target": 21,
+    "utterance": "This door appears to be the front door to the apartment. If you walk through the apartment and past the bathroom you will encounter this door. The door is black and has a small window."
+  },
+  {
+    "target": 21,
+    "utterance": "The door is rectangular in shape and has a small window on the upper portion. The door is located to the right of the bath area."
+  },
+  {
+    "target": 4,
+    "utterance": "This is the tall brown cabinet next to the blue plaid curtains. It is the wardrobe next to the window."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a tall brown wooden cabinet. It is called a wardrobe. It is directly to the right of the window with the green curtains."
+  },
+  {
+    "target": 4,
+    "utterance": "This cabinet is called a wardrobe. It is tall and wooden. It is between the window and the bed."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a brown wardrobe in the corner of the room. It has two doors. It is next to the window with green blue curtains."
+  },
+  {
+    "target": 4,
+    "utterance": "The wardrobe is located in the corner of the room, to the right of the curtains. The wardrobe is against the wall, and it is to the left of a painting."
+  },
+  {
+    "target": 36,
+    "utterance": "This is the blue towel hanging betwen the sink and the toilet. It is on a bar."
+  },
+  {
+    "target": 36,
+    "utterance": "This is a blue towel. It is next to the toilet and the sink. The towel is hanging on a bar."
+  },
+  {
+    "target": 36,
+    "utterance": "This is a blue towel. It is between the toilet and the sink."
+  },
+  {
+    "target": 36,
+    "utterance": "This is a blue bath towel. It is hanging off the sink and hangs near the toilet."
+  },
+  {
+    "target": 36,
+    "utterance": "The towel is blue in color. It is hanging in between toilet and the washbasin."
+  },
+  {
+    "target": 19,
+    "utterance": "This is a table with wooden sides and a green top. It is behind 2 pairs of shoes, right in front of a wall, and to the left of the desk.."
+  },
+  {
+    "target": 19,
+    "utterance": "This is a table with wooden sides and a green top. It is behind 2 pairs of shoes, to the left of the desk, and in front of the wall."
+  },
+  {
+    "target": 19,
+    "utterance": "There is a green and wooden chair. It is located to the left of the desk."
+  },
+  {
+    "target": 19,
+    "utterance": "The surface of the table is green in color. Two pairs of shoe can be seen lying in front of it."
+  },
+  {
+    "target": 31,
+    "utterance": "This is a toilet. The toilet is situated between the bathtub and the sink."
+  },
+  {
+    "target": 31,
+    "utterance": "A white toilet, positioned on the left of the bathroom as you walk in through the doorway. Below and on the right of the toilet are two blue towels and above the toilet is a button pres to flush the toilet."
+  },
+  {
+    "target": 31,
+    "utterance": "A white toilet. The cover seats are opened."
+  },
+  {
+    "target": 31,
+    "utterance": "This toilet is beige in color and looks dirty. If you open the door and someone was sitting on the toilet you'd hit them as the toilet is directly in front of the door to the left of the sink."
+  },
+  {
+    "target": 31,
+    "utterance": "The toilet is located to the left of the sink. There is a blue towel hung to the immediate right of the toilet."
+  },
+  {
+    "target": 3,
+    "utterance": "This is a bed it is to the right of the tall brown cabinet that is to the right of the window with the green curtains. This bed has on top a blue blanket."
+  },
+  {
+    "target": 3,
+    "utterance": "This is a rectangular bed. It is against the wall."
+  },
+  {
+    "target": 3,
+    "utterance": "This is a white bed. It is in the corner of the room."
+  },
+  {
+    "target": 3,
+    "utterance": "The bed is covered with a blue and white colored bedspread. A chair can be seen in front of the bed."
+  },
+  {
+    "target": 3,
+    "utterance": "The bed is located to the right of the television. The bed is covered with blankets. The bed is behind the chair."
+  },
+  {
+    "target": 1,
+    "utterance": "A brown and blue chair on the right side of the room. It is in front of a computer desk."
+  },
+  {
+    "target": 1,
+    "utterance": "A blue and brown chair. It is in front of a desk with a computer on it."
+  },
+  {
+    "target": 1,
+    "utterance": "A blue and brown chair. It's located in front of a window and it's facing a wooden desk with a computer on it."
+  },
+  {
+    "target": 1,
+    "utterance": "This chair is made out of wood and has a blue cushion to sit on. The chair is positioned in front of a desk that has a laptop on it. The chair is just a few inches from the window curtains."
+  },
+  {
+    "target": 1,
+    "utterance": "This is arm chair with four legs. The is placed in front of the laptop."
+  },
+  {
+    "target": 54,
+    "utterance": "A brown wooden nightstand. It's between the end of the bed and close to the wall."
+  },
+  {
+    "target": 54,
+    "utterance": "A table end shelf. It is at foot of the bed with two teirs."
+  },
+  {
+    "target": 54,
+    "utterance": "The nightstand is brown and is located in the bedroom. It's at the end of the bed below the tv."
+  },
+  {
+    "target": 54,
+    "utterance": "This is a brown nightstand. It is in a corner of the room."
+  },
+  {
+    "target": 54,
+    "utterance": "Nightstand is kept close to a wooden cupboard. It is kept between a bed and the wooden cupboard."
+  },
+  {
+    "target": 11,
+    "utterance": "A black computer with a blue screen. It's located on a wooden desk with a wooden chair in front of it."
+  },
+  {
+    "target": 11,
+    "utterance": "A black top located in center of desk. The lid is open and blue screen is visible."
+  },
+  {
+    "target": 11,
+    "utterance": "This is a black laptop. It is on a desk."
+  },
+  {
+    "target": 11,
+    "utterance": "The laptop is located on top of the desk. The laptop is open. The laptop is basically centered on the desktop, with items on both sides of it."
+  },
+  {
+    "target": 11,
+    "utterance": "The laptop is located on top of the desk. The laptop is to the left of the curtains, and to the right of a chair."
+  },
+  {
+    "target": 37,
+    "utterance": "The sink is white with on main chrome coloured tap. On the left of the sink is a blue towel on a pole. Below the sink is a small white bin and on its right a shower."
+  },
+  {
+    "target": 37,
+    "utterance": "This is a white sink. It is next to a toilet."
+  },
+  {
+    "target": 37,
+    "utterance": "The sink is located to the right of the toilet. It is to the left of the tub."
+  },
+  {
+    "target": 37,
+    "utterance": "This is white sink. The sink is near the shower curtain."
+  },
+  {
+    "target": 37,
+    "utterance": "There is an off-white sink attached to the wall. It is in between the toilet and the shower."
+  },
+  {
+    "target": 2,
+    "utterance": "A white bathtub with a white shower curtain. Entering the room it is on the farmost right of the room. On its left is a white sink."
+  },
+  {
+    "target": 2,
+    "utterance": "This object is a white bathtub located inside the bathroom. Walking through the bathroom door this bathtub will be on your right. The bathtub is on the right side of the sink. The bathroom is located on the right side of the apartment before the front door."
+  },
+  {
+    "target": 2,
+    "utterance": "This bathtub is white and is positioned to your right if you were to enter through the bathroom door. The bathtub is to the right of the sink and its height doesn't match the height of the sink. The tub is positioned in the far right corner of the room."
+  },
+  {
+    "target": 2,
+    "utterance": "This is a white bathtub. It is next to the sink."
+  },
+  {
+    "target": 2,
+    "utterance": "Bathtub can be seen with its curtain hanging in one corner. A washbasin can be seen besides it, under which a dustbin can also be seen."
+  },
+  {
+    "target": 47,
+    "utterance": "A white pillow positioned at the head of a bed. Above the pillow is a wooden headboard and below it a blue towel."
+  },
+  {
+    "target": 47,
+    "utterance": "This is a white pillow. It is at the head of a rectangular bed."
+  },
+  {
+    "target": 47,
+    "utterance": "The pillow is located on top of the bed. It is on the right side of the bed."
+  },
+  {
+    "target": 47,
+    "utterance": "This is a pillow on the bed. The pillow is hidden slightly underneath the blankets."
+  },
+  {
+    "target": 47,
+    "utterance": "There is an off-white pillow on the bed. It is in the right hand corner of the room."
+  },
+  {
+    "target": 44,
+    "utterance": "This is the shower curtain hanging over the bath tub. The shower curtain is white. It is next to the toilet."
+  },
+  {
+    "target": 44,
+    "utterance": "This is a white shower curtain. It is to the right of the sink, shelf, and mirror."
+  },
+  {
+    "target": 44,
+    "utterance": "This is white shower curtain. The curtain is near the wash basin."
+  },
+  {
+    "target": 44,
+    "utterance": "This is a white shower curtain. It is in the shower and pulled all the way to the left so it is next to the sink."
+  },
+  {
+    "target": 44,
+    "utterance": "It is a shower curtain in the shower. The shower curtain is in the bathroom."
+  },
+  {
+    "target": 53,
+    "utterance": "This is a tv, it hanging in the corner between the cabinets and the wall. It is above the bed."
+  },
+  {
+    "target": 53,
+    "utterance": "This is a black tv. It is hung above the brown night stand, and is to the right of the brown wardrobe that is sitting in the corner of the room."
+  },
+  {
+    "target": 53,
+    "utterance": "This is a tv. The tv is suspended on the wall. Tv is the suspended on the wall between the tall brown cabinet and the wall to the right of the tv is a blue poster. Under the tv on the table is a box of tissues."
+  },
+  {
+    "target": 53,
+    "utterance": "This is a black tv. It is above a bed."
+  },
+  {
+    "target": 26,
+    "utterance": "An open white entry door. Just in front of the toliet."
+  },
+  {
+    "target": 26,
+    "utterance": "This door is the bathroom door and it's open. The color of the door is white."
+  },
+  {
+    "target": 26,
+    "utterance": "This is the toilet door is white color. The toilet door is opened."
+  },
+  {
+    "target": 26,
+    "utterance": "This is a white door. The door has been swung into the bathroom."
+  },
+  {
+    "target": 26,
+    "utterance": "There is an off-white door. It is located to the left of the toilet, separating the bathroom and the bedroom."
+  },
+  {
+    "target": 6,
+    "utterance": "This is a tan desk. It is next to a green chair."
+  },
+  {
+    "target": 6,
+    "utterance": "The desk is located to the left of the chair. There is a computer monitor or laptop sitting atop the desk."
+  },
+  {
+    "target": 6,
+    "utterance": "This is a desk made out of wood and is very cluttered. A black laptop sits on top of the desk. A chair with a blue cushion is stationed facing the front of the desk to which the laptop screen is facing out. A bench with a green cushion is attached to this desk."
+  },
+  {
+    "target": 6,
+    "utterance": "There is a window with green curtains,. To the left of the window with green curtains is a desk. A desk is the item we are looking for."
+  },
+  {
+    "target": 6,
+    "utterance": "The desk is to the right of the bench. The desk has a laptop on top of it. The desk has a chair pulled slightly away from it."
+  }
+]

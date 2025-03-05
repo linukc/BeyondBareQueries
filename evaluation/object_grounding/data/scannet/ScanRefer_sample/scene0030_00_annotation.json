@@ -1,0 +1,362 @@
+[
+  {
+    "target": 47,
+    "utterance": "This is two desks. Aoane is dark brown one is tan. There are two blue chairs at the desks. These desks are at the top of the room."
+  },
+  {
+    "target": 47,
+    "utterance": "This is a broad brown plain table. This is placed at the center."
+  },
+  {
+    "target": 47,
+    "utterance": "The table is a very long rectangular table. There are chairs around the room facing the table."
+  },
+  {
+    "target": 47,
+    "utterance": "This is a long table. It is across from a chalkboard."
+  },
+  {
+    "target": 47,
+    "utterance": "This table is in front of a chalk board. It has seven chairs pushed under it. The chairs are blue and auburn in color. The table is light brown and rectangular."
+  },
+  {
+    "target": 9,
+    "utterance": "This is a gbrown hair with shiny metal legs. It is sitting by itself,away from the desk in the middle of the room."
+  },
+  {
+    "target": 9,
+    "utterance": "The chair is the only chair in the middle of the room. There is a bookcase on the wall to the right of the chair."
+  },
+  {
+    "target": 9,
+    "utterance": "This is a black chair. It is pushed away from the desk."
+  },
+  {
+    "target": 9,
+    "utterance": "This is a black chair. It is in the center of the room, pushed out from the desk."
+  },
+  {
+    "target": 9,
+    "utterance": "It is a gray chair with a backrest. To the left of it is a blue chair on caster wheels."
+  },
+  {
+    "target": 2,
+    "utterance": "This is a red chair with wheels,there is a blue square of paper in front of iot on the desk. It is at a light colored desk."
+  },
+  {
+    "target": 2,
+    "utterance": "Red felt office chair with plastic wheels. Walking into the room the chair is faced away from you in between a cream chair and a blue chair at the desk furthest away from the entrance."
+  },
+  {
+    "target": 2,
+    "utterance": "This office chair is placed facing a green board. An l shaped arrangement of the tables can be seen in the same room."
+  },
+  {
+    "target": 2,
+    "utterance": "It is a reddish chair on caster wheels and is tucked under a table except for its backrest. To its left is a similar chair but blue in color."
+  },
+  {
+    "target": 52,
+    "utterance": "This is the brown easy chair at the back of the room where the two chalk boards meet. It is a brown easy chair."
+  },
+  {
+    "target": 52,
+    "utterance": "This is a brown armchair. It is in a corner of the room."
+  },
+  {
+    "target": 52,
+    "utterance": "A cushion sofa in brown color. It is near the wall."
+  },
+  {
+    "target": 52,
+    "utterance": "There is a brown recliner in the corner of the room. Its between the intersection of the 2 chalk boards."
+  },
+  {
+    "target": 52,
+    "utterance": "Arm chair is placed in one corner. The adjacent walls have two green boards."
+  },
+  {
+    "target": 1,
+    "utterance": "There are two chalk boards. One is short and has a short table in front of is the other is longer and the table in front of it is as long as it is. It is as long as the room. The table has many chairs around it. Standing behind the table and counting from the left this is the third chair it has wheels and is blue it is situated between two chairs with no wheels."
+  },
+  {
+    "target": 1,
+    "utterance": "This is rolling chair which is rotatable. It is kept at third place from the corner chair."
+  },
+  {
+    "target": 1,
+    "utterance": "There is a blue office style chair with wheels facing a chalk board. The windows in the room are to its right."
+  },
+  {
+    "target": 1,
+    "utterance": "Blue office chair is placed in a table lying parallel to a lengthy green board on the wall. Lot of other chairs are also seen in that room."
+  },
+  {
+    "target": 15,
+    "utterance": "This chair is closest to the first book shelf closest to the door. This is not an arm chair. There is a arm chair close to the shelves and the door,but this is not an arm chair and it is at the table. It is the first chair from the right and its back faces the first book shelf."
+  },
+  {
+    "target": 15,
+    "utterance": "This is a black chair. It is in front of a bookcase."
+  },
+  {
+    "target": 15,
+    "utterance": "This is a brown chair. It is at a brown table."
+  },
+  {
+    "target": 15,
+    "utterance": "The is chair is black leather. When you walk into the door it will be the first chair on your right. There is a book shelve behind it and another chair in front of it."
+  },
+  {
+    "target": 48,
+    "utterance": "This is a table. This table is front of the book shelves,the book shelves it is in front of are the second and the third from the left. The third book shelf from the left is shorter than all the rest."
+  },
+  {
+    "target": 48,
+    "utterance": "This is a brown table with two chairs. There is a third chair at this table that looks as though someone forgot to push back in. This table is in the rear of the room by the book shelves."
+  },
+  {
+    "target": 48,
+    "utterance": "This is a rectangular table. It is in front of many bookshelves."
+  },
+  {
+    "target": 48,
+    "utterance": "This is a tan table. It is against a brown table."
+  },
+  {
+    "target": 48,
+    "utterance": "This is a brown table. There are several tall bookshelves behind it."
+  },
+  {
+    "target": 18,
+    "utterance": "In the corner of the room are boxes. The first two book shelves in the corner to the right of the boxes are the bookshelves we are looking for."
+  },
+  {
+    "target": 18,
+    "utterance": "Tall bookshelf in the corner of the room next to the window with blinds on it. The bookshelf is a double bookshelf and if packed fairly full with books."
+  },
+  {
+    "target": 18,
+    "utterance": "Wooden double bookcase filled with books. Walking into the room it is in the right hand most corner next to the window."
+  },
+  {
+    "target": 18,
+    "utterance": "The bookshelf is in the far right corner of the room. It is behind and to the right of the table."
+  },
+  {
+    "target": 18,
+    "utterance": "The bookshelf is in the corner of the room, on the left side. It is beyond the table and chair. There are many books stored on the bookshelf."
+  },
+  {
+    "target": 20,
+    "utterance": "This is the small bookshelf. The small book shelf is to the right of the door."
+  },
+  {
+    "target": 20,
+    "utterance": "This is a small book shelf. The book shelf is on the right of the door. It is to the left of a brown chair."
+  },
+  {
+    "target": 20,
+    "utterance": "This is a brown bookshelf. It is against a wall next to a door."
+  },
+  {
+    "target": 20,
+    "utterance": "This is a brown bookshelf. It is across from a brown chair."
+  },
+  {
+    "target": 20,
+    "utterance": "It is a grayish bookshelf filled with three rows of books on it. It is on a corner of a room next to a blue trash bin."
+  },
+  {
+    "target": 3,
+    "utterance": "This is the brown arm chair that is at the end of the chalk board. To the left of it there is a small bookshelf,it is brown. To the right of it and at the table is a blue chair.. the brown chair is not under the table it is just next to the table.."
+  },
+  {
+    "target": 3,
+    "utterance": "A broad brown chair with arms. It is very close to the wall."
+  },
+  {
+    "target": 3,
+    "utterance": "It is a brown chair with armrests and four legs. It is directly under a blackboard."
+  },
+  {
+    "target": 3,
+    "utterance": "The chair is under the chalk board. The chair is auburn. It is between a white table and a book shelve. There is also a blue trash can to the left of this chair."
+  },
+  {
+    "target": 19,
+    "utterance": "This is a small bookshelf. It is in the corner of the room. There is a window behind it with white blinds. On the wall is the corner of the chalk board. This shelf is on the right end of the chalk board."
+  },
+  {
+    "target": 19,
+    "utterance": "Ths is a bookshelf. It is next to the chalkboard. There are books on it. On the top shelf of the bookshelf there are two red books."
+  },
+  {
+    "target": 19,
+    "utterance": "The bookshelf is placed in one corner. Lengthy green board can also be seen in the scene."
+  },
+  {
+    "target": 19,
+    "utterance": "This is a three shelf bookcase with books on all shelves and a binder on top. It is located in one corner of the room, between the windows and the chalkboard."
+  },
+  {
+    "target": 19,
+    "utterance": "This is a brown bookshelf. It is next to a green chalkboard."
+  },
+  {
+    "target": 4,
+    "utterance": "Lot of chairs can be seen on the scene. In front of the chair a green board can also be seen."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a wooden chair in black with arms. This chair is second to the corner left chair."
+  },
+  {
+    "target": 4,
+    "utterance": "Medium height blue chair with four wooden legs. Walking into the room it facing away from you on the desk closest to the further corner on the left."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a blue chair. It is at a brown table."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a chair with arms. It is at a table."
+  },
+  {
+    "target": 6,
+    "utterance": "This is a blue chair. It is at a table."
+  },
+  {
+    "target": 6,
+    "utterance": "This is the first blue chair on the left hand side upon entering the door. It is located at a white table directly below the chalkboard."
+  },
+  {
+    "target": 6,
+    "utterance": "This is a blue chair. It is at a white desk."
+  },
+  {
+    "target": 6,
+    "utterance": "This is a blue chair. It is next to a brown chair."
+  },
+  {
+    "target": 6,
+    "utterance": "Blue chair is placed under a white table lying parallel and close to the wall. A green lengthy board can also be seen on the wall in front of the chair."
+  },
+  {
+    "target": 13,
+    "utterance": "This is a tan chair. It is at a rectangular table."
+  },
+  {
+    "target": 13,
+    "utterance": "This is a tan chair. It is next to a burgundy chair."
+  },
+  {
+    "target": 13,
+    "utterance": "There is a light brown chair at the right end of a table with windows directly to its right. It is at the opposite corner of the entry to the room."
+  },
+  {
+    "target": 13,
+    "utterance": "This is a tan chair. It is at a tan table."
+  },
+  {
+    "target": 13,
+    "utterance": "The chair is brown and the 5th chair. The chair is pushed into a long table and has another chair in front of it."
+  },
+  {
+    "target": 50,
+    "utterance": "This is a desk. The desk is under the chalkboard. There are two chairs at the desk, one is brown one is blue. The desk is white."
+  },
+  {
+    "target": 50,
+    "utterance": "A plain table long table. It is kept at the corner of the wall."
+  },
+  {
+    "target": 50,
+    "utterance": "Table is placed closed to the wall. Green colored board can be seen on both sides of the wall. A single seat sofa can also be seen besides the table."
+  },
+  {
+    "target": 50,
+    "utterance": "This is a rectangular table. It is against a wall."
+  },
+  {
+    "target": 50,
+    "utterance": "This is a tan table. It is below a chalkboard."
+  },
+  {
+    "target": 51,
+    "utterance": "This is a wide wooden table. This is kept at the center in between the chairs."
+  },
+  {
+    "target": 51,
+    "utterance": "There is a brown table in the center of the room. This table is a bit larger and darker than the other table next to it."
+  },
+  {
+    "target": 51,
+    "utterance": "It is a wooden table with a stapler and a book on it. There is a chair tucked in under it on both of its long sides."
+  },
+  {
+    "target": 51,
+    "utterance": "This is the table on the right in front of the book cases. It is also in front of the door. It is long and brown."
+  },
+  {
+    "target": 51,
+    "utterance": "This is a brown table. It is in front of a shelf."
+  },
+  {
+    "target": 5,
+    "utterance": "A broad brown chair with arms. It is in the corner of one side of the table."
+  },
+  {
+    "target": 5,
+    "utterance": "A brown with no arms. It is kept at the corner of one side of the table."
+  },
+  {
+    "target": 5,
+    "utterance": "There is a brown chair near the center of the room at a brown table. Its left side faces the window to the room."
+  },
+  {
+    "target": 5,
+    "utterance": "This is a brown leather chair located in the aisle in the middle of the room. It is located by the dark brown table immediately inside the door."
+  },
+  {
+    "target": 5,
+    "utterance": "This is a brown leather chair located under the first dark brown table immediately inside the door. It is on the middle side of the room, relative to the table."
+  },
+  {
+    "target": 10,
+    "utterance": "Short blue chair with wheels situated at a desk. Walking into the room the chair on the left of a desk on the right closest to the right hand corner of the room."
+  },
+  {
+    "target": 10,
+    "utterance": "The chair is located at the left end of the table. It is facing the bookshelf."
+  },
+  {
+    "target": 10,
+    "utterance": "The chair is placed near the table lying parallel to the book shelves. A total of five bookshelves can be seen in the scene."
+  },
+  {
+    "target": 10,
+    "utterance": "This is a chair with no arms. It is facing several large bookshelves."
+  },
+  {
+    "target": 10,
+    "utterance": "This is a blue chair. It is across from large bookshelves."
+  },
+  {
+    "target": 49,
+    "utterance": "This is a long table. It is above some boxes."
+  },
+  {
+    "target": 49,
+    "utterance": "This is a long table. It is under the window."
+  },
+  {
+    "target": 49,
+    "utterance": "This is a long table. It is against the wall."
+  },
+  {
+    "target": 49,
+    "utterance": "This is a long table. It is below windows."
+  }
+]

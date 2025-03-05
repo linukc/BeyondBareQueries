@@ -1,0 +1,406 @@
+[
+  {
+    "target": 28,
+    "utterance": "Another similar window can be seen on the right of this window. A fan is present in front of another window.."
+  },
+  {
+    "target": 28,
+    "utterance": "The window has blinds on it. It is to the right of the bed in the room."
+  },
+  {
+    "target": 28,
+    "utterance": "A window with black shades over it near the corner. It is directly next to the bed."
+  },
+  {
+    "target": 28,
+    "utterance": "This is a square window located above the twin bed in the bedroom. It is covered with closed blinds."
+  },
+  {
+    "target": 28,
+    "utterance": "The window is the leftmost one and is above the bed. The window has a gray, square shape."
+  },
+  {
+    "target": 33,
+    "utterance": "It is a black and silver mini fridge. There is a blue trashcan and a brown desk next to it."
+  },
+  {
+    "target": 33,
+    "utterance": "This is a black mini fridge. A blue trash can is present on the left side of the fridge."
+  },
+  {
+    "target": 33,
+    "utterance": "It is a small black box, probably a refrigerator. It is next to the blue trash can by the door."
+  },
+  {
+    "target": 33,
+    "utterance": "The mini fridge is right of the blue trash can. The mini fridge is a black rectangular box."
+  },
+  {
+    "target": 33,
+    "utterance": "The mini fridge is right of the blue recycling bin. The mini fridge is a black rectangular box."
+  },
+  {
+    "target": 6,
+    "utterance": "The desk chair is brown with a blue cushion. It goes with the brown desk in the image."
+  },
+  {
+    "target": 6,
+    "utterance": "A brown and green chair with white shorts draped over them. It is directly in front of the bed."
+  },
+  {
+    "target": 6,
+    "utterance": "This is a brown chair with a blue cushion. The chair is in front of a desk. There is a yellow piece of paper beneath the chair and a pair of shoes to the left of it."
+  },
+  {
+    "target": 6,
+    "utterance": "This chair is place in front of a table. A pair of shoes are present besides this chair."
+  },
+  {
+    "target": 6,
+    "utterance": "There is a rectangular brown and blue chair. It is in front of a desk against the side of the room."
+  },
+  {
+    "target": 20,
+    "utterance": "The white pillow is on top of the black bed. It is to the left of the brown dresser."
+  },
+  {
+    "target": 20,
+    "utterance": "This is a white pillow located at the top of the bed. It is lying against the wooden bed frame."
+  },
+  {
+    "target": 20,
+    "utterance": "The pillow is on top of a bed that is to the left of a desk and a drawer. The pillow is a white rectangle."
+  },
+  {
+    "target": 20,
+    "utterance": "This is a white pillow at the head of the bed. This bed is tucked in the extended corner of the room. It is on the only bed with a nightstand next to it."
+  },
+  {
+    "target": 20,
+    "utterance": "The pillow is on top of the bed on the northern side. The pillow is white and rectangular."
+  },
+  {
+    "target": 16,
+    "utterance": "The blue trash can is the second trash can from the left. It is to the left of the gray bed."
+  },
+  {
+    "target": 16,
+    "utterance": "The trash can is the rightmost one out of a row of three trash cans next to the bed. The trash can is blue and has a plastic bag on top."
+  },
+  {
+    "target": 16,
+    "utterance": "This is a plastic trash can. It is located on the floor between the bed and the recycling bin."
+  },
+  {
+    "target": 16,
+    "utterance": "This is a blue plastic recycling bin. It is located on the floor between the bed and the trash can."
+  },
+  {
+    "target": 16,
+    "utterance": "The trash can is the closest one to the bed on the left. The trash can is blue with a rectangular shape."
+  },
+  {
+    "target": 19,
+    "utterance": "The pillow is on top of the northern side of the bed. The pillow is a gray rectangle."
+  },
+  {
+    "target": 19,
+    "utterance": "There is a dark grey pillow on the corner of the bed closest to the wall. The pillow is near the headboard on the unmade bed."
+  },
+  {
+    "target": 19,
+    "utterance": "The pillow is on top of the northern side of the bed. The pillow is a dull gray rectangle."
+  },
+  {
+    "target": 19,
+    "utterance": "This is a gray pillow. It is at the head of the bed on the wall underneath the windows."
+  },
+  {
+    "target": 19,
+    "utterance": "The pillow is on top of the bed on the northern side. The pillow is a dully gray color with a rectangular shape."
+  },
+  {
+    "target": 5,
+    "utterance": "A black bed with one pillow and blue sheets on top. Its next to a wooden desk in the corner of the room."
+  },
+  {
+    "target": 5,
+    "utterance": "This is a bed located along the same wall as the two windows. It has blue sheets and a white pillow."
+  },
+  {
+    "target": 5,
+    "utterance": "This is a bed with grey sheets and a blue cover. The bed is placed up against the only wall with windows."
+  },
+  {
+    "target": 5,
+    "utterance": "The bed is to the right of the row of trash cans. The bed has four legs and a blue mattress."
+  },
+  {
+    "target": 5,
+    "utterance": "There is a rectangular brown bed with gray sheets. It is by the side of the room next to some windows."
+  },
+  {
+    "target": 29,
+    "utterance": "A window in the corner of the room with black drapes covering it. It is near the shelf and the bed."
+  },
+  {
+    "target": 29,
+    "utterance": "This is a square window on the same wall as the bed. It is covered with closed blinds and located above a desk/dresser."
+  },
+  {
+    "target": 29,
+    "utterance": "The window is right above the desk with the shelf. The window is closed and looks like a gray rectangle."
+  },
+  {
+    "target": 29,
+    "utterance": "There is a long rectangular window. It is on the wall by the side of the room behind a gray fan."
+  },
+  {
+    "target": 29,
+    "utterance": "The window is above the desk. The window is a grey rectangular shape."
+  },
+  {
+    "target": 7,
+    "utterance": "There is a chair in front of the desk. The chair is covered in clothing."
+  },
+  {
+    "target": 7,
+    "utterance": "This is a desk chair sitting next to the desk. It is covered in laundry."
+  },
+  {
+    "target": 7,
+    "utterance": "This is a desk chair sitting next to a desk in the center of the room. It is covered with laundry."
+  },
+  {
+    "target": 7,
+    "utterance": "A chair with a shirt or jacket hanging over it. It is in front of the desk without the fan on it."
+  },
+  {
+    "target": 7,
+    "utterance": "The chair is right next to the desk. The chair has four legs and a brown color."
+  },
+  {
+    "target": 21,
+    "utterance": "There is a black mini-fridge to the left of the bed. The mini fridge is to the left of the trash cans."
+  },
+  {
+    "target": 21,
+    "utterance": "This is a black mini-fridge. It is located along the wall next to the trash can and recycling bin."
+  },
+  {
+    "target": 21,
+    "utterance": "This is a black mini-fridge. It is located along the wall adjacent to the bed, next to the trash can and the recycling bin."
+  },
+  {
+    "target": 21,
+    "utterance": "This is a black mini-fridge. It is along the wall adjacent to the bed, between the bed and the door."
+  },
+  {
+    "target": 21,
+    "utterance": "Mini fridge is kept close to the wall. Two trash can are present on the right side of the fridge."
+  },
+  {
+    "target": 24,
+    "utterance": "The dark door is in the corner of the room. The door has brass fixtures and is to the left of the bed."
+  },
+  {
+    "target": 24,
+    "utterance": "There is a dark door to the left of the bed. The door has brass hardware and is next to the mini-fridge."
+  },
+  {
+    "target": 24,
+    "utterance": "As you enter through this door a mini fridge is present on the left side. Another mini fridge in front of this door is also present."
+  },
+  {
+    "target": 24,
+    "utterance": "The door is right of the mini fridge. The door is a dark brown rectangle."
+  },
+  {
+    "target": 42,
+    "utterance": "The shelf is on top of the desk between the bed and closet. The shelf is brown and has two sections."
+  },
+  {
+    "target": 42,
+    "utterance": "The shelf if on top of the desk. It is to the right of the ventilator."
+  },
+  {
+    "target": 42,
+    "utterance": "This is a three tiered shelf on top of a desk. The desk beneath the shelf is to the right of the end of the bed against the wall with windows."
+  },
+  {
+    "target": 42,
+    "utterance": "This is a wooden shelf. It is on top of the desk that is on the opposite wall from the bed."
+  },
+  {
+    "target": 42,
+    "utterance": "The shelf is between the bed and closet. The shelf is rectangular and has two legs."
+  },
+  {
+    "target": 13,
+    "utterance": "The desk is between the bed and the closest. The desk is brown and has multiple drawers."
+  },
+  {
+    "target": 13,
+    "utterance": "This is a wooden desk. It is along the wall opposite from the bed."
+  },
+  {
+    "target": 13,
+    "utterance": "The desk is between two beds. The desk is a deep brown color with a rectangular shape."
+  },
+  {
+    "target": 13,
+    "utterance": "This table is in front of a closet. A table fan is present on this table."
+  },
+  {
+    "target": 13,
+    "utterance": "A desk that is brown and has three drawers on its left side. It is is opposite the other desk and has a small fan on it."
+  },
+  {
+    "target": 0,
+    "utterance": "This is a twin bed located along the wall in the bedroom. It has a dark wooden frame and is covered in a blue sheet set."
+  },
+  {
+    "target": 0,
+    "utterance": "The bed is to the left of a desk. The bed has four legs and a dark blue mattress."
+  },
+  {
+    "target": 0,
+    "utterance": "This is a bed located in the corner of the bedroom along the same wall as the closet door. There is a white pillow at the head of the bed."
+  },
+  {
+    "target": 0,
+    "utterance": "Bed is lying parallel to the wall and attached to the wall. A night stand is on right side of the bed."
+  },
+  {
+    "target": 0,
+    "utterance": "The bed is left of a nightstand in a corner of the room. The bed has a dark blue, rectangular shape."
+  },
+  {
+    "target": 14,
+    "utterance": "This is a wooden desk located in the bedroom. It is covered in personal items. It is located on a wall adjacent to the bed."
+  },
+  {
+    "target": 14,
+    "utterance": "This is a brown wooden desk. It is located along the wall opposite the bed, next to the bedroom door."
+  },
+  {
+    "target": 14,
+    "utterance": "The desk is between two beds. The desk is a orange brown rectangular prism."
+  },
+  {
+    "target": 14,
+    "utterance": "The desk is against the wall. It is located to the left of the door. There is a chair partially pulled into the desk."
+  },
+  {
+    "target": 14,
+    "utterance": "This is a brown wooden desk. It is located along the same wall as the bedroom door. It is covered in personal items."
+  },
+  {
+    "target": 18,
+    "utterance": "The nightstand is to the right of a bed in the corner of the room. The nightstand is a brown prism."
+  },
+  {
+    "target": 18,
+    "utterance": "The nightstand is to the right of a bed in a corner of the room. The nightstand is brown and boxy."
+  },
+  {
+    "target": 18,
+    "utterance": "The nightstand is to the right of the bed in the corner. The nightstand is a brown square box."
+  },
+  {
+    "target": 18,
+    "utterance": "This night stand is in one corner of the room. A bed is present on the left side close to this night stand."
+  },
+  {
+    "target": 18,
+    "utterance": "The nightstand is right of a bed in the corner. The nightstand is a brown boxy shape."
+  },
+  {
+    "target": 34,
+    "utterance": "The trash can is between the desk and mini fridge. The trash can is blue and rectangular."
+  },
+  {
+    "target": 34,
+    "utterance": "The trash can is on the floor, and is blue in color. It is to the right of the desk."
+  },
+  {
+    "target": 34,
+    "utterance": "This is a blue recycling bin located between the desk and the mini-fridge. It is along the same wall as the bedroom door."
+  },
+  {
+    "target": 34,
+    "utterance": "This is a blue recycling bin. The bin is between the desk and the black mini fridge. This is visible when walking through the door and looking to the right."
+  },
+  {
+    "target": 34,
+    "utterance": "The trash can is right of the desk. The trash can is blue with a rectangular shape."
+  },
+  {
+    "target": 41,
+    "utterance": "This is a cushion located on the floor next to the open closet door. It is on the floor at the foot of the bed."
+  },
+  {
+    "target": 41,
+    "utterance": "The cushion is located on a pile of stuff at the foot of the bed. It is beyond the chair, and before the closet."
+  },
+  {
+    "target": 41,
+    "utterance": "The cushion is between the bed and the desk. The cushion is white, gray, and rectangular."
+  },
+  {
+    "target": 41,
+    "utterance": "The cushion is between the desk and the bed. The cushion is a white rectangle."
+  },
+  {
+    "target": 41,
+    "utterance": "The cushion is between the desk and bed. The cushion is a dirty white color with a rectangular shape."
+  },
+  {
+    "target": 17,
+    "utterance": "This is a plastic trash can. It is located on the floor between the mini-fridge and the bed."
+  },
+  {
+    "target": 17,
+    "utterance": "The trash can is to the left of the blue trash can that is left of the bed. The trash can is a gray prism."
+  },
+  {
+    "target": 17,
+    "utterance": "The trash can is on the floor. It is to the left of the blue trash can."
+  },
+  {
+    "target": 17,
+    "utterance": "The trash can is left of the blue trash can. The trash can is a gray rectangular prism."
+  },
+  {
+    "target": 17,
+    "utterance": "A small beige trash can with a trash bag in it. Its next to the blue trash can by the bed."
+  },
+  {
+    "target": 3,
+    "utterance": "This is an open closet door. It is between the bed and the desk."
+  },
+  {
+    "target": 3,
+    "utterance": "The door is between a bed and the closet. The door is a dark brown rectangle with a metallic knob."
+  },
+  {
+    "target": 9,
+    "utterance": "This is a desk fan. It is on top of the desk underneath the window on the right."
+  },
+  {
+    "target": 9,
+    "utterance": "This fan is kept on the table. A bed is present in front of it."
+  },
+  {
+    "target": 9,
+    "utterance": "There is a circular gray fan. It is on a table next to a bed and in front of a window by the side of the room."
+  },
+  {
+    "target": 9,
+    "utterance": "There is a circular gray fan. It rests on top of a table by the windows near the side of the room."
+  },
+  {
+    "target": 9,
+    "utterance": "A small round common type desk fan. It is sitting on the left side of the desk at the end of the bunk bed."
+  }
+]

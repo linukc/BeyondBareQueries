@@ -1,0 +1,800 @@
+[
+  {
+    "id": 0,
+    "bbox_center": [
+      1.52,
+      3.195,
+      1.455
+    ],
+    "bbox_extent": [
+      0.464,
+      0.223,
+      0.561
+    ],
+    "object_tag": "picture"
+  },
+  {
+    "id": 1,
+    "bbox_center": [
+      1.866,
+      1.448,
+      0.462
+    ],
+    "bbox_extent": [
+      0.668,
+      0.637,
+      0.825
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 2,
+    "bbox_center": [
+      4.964,
+      3.79,
+      0.399
+    ],
+    "bbox_extent": [
+      1.17,
+      1.556,
+      0.701
+    ],
+    "object_tag": "bathtub"
+  },
+  {
+    "id": 3,
+    "bbox_center": [
+      2.191,
+      2.981,
+      0.558
+    ],
+    "bbox_extent": [
+      2.799,
+      1.735,
+      0.984
+    ],
+    "object_tag": "bed"
+  },
+  {
+    "id": 4,
+    "bbox_center": [
+      0.592,
+      2.377,
+      1.034
+    ],
+    "bbox_extent": [
+      0.899,
+      0.935,
+      1.978
+    ],
+    "object_tag": "wardrobe"
+  },
+  {
+    "id": 5,
+    "bbox_center": [
+      3.095,
+      2.063,
+      0.149
+    ],
+    "bbox_extent": [
+      5.515,
+      3.882,
+      0.288
+    ],
+    "object_tag": "floor"
+  },
+  {
+    "id": 6,
+    "bbox_center": [
+      2.14,
+      0.816,
+      0.461
+    ],
+    "bbox_extent": [
+      1.373,
+      1.013,
+      0.836
+    ],
+    "object_tag": "desk"
+  },
+  {
+    "id": 7,
+    "bbox_center": [
+      0.813,
+      1.481,
+      2.404
+    ],
+    "bbox_extent": [
+      1.612,
+      2.96,
+      0.102
+    ],
+    "object_tag": "ceiling"
+  },
+  {
+    "id": 8,
+    "bbox_center": [
+      0.085,
+      2.286,
+      2.194
+    ],
+    "bbox_extent": [
+      0.168,
+      0.438,
+      0.352
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 9,
+    "bbox_center": [
+      1.547,
+      3.176,
+      1.731
+    ],
+    "bbox_extent": [
+      3.079,
+      1.422,
+      1.392
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 10,
+    "bbox_center": [
+      3.553,
+      2.612,
+      1.166
+    ],
+    "bbox_extent": [
+      1.117,
+      2.531,
+      2.214
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 11,
+    "bbox_center": [
+      2.034,
+      0.888,
+      0.902
+    ],
+    "bbox_extent": [
+      0.526,
+      0.497,
+      0.37
+    ],
+    "object_tag": "laptop"
+  },
+  {
+    "id": 12,
+    "bbox_center": [
+      1.776,
+      0.464,
+      0.805
+    ],
+    "bbox_extent": [
+      0.16,
+      0.109,
+      0.06
+    ],
+    "object_tag": "stick"
+  },
+  {
+    "id": 13,
+    "bbox_center": [
+      1.814,
+      0.606,
+      0.801
+    ],
+    "bbox_extent": [
+      0.1,
+      0.146,
+      0.044
+    ],
+    "object_tag": "luggage stand"
+  },
+  {
+    "id": 14,
+    "bbox_center": [
+      2.543,
+      1.152,
+      0.841
+    ],
+    "bbox_extent": [
+      0.269,
+      0.301,
+      0.173
+    ],
+    "object_tag": "stick"
+  },
+  {
+    "id": 15,
+    "bbox_center": [
+      2.629,
+      0.838,
+      0.851
+    ],
+    "bbox_extent": [
+      0.224,
+      0.143,
+      0.163
+    ],
+    "object_tag": "stick"
+  },
+  {
+    "id": 16,
+    "bbox_center": [
+      1.447,
+      0.482,
+      0.062
+    ],
+    "bbox_extent": [
+      0.256,
+      0.229,
+      0.042
+    ],
+    "object_tag": "lamp"
+  },
+  {
+    "id": 17,
+    "bbox_center": [
+      1.027,
+      1.005,
+      0.202
+    ],
+    "bbox_extent": [
+      0.806,
+      0.953,
+      0.335
+    ],
+    "object_tag": "suitcase"
+  },
+  {
+    "id": 18,
+    "bbox_center": [
+      1.511,
+      1.048,
+      0.238
+    ],
+    "bbox_extent": [
+      0.545,
+      0.439,
+      0.386
+    ],
+    "object_tag": "backpack"
+  },
+  {
+    "id": 19,
+    "bbox_center": [
+      3.048,
+      1.148,
+      0.271
+    ],
+    "bbox_extent": [
+      0.745,
+      0.678,
+      0.49
+    ],
+    "object_tag": "table"
+  },
+  {
+    "id": 20,
+    "bbox_center": [
+      3.428,
+      1.132,
+      1.211
+    ],
+    "bbox_extent": [
+      4.982,
+      2.274,
+      2.406
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 21,
+    "bbox_center": [
+      5.724,
+      2.667,
+      1.067
+    ],
+    "bbox_extent": [
+      0.392,
+      0.885,
+      1.967
+    ],
+    "object_tag": "door"
+  },
+  {
+    "id": 22,
+    "bbox_center": [
+      4.633,
+      2.638,
+      1.236
+    ],
+    "bbox_extent": [
+      1.923,
+      0.947,
+      2.39
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 23,
+    "bbox_center": [
+      4.821,
+      2.8,
+      1.085
+    ],
+    "bbox_extent": [
+      0.106,
+      0.047,
+      0.103
+    ],
+    "object_tag": "light switch"
+  },
+  {
+    "id": 24,
+    "bbox_center": [
+      4.282,
+      2.67,
+      1.059
+    ],
+    "bbox_extent": [
+      0.728,
+      0.464,
+      2.065
+    ],
+    "object_tag": "doorframe"
+  },
+  {
+    "id": 25,
+    "bbox_center": [
+      3.887,
+      2.361,
+      0.674
+    ],
+    "bbox_extent": [
+      0.201,
+      0.262,
+      1.273
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 26,
+    "bbox_center": [
+      3.873,
+      2.917,
+      1.047
+    ],
+    "bbox_extent": [
+      0.188,
+      0.655,
+      2.059
+    ],
+    "object_tag": "door"
+  },
+  {
+    "id": 27,
+    "bbox_center": [
+      3.277,
+      3.611,
+      1.292
+    ],
+    "bbox_extent": [
+      0.252,
+      0.596,
+      1.98
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 28,
+    "bbox_center": [
+      3.384,
+      3.978,
+      1.823
+    ],
+    "bbox_extent": [
+      0.507,
+      0.245,
+      1.273
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 29,
+    "bbox_center": [
+      3.832,
+      3.872,
+      1.265
+    ],
+    "bbox_extent": [
+      1.186,
+      0.701,
+      2.391
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 30,
+    "bbox_center": [
+      3.765,
+      3.416,
+      0.081
+    ],
+    "bbox_extent": [
+      0.498,
+      0.479,
+      0.073
+    ],
+    "object_tag": "mat"
+  },
+  {
+    "id": 31,
+    "bbox_center": [
+      3.586,
+      3.489,
+      0.565
+    ],
+    "bbox_extent": [
+      0.496,
+      0.552,
+      0.754
+    ],
+    "object_tag": "toilet"
+  },
+  {
+    "id": 32,
+    "bbox_center": [
+      3.537,
+      3.695,
+      1.064
+    ],
+    "bbox_extent": [
+      0.382,
+      0.185,
+      0.21
+    ],
+    "object_tag": "toilet flush button"
+  },
+  {
+    "id": 33,
+    "bbox_center": [
+      3.26,
+      3.814,
+      1.226
+    ],
+    "bbox_extent": [
+      0.129,
+      0.177,
+      0.146
+    ],
+    "object_tag": "toilet paper"
+  },
+  {
+    "id": 34,
+    "bbox_center": [
+      3.466,
+      3.759,
+      1.197
+    ],
+    "bbox_extent": [
+      0.415,
+      0.335,
+      0.046
+    ],
+    "object_tag": "ledge"
+  },
+  {
+    "id": 35,
+    "bbox_center": [
+      3.81,
+      3.821,
+      1.614
+    ],
+    "bbox_extent": [
+      0.089,
+      0.09,
+      0.672
+    ],
+    "object_tag": "light"
+  },
+  {
+    "id": 36,
+    "bbox_center": [
+      3.907,
+      3.603,
+      0.625
+    ],
+    "bbox_extent": [
+      0.315,
+      0.411,
+      0.512
+    ],
+    "object_tag": "towel"
+  },
+  {
+    "id": 37,
+    "bbox_center": [
+      4.202,
+      3.828,
+      0.841
+    ],
+    "bbox_extent": [
+      0.68,
+      0.641,
+      0.198
+    ],
+    "object_tag": "sink"
+  },
+  {
+    "id": 38,
+    "bbox_center": [
+      4.251,
+      3.988,
+      0.977
+    ],
+    "bbox_extent": [
+      0.071,
+      0.102,
+      0.176
+    ],
+    "object_tag": "stick"
+  },
+  {
+    "id": 39,
+    "bbox_center": [
+      4.109,
+      4.008,
+      1.598
+    ],
+    "bbox_extent": [
+      0.488,
+      0.235,
+      0.636
+    ],
+    "object_tag": "mirror"
+  },
+  {
+    "id": 40,
+    "bbox_center": [
+      4.167,
+      3.943,
+      1.216
+    ],
+    "bbox_extent": [
+      0.494,
+      0.348,
+      0.089
+    ],
+    "object_tag": "ledge"
+  },
+  {
+    "id": 41,
+    "bbox_center": [
+      3.986,
+      3.815,
+      1.3
+    ],
+    "bbox_extent": [
+      0.088,
+      0.093,
+      0.167
+    ],
+    "object_tag": "stick"
+  },
+  {
+    "id": 42,
+    "bbox_center": [
+      4.017,
+      3.908,
+      1.288
+    ],
+    "bbox_extent": [
+      0.083,
+      0.111,
+      0.111
+    ],
+    "object_tag": "stick"
+  },
+  {
+    "id": 43,
+    "bbox_center": [
+      4.294,
+      4.063,
+      2.305
+    ],
+    "bbox_extent": [
+      0.133,
+      0.048,
+      0.16
+    ],
+    "object_tag": "vent"
+  },
+  {
+    "id": 44,
+    "bbox_center": [
+      4.585,
+      3.789,
+      1.474
+    ],
+    "bbox_extent": [
+      0.475,
+      0.878,
+      1.947
+    ],
+    "object_tag": "shower curtain"
+  },
+  {
+    "id": 45,
+    "bbox_center": [
+      5.245,
+      3.909,
+      1.55
+    ],
+    "bbox_extent": [
+      0.72,
+      1.327,
+      1.866
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 46,
+    "bbox_center": [
+      5.073,
+      3.07,
+      1.339
+    ],
+    "bbox_extent": [
+      0.821,
+      0.377,
+      1.442
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 47,
+    "bbox_center": [
+      3.059,
+      3.289,
+      0.648
+    ],
+    "bbox_extent": [
+      0.523,
+      0.742,
+      0.135
+    ],
+    "object_tag": "pillow"
+  },
+  {
+    "id": 48,
+    "bbox_center": [
+      3.134,
+      1.629,
+      0.086
+    ],
+    "bbox_extent": [
+      0.448,
+      0.494,
+      0.097
+    ],
+    "object_tag": "shoe"
+  },
+  {
+    "id": 49,
+    "bbox_center": [
+      2.75,
+      1.505,
+      0.113
+    ],
+    "bbox_extent": [
+      0.498,
+      0.275,
+      0.137
+    ],
+    "object_tag": "shoe"
+  },
+  {
+    "id": 50,
+    "bbox_center": [
+      3.681,
+      1.431,
+      0.088
+    ],
+    "bbox_extent": [
+      0.52,
+      0.555,
+      0.148
+    ],
+    "object_tag": "backpack"
+  },
+  {
+    "id": 51,
+    "bbox_center": [
+      3.568,
+      1.41,
+      0.088
+    ],
+    "bbox_extent": [
+      0.856,
+      0.637,
+      0.154
+    ],
+    "object_tag": "clothes"
+  },
+  {
+    "id": 52,
+    "bbox_center": [
+      1.009,
+      2.019,
+      0.182
+    ],
+    "bbox_extent": [
+      0.477,
+      0.385,
+      0.275
+    ],
+    "object_tag": "backpack"
+  },
+  {
+    "id": 53,
+    "bbox_center": [
+      1.119,
+      2.677,
+      1.356
+    ],
+    "bbox_extent": [
+      0.316,
+      0.472,
+      0.367
+    ],
+    "object_tag": "tv"
+  },
+  {
+    "id": 54,
+    "bbox_center": [
+      1.105,
+      2.645,
+      0.547
+    ],
+    "bbox_extent": [
+      0.515,
+      0.583,
+      0.504
+    ],
+    "object_tag": "nightstand"
+  },
+  {
+    "id": 55,
+    "bbox_center": [
+      1.033,
+      2.65,
+      0.859
+    ],
+    "bbox_extent": [
+      0.302,
+      0.293,
+      0.202
+    ],
+    "object_tag": "stick"
+  },
+  {
+    "id": 56,
+    "bbox_center": [
+      0.612,
+      1.036,
+      1.206
+    ],
+    "bbox_extent": [
+      1.072,
+      2.079,
+      2.362
+    ],
+    "object_tag": "curtain"
+  }
+]

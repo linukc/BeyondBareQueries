@@ -1,0 +1,1262 @@
+[
+  {
+    "id": 0,
+    "bbox_center": [
+      3.452,
+      4.79,
+      0.505
+    ],
+    "bbox_extent": [
+      0.452,
+      0.63,
+      0.776
+    ],
+    "object_tag": "office chair"
+  },
+  {
+    "id": 1,
+    "bbox_center": [
+      3.614,
+      3.761,
+      0.487
+    ],
+    "bbox_extent": [
+      0.521,
+      0.617,
+      0.825
+    ],
+    "object_tag": "office chair"
+  },
+  {
+    "id": 2,
+    "bbox_center": [
+      4.297,
+      4.007,
+      0.431
+    ],
+    "bbox_extent": [
+      0.537,
+      0.785,
+      0.79
+    ],
+    "object_tag": "office chair"
+  },
+  {
+    "id": 3,
+    "bbox_center": [
+      0.601,
+      2.305,
+      0.468
+    ],
+    "bbox_extent": [
+      0.766,
+      0.755,
+      0.767
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 4,
+    "bbox_center": [
+      3.202,
+      4.234,
+      0.458
+    ],
+    "bbox_extent": [
+      0.778,
+      0.986,
+      0.852
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 5,
+    "bbox_center": [
+      2.857,
+      2.594,
+      0.464
+    ],
+    "bbox_extent": [
+      0.542,
+      0.592,
+      0.759
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 6,
+    "bbox_center": [
+      0.947,
+      3.252,
+      0.406
+    ],
+    "bbox_extent": [
+      0.7,
+      0.603,
+      0.776
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 7,
+    "bbox_center": [
+      5.15,
+      4.523,
+      0.492
+    ],
+    "bbox_extent": [
+      0.646,
+      0.569,
+      0.778
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 8,
+    "bbox_center": [
+      4.047,
+      1.504,
+      0.61
+    ],
+    "bbox_extent": [
+      0.571,
+      0.639,
+      0.403
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 9,
+    "bbox_center": [
+      4.289,
+      2.617,
+      0.605
+    ],
+    "bbox_extent": [
+      0.689,
+      0.647,
+      0.486
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 10,
+    "bbox_center": [
+      4.552,
+      1.902,
+      0.639
+    ],
+    "bbox_extent": [
+      0.535,
+      0.557,
+      0.502
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 11,
+    "bbox_center": [
+      1.027,
+      3.839,
+      0.412
+    ],
+    "bbox_extent": [
+      0.804,
+      0.5,
+      0.811
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 12,
+    "bbox_center": [
+      2.508,
+      4.389,
+      0.598
+    ],
+    "bbox_extent": [
+      0.53,
+      0.584,
+      0.398
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 13,
+    "bbox_center": [
+      4.925,
+      3.91,
+      0.504
+    ],
+    "bbox_extent": [
+      0.57,
+      0.664,
+      0.686
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 14,
+    "bbox_center": [
+      2.701,
+      5.146,
+      0.607
+    ],
+    "bbox_extent": [
+      0.37,
+      0.24,
+      0.51
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 15,
+    "bbox_center": [
+      2.563,
+      1.925,
+      0.614
+    ],
+    "bbox_extent": [
+      0.607,
+      0.627,
+      0.411
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 16,
+    "bbox_center": [
+      3.146,
+      3.334,
+      0.124
+    ],
+    "bbox_extent": [
+      5.65,
+      5.815,
+      0.253
+    ],
+    "object_tag": "floor"
+  },
+  {
+    "id": 17,
+    "bbox_center": [
+      2.555,
+      0.954,
+      1.075
+    ],
+    "bbox_extent": [
+      1.145,
+      0.549,
+      2.025
+    ],
+    "object_tag": "bookshelf"
+  },
+  {
+    "id": 18,
+    "bbox_center": [
+      4.934,
+      0.376,
+      1.047
+    ],
+    "bbox_extent": [
+      2.067,
+      0.667,
+      2.032
+    ],
+    "object_tag": "bookshelf"
+  },
+  {
+    "id": 19,
+    "bbox_center": [
+      6.56,
+      5.074,
+      0.58
+    ],
+    "bbox_extent": [
+      0.579,
+      0.98,
+      1.089
+    ],
+    "object_tag": "bookshelf"
+  },
+  {
+    "id": 20,
+    "bbox_center": [
+      0.551,
+      1.129,
+      0.623
+    ],
+    "bbox_extent": [
+      1.037,
+      0.435,
+      1.198
+    ],
+    "object_tag": "bookshelf"
+  },
+  {
+    "id": 21,
+    "bbox_center": [
+      3.873,
+      5.92,
+      1.561
+    ],
+    "bbox_extent": [
+      5.617,
+      1.015,
+      1.278
+    ],
+    "object_tag": "blackboard"
+  },
+  {
+    "id": 22,
+    "bbox_center": [
+      0.55,
+      3.827,
+      1.539
+    ],
+    "bbox_extent": [
+      0.853,
+      3.831,
+      1.443
+    ],
+    "object_tag": "blackboard"
+  },
+  {
+    "id": 23,
+    "bbox_center": [
+      0.654,
+      1.156,
+      0.237
+    ],
+    "bbox_extent": [
+      0.777,
+      0.356,
+      0.41
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 24,
+    "bbox_center": [
+      0.592,
+      1.14,
+      0.616
+    ],
+    "bbox_extent": [
+      0.879,
+      0.371,
+      0.368
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 25,
+    "bbox_center": [
+      0.581,
+      1.192,
+      0.956
+    ],
+    "bbox_extent": [
+      0.86,
+      0.303,
+      0.266
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 26,
+    "bbox_center": [
+      6.718,
+      4.557,
+      1.535
+    ],
+    "bbox_extent": [
+      0.373,
+      1.943,
+      1.236
+    ],
+    "object_tag": "window"
+  },
+  {
+    "id": 27,
+    "bbox_center": [
+      6.123,
+      0.987,
+      1.743
+    ],
+    "bbox_extent": [
+      0.536,
+      1.948,
+      1.546
+    ],
+    "object_tag": "window"
+  },
+  {
+    "id": 28,
+    "bbox_center": [
+      3.958,
+      5.928,
+      1.264
+    ],
+    "bbox_extent": [
+      5.709,
+      1.027,
+      2.441
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 29,
+    "bbox_center": [
+      0.57,
+      0.992,
+      1.218
+    ],
+    "bbox_extent": [
+      1.112,
+      0.351,
+      2.35
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 30,
+    "bbox_center": [
+      0.581,
+      3.798,
+      1.195
+    ],
+    "bbox_extent": [
+      1.176,
+      5.284,
+      2.356
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 31,
+    "bbox_center": [
+      4.591,
+      0.255,
+      2.204
+    ],
+    "bbox_extent": [
+      2.563,
+      0.501,
+      0.582
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 32,
+    "bbox_center": [
+      3.632,
+      0.6,
+      1.836
+    ],
+    "bbox_extent": [
+      0.614,
+      0.413,
+      0.577
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 33,
+    "bbox_center": [
+      5.672,
+      1.866,
+      0.707
+    ],
+    "bbox_extent": [
+      0.43,
+      0.544,
+      0.111
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 34,
+    "bbox_center": [
+      6.039,
+      3.71,
+      0.179
+    ],
+    "bbox_extent": [
+      0.742,
+      0.381,
+      0.3
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 35,
+    "bbox_center": [
+      6.378,
+      4.027,
+      0.835
+    ],
+    "bbox_extent": [
+      0.371,
+      0.566,
+      0.308
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 36,
+    "bbox_center": [
+      5.936,
+      1.882,
+      0.125
+    ],
+    "bbox_extent": [
+      0.561,
+      0.449,
+      0.246
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 37,
+    "bbox_center": [
+      6.068,
+      2.611,
+      0.128
+    ],
+    "bbox_extent": [
+      0.5,
+      0.365,
+      0.232
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 38,
+    "bbox_center": [
+      5.927,
+      2.948,
+      0.068
+    ],
+    "bbox_extent": [
+      0.468,
+      0.376,
+      0.089
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 39,
+    "bbox_center": [
+      5.986,
+      2.219,
+      0.066
+    ],
+    "bbox_extent": [
+      0.456,
+      0.417,
+      0.116
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 40,
+    "bbox_center": [
+      6.205,
+      3.064,
+      0.776
+    ],
+    "bbox_extent": [
+      0.347,
+      0.322,
+      0.17
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 41,
+    "bbox_center": [
+      6.246,
+      3.361,
+      0.791
+    ],
+    "bbox_extent": [
+      0.323,
+      0.38,
+      0.22
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 42,
+    "bbox_center": [
+      6.368,
+      3.626,
+      0.837
+    ],
+    "bbox_extent": [
+      0.496,
+      0.357,
+      0.32
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 43,
+    "bbox_center": [
+      6.146,
+      2.528,
+      0.761
+    ],
+    "bbox_extent": [
+      0.385,
+      0.313,
+      0.156
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 44,
+    "bbox_center": [
+      6.206,
+      2.79,
+      0.735
+    ],
+    "bbox_extent": [
+      0.38,
+      0.311,
+      0.103
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 45,
+    "bbox_center": [
+      6.088,
+      2.285,
+      0.734
+    ],
+    "bbox_extent": [
+      0.374,
+      0.294,
+      0.104
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 46,
+    "bbox_center": [
+      6.061,
+      1.999,
+      0.749
+    ],
+    "bbox_extent": [
+      0.4,
+      0.383,
+      0.132
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 47,
+    "bbox_center": [
+      3.796,
+      4.389,
+      0.471
+    ],
+    "bbox_extent": [
+      3.72,
+      1.592,
+      0.714
+    ],
+    "object_tag": "table"
+  },
+  {
+    "id": 48,
+    "bbox_center": [
+      4.155,
+      1.754,
+      0.747
+    ],
+    "bbox_extent": [
+      1.631,
+      1.105,
+      0.111
+    ],
+    "object_tag": "table"
+  },
+  {
+    "id": 49,
+    "bbox_center": [
+      5.891,
+      3.104,
+      0.39
+    ],
+    "bbox_extent": [
+      1.003,
+      3.148,
+      0.716
+    ],
+    "object_tag": "table"
+  },
+  {
+    "id": 50,
+    "bbox_center": [
+      0.844,
+      3.471,
+      0.383
+    ],
+    "bbox_extent": [
+      1.047,
+      1.68,
+      0.755
+    ],
+    "object_tag": "table"
+  },
+  {
+    "id": 51,
+    "bbox_center": [
+      2.535,
+      2.317,
+      0.73
+    ],
+    "bbox_extent": [
+      1.938,
+      1.34,
+      0.243
+    ],
+    "object_tag": "table"
+  },
+  {
+    "id": 52,
+    "bbox_center": [
+      1.422,
+      5.482,
+      0.557
+    ],
+    "bbox_extent": [
+      1.096,
+      1.22,
+      1.02
+    ],
+    "object_tag": "armchair"
+  },
+  {
+    "id": 53,
+    "bbox_center": [
+      1.493,
+      0.719,
+      1.219
+    ],
+    "bbox_extent": [
+      0.917,
+      0.246,
+      2.363
+    ],
+    "object_tag": "door"
+  },
+  {
+    "id": 54,
+    "bbox_center": [
+      6.287,
+      4.443,
+      0.75
+    ],
+    "bbox_extent": [
+      0.68,
+      0.394,
+      0.134
+    ],
+    "object_tag": "paper"
+  },
+  {
+    "id": 55,
+    "bbox_center": [
+      5.854,
+      3.409,
+      0.204
+    ],
+    "bbox_extent": [
+      0.49,
+      0.349,
+      0.337
+    ],
+    "object_tag": "bag"
+  },
+  {
+    "id": 56,
+    "bbox_center": [
+      3.791,
+      5.921,
+      2.291
+    ],
+    "bbox_extent": [
+      0.312,
+      0.116,
+      0.325
+    ],
+    "object_tag": "clock"
+  },
+  {
+    "id": 57,
+    "bbox_center": [
+      0.334,
+      1.447,
+      0.228
+    ],
+    "bbox_extent": [
+      0.305,
+      0.652,
+      0.367
+    ],
+    "object_tag": "trash can"
+  },
+  {
+    "id": 58,
+    "bbox_center": [
+      6.53,
+      2.939,
+      1.181
+    ],
+    "bbox_extent": [
+      0.301,
+      1.385,
+      0.441
+    ],
+    "object_tag": "window"
+  },
+  {
+    "id": 59,
+    "bbox_center": [
+      6.288,
+      2.388,
+      0.862
+    ],
+    "bbox_extent": [
+      0.785,
+      4.405,
+      0.331
+    ],
+    "object_tag": "windowsill"
+  },
+  {
+    "id": 60,
+    "bbox_center": [
+      6.031,
+      0.91,
+      0.638
+    ],
+    "bbox_extent": [
+      0.235,
+      1.277,
+      0.35
+    ],
+    "object_tag": "shower wall"
+  },
+  {
+    "id": 61,
+    "bbox_center": [
+      5.767,
+      0.632,
+      0.559
+    ],
+    "bbox_extent": [
+      0.521,
+      0.573,
+      0.241
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 62,
+    "bbox_center": [
+      5.826,
+      1.083,
+      0.547
+    ],
+    "bbox_extent": [
+      0.524,
+      0.425,
+      0.277
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 63,
+    "bbox_center": [
+      5.791,
+      1.42,
+      0.437
+    ],
+    "bbox_extent": [
+      0.339,
+      0.457,
+      0.292
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 64,
+    "bbox_center": [
+      5.004,
+      0.179,
+      2.492
+    ],
+    "bbox_extent": [
+      1.786,
+      0.34,
+      0.057
+    ],
+    "object_tag": "ceiling"
+  },
+  {
+    "id": 65,
+    "bbox_center": [
+      3.313,
+      0.552,
+      1.771
+    ],
+    "bbox_extent": [
+      0.098,
+      0.194,
+      1.394
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 66,
+    "bbox_center": [
+      3.692,
+      0.626,
+      1.355
+    ],
+    "bbox_extent": [
+      0.54,
+      0.31,
+      0.497
+    ],
+    "object_tag": "box"
+  },
+  {
+    "id": 67,
+    "bbox_center": [
+      3.025,
+      0.69,
+      1.749
+    ],
+    "bbox_extent": [
+      0.613,
+      0.155,
+      1.279
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 68,
+    "bbox_center": [
+      3.494,
+      0.781,
+      0.621
+    ],
+    "bbox_extent": [
+      1.04,
+      0.441,
+      1.078
+    ],
+    "object_tag": "bookshelf"
+  },
+  {
+    "id": 69,
+    "bbox_center": [
+      1.522,
+      0.753,
+      1.192
+    ],
+    "bbox_extent": [
+      1.036,
+      0.301,
+      2.292
+    ],
+    "object_tag": "doorframe"
+  },
+  {
+    "id": 70,
+    "bbox_center": [
+      2.543,
+      1.021,
+      1.838
+    ],
+    "bbox_extent": [
+      0.895,
+      0.366,
+      0.394
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 71,
+    "bbox_center": [
+      2.586,
+      0.972,
+      1.554
+    ],
+    "bbox_extent": [
+      0.853,
+      0.385,
+      0.342
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 72,
+    "bbox_center": [
+      2.549,
+      0.99,
+      1.244
+    ],
+    "bbox_extent": [
+      0.812,
+      0.341,
+      0.325
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 73,
+    "bbox_center": [
+      2.588,
+      0.95,
+      0.926
+    ],
+    "bbox_extent": [
+      0.883,
+      0.426,
+      0.301
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 74,
+    "bbox_center": [
+      2.578,
+      0.995,
+      0.593
+    ],
+    "bbox_extent": [
+      0.868,
+      0.4,
+      0.368
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 75,
+    "bbox_center": [
+      2.572,
+      1.031,
+      0.324
+    ],
+    "bbox_extent": [
+      0.865,
+      0.37,
+      0.298
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 76,
+    "bbox_center": [
+      3.503,
+      0.788,
+      0.929
+    ],
+    "bbox_extent": [
+      0.85,
+      0.405,
+      0.291
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 77,
+    "bbox_center": [
+      3.562,
+      0.787,
+      0.585
+    ],
+    "bbox_extent": [
+      0.828,
+      0.32,
+      0.31
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 78,
+    "bbox_center": [
+      4.418,
+      0.401,
+      1.819
+    ],
+    "bbox_extent": [
+      0.844,
+      0.385,
+      0.289
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 79,
+    "bbox_center": [
+      5.358,
+      0.267,
+      1.821
+    ],
+    "bbox_extent": [
+      0.792,
+      0.321,
+      0.397
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 80,
+    "bbox_center": [
+      5.413,
+      0.246,
+      1.492
+    ],
+    "bbox_extent": [
+      0.787,
+      0.342,
+      0.356
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 81,
+    "bbox_center": [
+      5.373,
+      0.282,
+      1.214
+    ],
+    "bbox_extent": [
+      0.838,
+      0.302,
+      0.297
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 82,
+    "bbox_center": [
+      5.405,
+      0.284,
+      0.91
+    ],
+    "bbox_extent": [
+      0.808,
+      0.336,
+      0.292
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 83,
+    "bbox_center": [
+      5.41,
+      0.32,
+      0.608
+    ],
+    "bbox_extent": [
+      0.771,
+      0.285,
+      0.277
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 84,
+    "bbox_center": [
+      5.297,
+      0.361,
+      0.224
+    ],
+    "bbox_extent": [
+      0.584,
+      0.352,
+      0.384
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 85,
+    "bbox_center": [
+      4.46,
+      0.448,
+      1.523
+    ],
+    "bbox_extent": [
+      0.884,
+      0.359,
+      0.323
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 86,
+    "bbox_center": [
+      4.431,
+      0.437,
+      1.207
+    ],
+    "bbox_extent": [
+      0.896,
+      0.383,
+      0.303
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 87,
+    "bbox_center": [
+      4.447,
+      0.437,
+      0.875
+    ],
+    "bbox_extent": [
+      0.854,
+      0.389,
+      0.309
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 88,
+    "bbox_center": [
+      4.49,
+      0.458,
+      0.575
+    ],
+    "bbox_extent": [
+      0.766,
+      0.331,
+      0.298
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 89,
+    "bbox_center": [
+      4.756,
+      0.513,
+      0.289
+    ],
+    "bbox_extent": [
+      0.338,
+      0.112,
+      0.306
+    ],
+    "object_tag": "book"
+  }
+]

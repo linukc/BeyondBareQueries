@@ -1,0 +1,604 @@
+[
+  {
+    "id": 0,
+    "bbox_center": [
+      2.495,
+      2.77,
+      0.563
+    ],
+    "bbox_extent": [
+      1.054,
+      2.214,
+      1.022
+    ],
+    "object_tag": "bed"
+  },
+  {
+    "id": 1,
+    "bbox_center": [
+      1.994,
+      1.744,
+      0.624
+    ],
+    "bbox_extent": [
+      0.027,
+      0.213,
+      0.054
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 2,
+    "bbox_center": [
+      1.028,
+      1.002,
+      1.109
+    ],
+    "bbox_extent": [
+      0.33,
+      1.249,
+      1.873
+    ],
+    "object_tag": "closet wall"
+  },
+  {
+    "id": 3,
+    "bbox_center": [
+      2.248,
+      0.635,
+      1.086
+    ],
+    "bbox_extent": [
+      0.862,
+      0.129,
+      2.02
+    ],
+    "object_tag": "door"
+  },
+  {
+    "id": 4,
+    "bbox_center": [
+      1.861,
+      1.001,
+      1.134
+    ],
+    "bbox_extent": [
+      0.335,
+      0.912,
+      2.03
+    ],
+    "object_tag": "doorframe"
+  },
+  {
+    "id": 5,
+    "bbox_center": [
+      5.962,
+      0.66,
+      0.531
+    ],
+    "bbox_extent": [
+      2.303,
+      1.169,
+      0.951
+    ],
+    "object_tag": "bed"
+  },
+  {
+    "id": 6,
+    "bbox_center": [
+      3.452,
+      1.577,
+      0.434
+    ],
+    "bbox_extent": [
+      0.649,
+      0.778,
+      0.826
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 7,
+    "bbox_center": [
+      4.109,
+      2.27,
+      0.42
+    ],
+    "bbox_extent": [
+      0.674,
+      0.729,
+      0.798
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 8,
+    "bbox_center": [
+      4.091,
+      1.74,
+      0.14
+    ],
+    "bbox_extent": [
+      6.19,
+      3.109,
+      0.312
+    ],
+    "object_tag": "floor"
+  },
+  {
+    "id": 9,
+    "bbox_center": [
+      4.149,
+      0.563,
+      1.053
+    ],
+    "bbox_extent": [
+      0.241,
+      0.585,
+      0.579
+    ],
+    "object_tag": "fan"
+  },
+  {
+    "id": 10,
+    "bbox_center": [
+      1.155,
+      0.828,
+      0.21
+    ],
+    "bbox_extent": [
+      0.265,
+      0.191,
+      0.095
+    ],
+    "object_tag": "shoe"
+  },
+  {
+    "id": 11,
+    "bbox_center": [
+      6.538,
+      1.499,
+      0.105
+    ],
+    "bbox_extent": [
+      0.332,
+      0.243,
+      0.103
+    ],
+    "object_tag": "shoe"
+  },
+  {
+    "id": 12,
+    "bbox_center": [
+      1.396,
+      1.064,
+      0.184
+    ],
+    "bbox_extent": [
+      0.313,
+      0.424,
+      0.103
+    ],
+    "object_tag": "shoe"
+  },
+  {
+    "id": 13,
+    "bbox_center": [
+      3.669,
+      0.665,
+      0.515
+    ],
+    "bbox_extent": [
+      1.864,
+      0.805,
+      0.97
+    ],
+    "object_tag": "desk"
+  },
+  {
+    "id": 14,
+    "bbox_center": [
+      4.386,
+      2.54,
+      0.853
+    ],
+    "bbox_extent": [
+      1.208,
+      0.707,
+      1.658
+    ],
+    "object_tag": "desk"
+  },
+  {
+    "id": 15,
+    "bbox_center": [
+      3.421,
+      3.282,
+      0.367
+    ],
+    "bbox_extent": [
+      0.587,
+      0.385,
+      0.599
+    ],
+    "object_tag": "laundry hamper"
+  },
+  {
+    "id": 16,
+    "bbox_center": [
+      6.997,
+      1.21,
+      0.269
+    ],
+    "bbox_extent": [
+      0.413,
+      0.439,
+      0.404
+    ],
+    "object_tag": "trash can"
+  },
+  {
+    "id": 17,
+    "bbox_center": [
+      6.969,
+      1.515,
+      0.263
+    ],
+    "bbox_extent": [
+      0.395,
+      0.312,
+      0.385
+    ],
+    "object_tag": "trash can"
+  },
+  {
+    "id": 18,
+    "bbox_center": [
+      3.422,
+      3.696,
+      0.504
+    ],
+    "bbox_extent": [
+      0.775,
+      0.724,
+      0.741
+    ],
+    "object_tag": "nightstand"
+  },
+  {
+    "id": 19,
+    "bbox_center": [
+      6.684,
+      0.598,
+      0.935
+    ],
+    "bbox_extent": [
+      0.626,
+      0.617,
+      0.144
+    ],
+    "object_tag": "pillow"
+  },
+  {
+    "id": 20,
+    "bbox_center": [
+      2.462,
+      3.543,
+      0.917
+    ],
+    "bbox_extent": [
+      0.758,
+      0.442,
+      0.134
+    ],
+    "object_tag": "pillow"
+  },
+  {
+    "id": 21,
+    "bbox_center": [
+      6.933,
+      1.941,
+      0.405
+    ],
+    "bbox_extent": [
+      0.538,
+      0.466,
+      0.723
+    ],
+    "object_tag": "mini fridge"
+  },
+  {
+    "id": 22,
+    "bbox_center": [
+      4.254,
+      2.79,
+      1.286
+    ],
+    "bbox_extent": [
+      0.786,
+      0.174,
+      0.436
+    ],
+    "object_tag": "dresser"
+  },
+  {
+    "id": 23,
+    "bbox_center": [
+      5.537,
+      2.793,
+      1.195
+    ],
+    "bbox_extent": [
+      3.351,
+      0.198,
+      2.292
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 24,
+    "bbox_center": [
+      6.354,
+      2.691,
+      1.048
+    ],
+    "bbox_extent": [
+      0.876,
+      0.262,
+      1.994
+    ],
+    "object_tag": "door"
+  },
+  {
+    "id": 25,
+    "bbox_center": [
+      6.348,
+      2.791,
+      1.103
+    ],
+    "bbox_extent": [
+      1.172,
+      0.103,
+      2.096
+    ],
+    "object_tag": "doorframe"
+  },
+  {
+    "id": 26,
+    "bbox_center": [
+      7.169,
+      1.458,
+      1.207
+    ],
+    "bbox_extent": [
+      0.274,
+      2.661,
+      2.261
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 27,
+    "bbox_center": [
+      4.563,
+      0.233,
+      1.619
+    ],
+    "bbox_extent": [
+      5.263,
+      0.319,
+      1.788
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 28,
+    "bbox_center": [
+      5.45,
+      0.117,
+      1.45
+    ],
+    "bbox_extent": [
+      1.381,
+      0.237,
+      1.365
+    ],
+    "object_tag": "window"
+  },
+  {
+    "id": 29,
+    "bbox_center": [
+      4.117,
+      0.142,
+      1.44
+    ],
+    "bbox_extent": [
+      1.235,
+      0.275,
+      1.379
+    ],
+    "object_tag": "window"
+  },
+  {
+    "id": 30,
+    "bbox_center": [
+      3.633,
+      0.329,
+      0.502
+    ],
+    "bbox_extent": [
+      2.661,
+      0.249,
+      0.611
+    ],
+    "object_tag": "radiator"
+  },
+  {
+    "id": 31,
+    "bbox_center": [
+      4.724,
+      0.584,
+      0.145
+    ],
+    "bbox_extent": [
+      0.371,
+      0.507,
+      0.232
+    ],
+    "object_tag": "backpack"
+  },
+  {
+    "id": 32,
+    "bbox_center": [
+      4.143,
+      1.092,
+      0.087
+    ],
+    "bbox_extent": [
+      0.411,
+      0.308,
+      0.144
+    ],
+    "object_tag": "shoe"
+  },
+  {
+    "id": 33,
+    "bbox_center": [
+      5.657,
+      2.422,
+      0.355
+    ],
+    "bbox_extent": [
+      0.419,
+      0.49,
+      0.68
+    ],
+    "object_tag": "mini fridge"
+  },
+  {
+    "id": 34,
+    "bbox_center": [
+      5.209,
+      2.61,
+      0.22
+    ],
+    "bbox_extent": [
+      0.389,
+      0.294,
+      0.384
+    ],
+    "object_tag": "trash can"
+  },
+  {
+    "id": 35,
+    "bbox_center": [
+      3.847,
+      3.434,
+      1.226
+    ],
+    "bbox_extent": [
+      0.267,
+      1.177,
+      1.912
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 36,
+    "bbox_center": [
+      3.042,
+      4.04,
+      1.462
+    ],
+    "bbox_extent": [
+      1.814,
+      0.286,
+      1.758
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 37,
+    "bbox_center": [
+      2.071,
+      2.235,
+      1.329
+    ],
+    "bbox_extent": [
+      0.621,
+      3.698,
+      1.92
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 38,
+    "bbox_center": [
+      1.163,
+      1.058,
+      0.206
+    ],
+    "bbox_extent": [
+      0.272,
+      0.396,
+      0.092
+    ],
+    "object_tag": "shoe"
+  },
+  {
+    "id": 39,
+    "bbox_center": [
+      1.308,
+      0.954,
+      1.128
+    ],
+    "bbox_extent": [
+      0.566,
+      1.115,
+      0.95
+    ],
+    "object_tag": "clothes"
+  },
+  {
+    "id": 40,
+    "bbox_center": [
+      3.625,
+      3.62,
+      0.766
+    ],
+    "bbox_extent": [
+      0.537,
+      0.626,
+      0.567
+    ],
+    "object_tag": "clothes"
+  },
+  {
+    "id": 41,
+    "bbox_center": [
+      2.336,
+      1.403,
+      0.27
+    ],
+    "bbox_extent": [
+      0.678,
+      0.562,
+      0.415
+    ],
+    "object_tag": "cushion"
+  },
+  {
+    "id": 42,
+    "bbox_center": [
+      3.352,
+      0.564,
+      1.202
+    ],
+    "bbox_extent": [
+      0.95,
+      0.373,
+      0.875
+    ],
+    "object_tag": "shelf"
+  }
+]

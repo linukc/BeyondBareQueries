@@ -1,0 +1,314 @@
+[
+  {
+    "target": 34,
+    "utterance": "This is the printer in the corner. It is grey."
+  },
+  {
+    "target": 34,
+    "utterance": "The printer sits to the very left when facing the windows. The printer is sitting on the left side of a gray cabinet."
+  },
+  {
+    "target": 34,
+    "utterance": "The printer is on the left under the windows when facing towards the windows. The printer is sitting on the left end of a gray cabinet. It is in the corner underneath the left window."
+  },
+  {
+    "target": 34,
+    "utterance": "The printer is under the leftmost window. It has a piece of white paper on the top. It is on the left side of a gray cabinet. It is to the right of a large computer monitor."
+  },
+  {
+    "target": 1,
+    "utterance": "This is a storage case in the corner. It is brown."
+  },
+  {
+    "target": 1,
+    "utterance": "It is a gray file cabinet in the far corner of the room, to the right of a desk. There is a printer sitting on top of it."
+  },
+  {
+    "target": 1,
+    "utterance": "The cabinet is the color grey. It is located at the back of the room under the wall. It is spaced between another cabinet and the wall."
+  },
+  {
+    "target": 1,
+    "utterance": "The cabinet. The cabinet is by the desks."
+  },
+  {
+    "target": 1,
+    "utterance": "This is a grey file cabinet. It is in the corner and has some objects atop it."
+  },
+  {
+    "target": 37,
+    "utterance": "The color of the bookshelf is dark green. It is spaced against the wall and is in the corner. It has 5 shelves to hold the papers."
+  },
+  {
+    "target": 37,
+    "utterance": "The bookshelf. The bookshelf is in the corner."
+  },
+  {
+    "target": 37,
+    "utterance": "A bookshelf is against the wall with a door to the left of it. This bookshelf has a desk and chair in front of it."
+  },
+  {
+    "target": 37,
+    "utterance": "A wall shelf is against a wall with a door to the left of it. On the right side of it is a desk with a brown wood color top on it."
+  },
+  {
+    "target": 37,
+    "utterance": "This is a shelf against the wall surface. It is containing many objects in its spaces."
+  },
+  {
+    "target": 2,
+    "utterance": "The door is the color brown. It is along the wall right in the front. As you walk in the door is spaced against the wall."
+  },
+  {
+    "target": 2,
+    "utterance": "This is a wooden door. It is in between shelves."
+  },
+  {
+    "target": 2,
+    "utterance": "A light brown door is in the middle of two shelves. The door is closed and there is a brown cushioned chair in front of it."
+  },
+  {
+    "target": 2,
+    "utterance": "This is a tan door in the corner. It is closed and has a jacket hanging from it."
+  },
+  {
+    "target": 2,
+    "utterance": "This is a tan door in the corner. It has a jacket on it and is closed."
+  },
+  {
+    "target": 35,
+    "utterance": "It is a tan and brown desk with silver handles. There is a black chair pulled up to it. It is next to a file cabinet."
+  },
+  {
+    "target": 35,
+    "utterance": "The object is a desk. If you enter the room it would be located on the right side directly in front of you against the window."
+  },
+  {
+    "target": 35,
+    "utterance": "The desk. The desk is over the chair."
+  },
+  {
+    "target": 35,
+    "utterance": "This is a table top surface against the wall. It has an empty space in the middle of its underside."
+  },
+  {
+    "target": 35,
+    "utterance": "This is a brown table top surface. It has space between it."
+  },
+  {
+    "target": 5,
+    "utterance": "It is a blue trash can. It is in the right corner of the room, in between a gray desk and file cabinet."
+  },
+  {
+    "target": 5,
+    "utterance": "The color of the trash can is black. It is located on the floor behind the chair. It is spaced between the cabinets and the desk."
+  },
+  {
+    "target": 5,
+    "utterance": "It is a small waistband trash can. As you enter the room it would be located to the right side underneath the desk with the monitor on the left wall near the window."
+  },
+  {
+    "target": 5,
+    "utterance": "It is a black trash can. The black trash can is sitting under the desk."
+  },
+  {
+    "target": 5,
+    "utterance": "This is the blue bin behind the blue chair. It is in the corner."
+  },
+  {
+    "target": 40,
+    "utterance": "It is a blue desk chair with a black base and handles. It is positioned in the right corner of the room, in front of a gray desk."
+  },
+  {
+    "target": 40,
+    "utterance": "The office chair. The chair is next to the bed."
+  },
+  {
+    "target": 40,
+    "utterance": "The chair is teal and black. It is pulled out from its desk and is the furthest chair to the left."
+  },
+  {
+    "target": 40,
+    "utterance": "There is a green office chair. It is next to a table."
+  },
+  {
+    "target": 40,
+    "utterance": "A green and black chair is pulled out from a desk. There is a keyboard to the left of it."
+  },
+  {
+    "target": 42,
+    "utterance": "The color of the chair is brown. It is located in front of the desk. It is facing the windows. It is spaced between the door and the desk."
+  },
+  {
+    "target": 42,
+    "utterance": "It is a brown chair. The brown chair is sitting in front of the desk."
+  },
+  {
+    "target": 42,
+    "utterance": "There is a square black chair. It is at a table and next to a shelf."
+  },
+  {
+    "target": 42,
+    "utterance": "A chair sits in front of a bookshelf. It's to the left of a desk."
+  },
+  {
+    "target": 42,
+    "utterance": "This is a brown chair facing to the right. It is sturdy and made of a brown material."
+  },
+  {
+    "target": 4,
+    "utterance": "It is an apple desktop computer. It is sitting on top of a gray desk, which is in the right corner of the room."
+  },
+  {
+    "target": 4,
+    "utterance": "The monitor is on the 2-tiered desk that has a green chair sitting in front of it. The monitor has a poster on the wall to the right of it along with a printer to the right of it on a gray cabinet."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a white monitor. It is on a desk."
+  },
+  {
+    "target": 4,
+    "utterance": "An overpriced computer sits on top of a desk. It's to the left of a window."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a monitor against the wall. It is atop a stand and has blue coloration on its screen."
+  },
+  {
+    "target": 39,
+    "utterance": "The object is a black file cabinet. It is located on the left side of the bookshelf next to the doorway entrance."
+  },
+  {
+    "target": 39,
+    "utterance": "The file cabinet is black and has 4-drawers. It is in the corner with a wall to the left and a bookshelf to its right."
+  },
+  {
+    "target": 39,
+    "utterance": "There is a tall rectangular black cabinet. It is next to the bookshelf."
+  },
+  {
+    "target": 39,
+    "utterance": "The black file cabinet is against the wall with a tan colored shelf to the right of it. The black cabinet has four drawers and a chair in front of it."
+  },
+  {
+    "target": 39,
+    "utterance": "This is a black shelf and storage case. It is in the corner."
+  },
+  {
+    "target": 43,
+    "utterance": "The object is a brown chair. It is in front of the bookshelf and black filing cabinet against the wall."
+  },
+  {
+    "target": 43,
+    "utterance": "There is a square brown chair. It is against the wall and next to the door."
+  },
+  {
+    "target": 43,
+    "utterance": "It is a brown chair. The brown chair is sitting in front of the wall."
+  },
+  {
+    "target": 43,
+    "utterance": "There is a square brown chair. It is the one with a coat on it."
+  },
+  {
+    "target": 43,
+    "utterance": "A chair sits with it's back to the wall. It's to the right of a door."
+  },
+  {
+    "target": 22,
+    "utterance": "There is a rectangular window. It is behind the sink."
+  },
+  {
+    "target": 22,
+    "utterance": "The window has 4 pains and blinds pulled about halfway down. It takes up the entire width of the far wall and is above the desk."
+  },
+  {
+    "target": 22,
+    "utterance": "The window has a white frame and white blinds. It is on the far wall above the desks."
+  },
+  {
+    "target": 22,
+    "utterance": "There is a rectangular window. It is behind a sink."
+  },
+  {
+    "target": 22,
+    "utterance": "There is a rectangular window. It is behind a counter and sink."
+  },
+  {
+    "target": 0,
+    "utterance": "There is a rectangular brown desk. It is at the center of the room."
+  },
+  {
+    "target": 0,
+    "utterance": "There is a rectangular brown desk. It is next to a chair."
+  },
+  {
+    "target": 0,
+    "utterance": "It is a brown desk. The brown desk is sitting behind the brown chair."
+  },
+  {
+    "target": 0,
+    "utterance": "There is a rectangular brown desk. It is next to a teal chair."
+  },
+  {
+    "target": 0,
+    "utterance": "A desk sits with a chair to both it's left and right. It's to the right of a bookshelf."
+  },
+  {
+    "target": 41,
+    "utterance": "The chair is black and is facing the window. It is pushed into the desk that is on the right of the room."
+  },
+  {
+    "target": 41,
+    "utterance": "This is a black chair. It is at a desk."
+  },
+  {
+    "target": 41,
+    "utterance": "The office chair. The chair is under the desk."
+  },
+  {
+    "target": 41,
+    "utterance": "There is a gray office chair. It is next to a teal office chair."
+  },
+  {
+    "target": 41,
+    "utterance": "This is a brown chair facing an empty space underneath a table surface. It is orientated away from the viewer."
+  },
+  {
+    "target": 38,
+    "utterance": "The bookshelf has 6 rows and is full of books. It is on the far wall to the right of the file cabinet and left of the door."
+  },
+  {
+    "target": 38,
+    "utterance": "This is a tan bookshelf. It is to the right of a file cabinet."
+  },
+  {
+    "target": 38,
+    "utterance": "There is a brown rectangular shelf. It is next to a black cabinet."
+  },
+  {
+    "target": 38,
+    "utterance": "There is a rectangular bookshelf. It is next to a tall black cabinet."
+  },
+  {
+    "target": 44,
+    "utterance": "This is a gray desk. It is behind a blue chair."
+  },
+  {
+    "target": 44,
+    "utterance": "It is a white desk. The white desk is sitting to the right of the brown desk."
+  },
+  {
+    "target": 44,
+    "utterance": "There is a rectangular gray desk. It is next to a teal office chair."
+  },
+  {
+    "target": 44,
+    "utterance": "A desk sits with a monitor atop it. A green chair is near the desk."
+  },
+  {
+    "target": 44,
+    "utterance": "This is the towel board against the wall. It is white with a brown base."
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "target": 5,
+    "utterance": "There is a brown double bed. Placed in the middle of the room."
+  },
+  {
+    "target": 5,
+    "utterance": "There is a rectangular bed. It is against the wall and next to a nightstand."
+  },
+  {
+    "target": 5,
+    "utterance": "There is a rectangular bed. It is next to a nightstand."
+  },
+  {
+    "target": 5,
+    "utterance": "There is a rectangular bed. It is between two nightstands."
+  },
+  {
+    "target": 5,
+    "utterance": "There is a rectangular bed. It is next to the radiator."
+  },
+  {
+    "target": 6,
+    "utterance": "There is a dark brown wooden tv set. Placed next to the chair."
+  },
+  {
+    "target": 6,
+    "utterance": "There is a rectangular brown cabinet. It is up against the wall and next to a chair."
+  },
+  {
+    "target": 6,
+    "utterance": "The cabinet contains a microwave. The cabinet is to the left of the table and chairs."
+  },
+  {
+    "target": 6,
+    "utterance": "A cabinet sits with a microwave under the top of it. It's got a small tv on top of it."
+  },
+  {
+    "target": 6,
+    "utterance": "A cabinet sits on the floor to the left of a chair. It's got a small tv atop it."
+  },
+  {
+    "target": 8,
+    "utterance": "There is a brown wooden table. Placed on the side of the wall."
+  },
+  {
+    "target": 8,
+    "utterance": "The table has two chairs at it. The table is to the left of the trash can."
+  },
+  {
+    "target": 8,
+    "utterance": "There is a square brown table. It is flanked by olive chairs."
+  },
+  {
+    "target": 8,
+    "utterance": "There is a square brown table. It is between two chairs."
+  },
+  {
+    "target": 8,
+    "utterance": "There is a square brown table. It is next to an olive chair."
+  },
+  {
+    "target": 28,
+    "utterance": "There is a beige plastic bucket. Placed next to the fridge."
+  },
+  {
+    "target": 28,
+    "utterance": "This is a bin in contact with a wall surface behind it, and near the corner of a room. It is beside a box and is hollow or solid."
+  },
+  {
+    "target": 28,
+    "utterance": "There is a rectangular trash can. It is on the floor next to a mini fridge."
+  },
+  {
+    "target": 28,
+    "utterance": "There is a rectangular gray trash can. It is next to the door."
+  },
+  {
+    "target": 28,
+    "utterance": "The object is a small trash can. It is in the corner of the room that is only left side of the dresser that the television is sitting on."
+  },
+  {
+    "target": 7,
+    "utterance": "There is a white door. Placed on the left to the curtain."
+  },
+  {
+    "target": 7,
+    "utterance": "There is a rectangular beige door. It is next to the curtain."
+  },
+  {
+    "target": 7,
+    "utterance": "The door is to the left of the curtain. The door handle is on the right side of the door."
+  },
+  {
+    "target": 7,
+    "utterance": "The door is past the curtains on the right side of the room. There is a table to the left of the door."
+  },
+  {
+    "target": 7,
+    "utterance": "The object is a door. It is located on the left side of the window."
+  },
+  {
+    "target": 13,
+    "utterance": "There is a rectangular picture on the wall. It is next to the door on its left."
+  },
+  {
+    "target": 13,
+    "utterance": "This is a painting against a wall, in close proximity to the viewer and is facing right. It has color in the center and the outside border is tan."
+  },
+  {
+    "target": 13,
+    "utterance": "The picture is large and square. It is to the left of the white door."
+  },
+  {
+    "target": 13,
+    "utterance": "There is a rectangular picture. It is on the wall to the left of the door."
+  },
+  {
+    "target": 13,
+    "utterance": "A picture hangs on the wall. It's to the left of a door."
+  },
+  {
+    "target": 9,
+    "utterance": "This is an off tv that is flat and has a certain thickness against a white wall. It is facing the viewer and is to the left, on top of a wooden stand."
+  },
+  {
+    "target": 9,
+    "utterance": "This is an off black tv in contact with a wall surface behind it. It is atop a stand and is facing toward the observer and to the right."
+  },
+  {
+    "target": 9,
+    "utterance": "This is a black and off tv set atop a brown stand. It is in contact with a wall behind it and is facing the viewer, only slightly to the right."
+  },
+  {
+    "target": 9,
+    "utterance": "There is a rectangular tv. It is on top of a dresser."
+  },
+  {
+    "target": 9,
+    "utterance": "The object is a tv. If you enter the room follow a straight path it is against the wall on the right at the end of the room."
+  },
+  {
+    "target": 29,
+    "utterance": "This is a hollow or filled cardboard box against the surface of a wall. It is facing the viewer and is to the left of the view."
+  },
+  {
+    "target": 29,
+    "utterance": "The mini fridge is small and white. It is to the left of the cabinet."
+  },
+  {
+    "target": 29,
+    "utterance": "There is a rectangular mini fridge. It is on the floor next to a dresser."
+  },
+  {
+    "target": 29,
+    "utterance": "There is a rectangular mini fridge. It is next to the door."
+  },
+  {
+    "target": 29,
+    "utterance": "There is a rectangular beige mini fridge. It is next to a trash can."
+  },
+  {
+    "target": 3,
+    "utterance": "This is a sturdy chair, made of wood and with green cushioning. It is in contact with a wall surface and a brown table. It is oriented about 120 degrees in relation to the viewer."
+  },
+  {
+    "target": 3,
+    "utterance": "The chair is green and brown. It is to the right of the table."
+  },
+  {
+    "target": 3,
+    "utterance": "The chair is dark wood and green colored. It is to the right of the table."
+  },
+  {
+    "target": 3,
+    "utterance": "There is a tan chair. It is at the table and next to a backpack."
+  },
+  {
+    "target": 3,
+    "utterance": "A chair sits partially underneath a table. It's to the right of another chair."
+  },
+  {
+    "target": 26,
+    "utterance": "This is a white rectangular-shaped object that has an opening and seems to be unfilled. It is in contact with a wall surface behind it and has wavy brown curtains above it."
+  },
+  {
+    "target": 26,
+    "utterance": "This is a hollow and unfilled but sturdy rectangular object. It is in contact with a wall surface and sitting below brown curtains."
+  },
+  {
+    "target": 26,
+    "utterance": "There is a rectangular radiator. It is underneath the curtains."
+  },
+  {
+    "target": 26,
+    "utterance": "There is a rectangular radiator. It is under the curtain."
+  },
+  {
+    "target": 26,
+    "utterance": "A radiator runs along the wall. It's sitting underneath a window."
+  },
+  {
+    "target": 20,
+    "utterance": "This is a wooden cabinet in close proximity to and covered by a relatively large bed. It is hollow or filled and has objects set atop it."
+  },
+  {
+    "target": 20,
+    "utterance": "The nightstand is small and wooden. It is to the left of the bed."
+  },
+  {
+    "target": 20,
+    "utterance": "There is a rectangular brown nightstand. It is to the left of the bed."
+  },
+  {
+    "target": 20,
+    "utterance": "A small night stand sits to the left of a bed. There is a light above it."
+  },
+  {
+    "target": 20,
+    "utterance": "A small nightstand sits to the left of a bed. It's sitting underneath a light."
+  },
+  {
+    "target": 19,
+    "utterance": "There is a rectangular brown nightstand. It is to the right of the bed."
+  },
+  {
+    "target": 19,
+    "utterance": "There is a rectangular brown nightstand. It is to the right of a bed."
+  },
+  {
+    "target": 19,
+    "utterance": "There is a square brown nightstand. It is to the right of the bed."
+  },
+  {
+    "target": 19,
+    "utterance": "There is a square brown nightstand. It is right next to the bed."
+  },
+  {
+    "target": 19,
+    "utterance": "There is a rectangular brown nightstand. It is right next to the bed."
+  },
+  {
+    "target": 25,
+    "utterance": "There is a rectangular beige curtain. It is next to the door."
+  },
+  {
+    "target": 25,
+    "utterance": "There is a rectangular curtain. It is next to the door."
+  },
+  {
+    "target": 25,
+    "utterance": "There is a rectangular curtain. It is in front of the window."
+  },
+  {
+    "target": 25,
+    "utterance": "There is a rectangular beige curtain. It is in front of the window."
+  },
+  {
+    "target": 25,
+    "utterance": "There is a rectangular beige curtain. It is hanging over the radiator."
+  },
+  {
+    "target": 21,
+    "utterance": "The lamp is affixed to the wall above the night stand. It is to the left of the headboard."
+  },
+  {
+    "target": 21,
+    "utterance": "A light is lit up and hanging on the wall. It's to the left of a bed."
+  },
+  {
+    "target": 21,
+    "utterance": "A light hangs on the wall to the left of a bed. It's above a small end tabel."
+  },
+  {
+    "target": 21,
+    "utterance": "There is a cylindrical light. It is hanging over a nightstand."
+  },
+  {
+    "target": 21,
+    "utterance": "A light hangs on the wall. It's to the left of a bed."
+  },
+  {
+    "target": 2,
+    "utterance": "There is a square olive chair. It is to the left of a table."
+  },
+  {
+    "target": 2,
+    "utterance": "There is a square olive and brown chair. It is to the left of a table."
+  },
+  {
+    "target": 2,
+    "utterance": "There is a square olive chair. It is between a cabinet and a table."
+  },
+  {
+    "target": 2,
+    "utterance": "The object is a chair. If you are standing to the right side of the dresser with the television on it is the chair between the dresser and the table."
+  },
+  {
+    "target": 2,
+    "utterance": "The object is a chair. If you enter the room through the doorway and walk straight there is a table on the left side of the table when you turn and face it will be the chair."
+  }
+]

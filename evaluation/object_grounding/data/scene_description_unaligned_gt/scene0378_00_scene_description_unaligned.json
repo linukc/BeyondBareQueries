@@ -1,0 +1,632 @@
+[
+  {
+    "id": 0,
+    "bbox_center": [
+      1.322,
+      2.78,
+      0.46
+    ],
+    "bbox_extent": [
+      1.441,
+      1.349,
+      0.835
+    ],
+    "object_tag": "desk"
+  },
+  {
+    "id": 1,
+    "bbox_center": [
+      2.521,
+      4.313,
+      0.418
+    ],
+    "bbox_extent": [
+      0.946,
+      0.817,
+      0.813
+    ],
+    "object_tag": "cabinet"
+  },
+  {
+    "id": 2,
+    "bbox_center": [
+      0.692,
+      1.453,
+      1.121
+    ],
+    "bbox_extent": [
+      0.81,
+      0.636,
+      2.208
+    ],
+    "object_tag": "door"
+  },
+  {
+    "id": 3,
+    "bbox_center": [
+      2.363,
+      2.55,
+      0.119
+    ],
+    "bbox_extent": [
+      4.232,
+      3.746,
+      0.261
+    ],
+    "object_tag": "floor"
+  },
+  {
+    "id": 4,
+    "bbox_center": [
+      1.616,
+      3.901,
+      1.138
+    ],
+    "bbox_extent": [
+      0.407,
+      0.614,
+      0.434
+    ],
+    "object_tag": "monitor"
+  },
+  {
+    "id": 5,
+    "bbox_center": [
+      2.202,
+      4.097,
+      0.214
+    ],
+    "bbox_extent": [
+      0.393,
+      0.394,
+      0.395
+    ],
+    "object_tag": "trash can"
+  },
+  {
+    "id": 6,
+    "bbox_center": [
+      1.085,
+      1.253,
+      1.31
+    ],
+    "bbox_extent": [
+      0.341,
+      0.3,
+      0.905
+    ],
+    "object_tag": "coat"
+  },
+  {
+    "id": 7,
+    "bbox_center": [
+      1.212,
+      1.003,
+      1.124
+    ],
+    "bbox_extent": [
+      2.423,
+      2.009,
+      2.239
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 8,
+    "bbox_center": [
+      1.388,
+      0.868,
+      2.213
+    ],
+    "bbox_extent": [
+      2.074,
+      1.714,
+      0.111
+    ],
+    "object_tag": "ceiling"
+  },
+  {
+    "id": 9,
+    "bbox_center": [
+      1.229,
+      1.062,
+      2.363
+    ],
+    "bbox_extent": [
+      2.426,
+      2.024,
+      0.356
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 10,
+    "bbox_center": [
+      0.523,
+      2.632,
+      2.534
+    ],
+    "bbox_extent": [
+      0.922,
+      1.359,
+      0.055
+    ],
+    "object_tag": "ceiling"
+  },
+  {
+    "id": 11,
+    "bbox_center": [
+      1.781,
+      0.728,
+      1.852
+    ],
+    "bbox_extent": [
+      0.743,
+      0.598,
+      0.322
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 12,
+    "bbox_center": [
+      1.84,
+      0.667,
+      1.564
+    ],
+    "bbox_extent": [
+      0.704,
+      0.717,
+      0.301
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 13,
+    "bbox_center": [
+      1.874,
+      0.701,
+      1.21
+    ],
+    "bbox_extent": [
+      0.814,
+      0.617,
+      0.341
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 14,
+    "bbox_center": [
+      1.709,
+      0.809,
+      0.888
+    ],
+    "bbox_extent": [
+      0.433,
+      0.471,
+      0.255
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 15,
+    "bbox_center": [
+      2.083,
+      0.541,
+      0.812
+    ],
+    "bbox_extent": [
+      0.401,
+      0.362,
+      0.238
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 16,
+    "bbox_center": [
+      1.87,
+      0.741,
+      0.574
+    ],
+    "bbox_extent": [
+      0.666,
+      0.538,
+      0.266
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 17,
+    "bbox_center": [
+      1.621,
+      0.935,
+      0.258
+    ],
+    "bbox_extent": [
+      0.378,
+      0.384,
+      0.154
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 18,
+    "bbox_center": [
+      2.446,
+      0.926,
+      0.061
+    ],
+    "bbox_extent": [
+      0.329,
+      0.312,
+      0.101
+    ],
+    "object_tag": "shoe"
+  },
+  {
+    "id": 19,
+    "bbox_center": [
+      2.973,
+      1.555,
+      0.561
+    ],
+    "bbox_extent": [
+      0.351,
+      0.335,
+      0.16
+    ],
+    "object_tag": "jacket"
+  },
+  {
+    "id": 20,
+    "bbox_center": [
+      3.588,
+      1.571,
+      1.264
+    ],
+    "bbox_extent": [
+      2.322,
+      3.054,
+      2.514
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 21,
+    "bbox_center": [
+      3.728,
+      1.757,
+      1.557
+    ],
+    "bbox_extent": [
+      1.573,
+      2.071,
+      1.327
+    ],
+    "object_tag": "blackboard"
+  },
+  {
+    "id": 22,
+    "bbox_center": [
+      3.588,
+      4.134,
+      1.634
+    ],
+    "bbox_extent": [
+      2.51,
+      1.911,
+      1.739
+    ],
+    "object_tag": "window"
+  },
+  {
+    "id": 23,
+    "bbox_center": [
+      1.101,
+      3.411,
+      1.285
+    ],
+    "bbox_extent": [
+      2.235,
+      2.815,
+      2.496
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 24,
+    "bbox_center": [
+      1.055,
+      3.43,
+      2.272
+    ],
+    "bbox_extent": [
+      0.213,
+      0.255,
+      0.328
+    ],
+    "object_tag": "clock"
+  },
+  {
+    "id": 25,
+    "bbox_center": [
+      0.515,
+      2.3,
+      1.856
+    ],
+    "bbox_extent": [
+      0.587,
+      0.74,
+      0.354
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 26,
+    "bbox_center": [
+      0.415,
+      2.288,
+      1.592
+    ],
+    "bbox_extent": [
+      0.669,
+      0.695,
+      0.293
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 27,
+    "bbox_center": [
+      0.51,
+      2.393,
+      1.287
+    ],
+    "bbox_extent": [
+      0.362,
+      0.409,
+      0.257
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 28,
+    "bbox_center": [
+      0.274,
+      2.075,
+      1.236
+    ],
+    "bbox_extent": [
+      0.363,
+      0.388,
+      0.148
+    ],
+    "object_tag": "paper"
+  },
+  {
+    "id": 29,
+    "bbox_center": [
+      0.388,
+      2.266,
+      0.933
+    ],
+    "bbox_extent": [
+      0.635,
+      0.765,
+      0.358
+    ],
+    "object_tag": "book"
+  },
+  {
+    "id": 30,
+    "bbox_center": [
+      0.303,
+      2.075,
+      0.49
+    ],
+    "bbox_extent": [
+      0.456,
+      0.428,
+      0.135
+    ],
+    "object_tag": "envelope"
+  },
+  {
+    "id": 31,
+    "bbox_center": [
+      1.323,
+      2.582,
+      0.849
+    ],
+    "bbox_extent": [
+      0.112,
+      0.117,
+      0.085
+    ],
+    "object_tag": "cup"
+  },
+  {
+    "id": 32,
+    "bbox_center": [
+      1.209,
+      2.773,
+      0.844
+    ],
+    "bbox_extent": [
+      0.14,
+      0.1,
+      0.094
+    ],
+    "object_tag": "cup"
+  },
+  {
+    "id": 33,
+    "bbox_center": [
+      1.494,
+      2.942,
+      0.828
+    ],
+    "bbox_extent": [
+      0.377,
+      0.397,
+      0.063
+    ],
+    "object_tag": "paper"
+  },
+  {
+    "id": 34,
+    "bbox_center": [
+      2.405,
+      4.632,
+      0.821
+    ],
+    "bbox_extent": [
+      0.551,
+      0.657,
+      0.318
+    ],
+    "object_tag": "printer"
+  },
+  {
+    "id": 35,
+    "bbox_center": [
+      3.427,
+      3.291,
+      0.474
+    ],
+    "bbox_extent": [
+      1.358,
+      1.325,
+      0.753
+    ],
+    "object_tag": "desk"
+  },
+  {
+    "id": 36,
+    "bbox_center": [
+      4.134,
+      2.377,
+      0.475
+    ],
+    "bbox_extent": [
+      0.519,
+      0.649,
+      0.9
+    ],
+    "object_tag": "board"
+  },
+  {
+    "id": 37,
+    "bbox_center": [
+      0.446,
+      2.308,
+      1.045
+    ],
+    "bbox_extent": [
+      0.776,
+      1.028,
+      2.041
+    ],
+    "object_tag": "bookshelf"
+  },
+  {
+    "id": 38,
+    "bbox_center": [
+      1.801,
+      0.706,
+      1.119
+    ],
+    "bbox_extent": [
+      0.99,
+      0.86,
+      1.898
+    ],
+    "object_tag": "bookshelf"
+  },
+  {
+    "id": 39,
+    "bbox_center": [
+      2.585,
+      0.594,
+      0.693
+    ],
+    "bbox_extent": [
+      0.632,
+      0.602,
+      1.361
+    ],
+    "object_tag": "file cabinet"
+  },
+  {
+    "id": 40,
+    "bbox_center": [
+      2.354,
+      3.231,
+      0.461
+    ],
+    "bbox_extent": [
+      0.677,
+      0.618,
+      0.891
+    ],
+    "object_tag": "office chair"
+  },
+  {
+    "id": 41,
+    "bbox_center": [
+      3.336,
+      3.135,
+      0.481
+    ],
+    "bbox_extent": [
+      0.55,
+      0.607,
+      0.912
+    ],
+    "object_tag": "office chair"
+  },
+  {
+    "id": 42,
+    "bbox_center": [
+      1.134,
+      2.309,
+      0.498
+    ],
+    "bbox_extent": [
+      0.774,
+      0.822,
+      0.779
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 43,
+    "bbox_center": [
+      3.014,
+      1.573,
+      0.431
+    ],
+    "bbox_extent": [
+      0.69,
+      0.68,
+      0.818
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 44,
+    "bbox_center": [
+      1.809,
+      3.712,
+      0.501
+    ],
+    "bbox_extent": [
+      1.063,
+      1.031,
+      0.995
+    ],
+    "object_tag": "desk"
+  }
+]

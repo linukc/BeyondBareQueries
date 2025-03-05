@@ -1,0 +1,422 @@
+[
+  {
+    "id": 0,
+    "bbox_center": [
+      4.287,
+      4.102,
+      1.367
+    ],
+    "bbox_extent": [
+      4.374,
+      2.474,
+      2.547
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 1,
+    "bbox_center": [
+      3.074,
+      0.779,
+      1.495
+    ],
+    "bbox_extent": [
+      6.006,
+      1.077,
+      2.746
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 2,
+    "bbox_center": [
+      4.433,
+      3.713,
+      0.561
+    ],
+    "bbox_extent": [
+      0.654,
+      0.745,
+      0.866
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 3,
+    "bbox_center": [
+      5.287,
+      3.211,
+      0.52
+    ],
+    "bbox_extent": [
+      0.642,
+      0.584,
+      0.855
+    ],
+    "object_tag": "chair"
+  },
+  {
+    "id": 4,
+    "bbox_center": [
+      3.225,
+      2.702,
+      0.293
+    ],
+    "bbox_extent": [
+      6.4,
+      4.893,
+      0.609
+    ],
+    "object_tag": "floor"
+  },
+  {
+    "id": 5,
+    "bbox_center": [
+      3.271,
+      1.699,
+      0.993
+    ],
+    "bbox_extent": [
+      2.242,
+      2.36,
+      1.855
+    ],
+    "object_tag": "bed"
+  },
+  {
+    "id": 6,
+    "bbox_center": [
+      3.805,
+      4.061,
+      0.697
+    ],
+    "bbox_extent": [
+      1.051,
+      0.907,
+      1.071
+    ],
+    "object_tag": "cabinet"
+  },
+  {
+    "id": 7,
+    "bbox_center": [
+      6.374,
+      2.401,
+      1.275
+    ],
+    "bbox_extent": [
+      0.207,
+      1.137,
+      2.388
+    ],
+    "object_tag": "door"
+  },
+  {
+    "id": 8,
+    "bbox_center": [
+      4.916,
+      3.393,
+      0.52
+    ],
+    "bbox_extent": [
+      1.018,
+      1.037,
+      0.859
+    ],
+    "object_tag": "table"
+  },
+  {
+    "id": 9,
+    "bbox_center": [
+      3.869,
+      4.057,
+      1.471
+    ],
+    "bbox_extent": [
+      0.613,
+      0.38,
+      0.519
+    ],
+    "object_tag": "tv"
+  },
+  {
+    "id": 10,
+    "bbox_center": [
+      3.376,
+      2.986,
+      2.684
+    ],
+    "bbox_extent": [
+      6.069,
+      3.817,
+      0.486
+    ],
+    "object_tag": "ceiling"
+  },
+  {
+    "id": 11,
+    "bbox_center": [
+      2.102,
+      4.394,
+      1.37
+    ],
+    "bbox_extent": [
+      0.456,
+      1.864,
+      2.058
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 12,
+    "bbox_center": [
+      2.093,
+      4.617,
+      1.335
+    ],
+    "bbox_extent": [
+      0.286,
+      0.641,
+      1.083
+    ],
+    "object_tag": "door"
+  },
+  {
+    "id": 13,
+    "bbox_center": [
+      2.033,
+      3.351,
+      1.93
+    ],
+    "bbox_extent": [
+      0.234,
+      0.876,
+      0.869
+    ],
+    "object_tag": "picture"
+  },
+  {
+    "id": 14,
+    "bbox_center": [
+      1.101,
+      2.765,
+      1.609
+    ],
+    "bbox_extent": [
+      1.725,
+      0.261,
+      2.29
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 15,
+    "bbox_center": [
+      0.33,
+      2.083,
+      1.723
+    ],
+    "bbox_extent": [
+      0.658,
+      1.66,
+      2.314
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 16,
+    "bbox_center": [
+      0.254,
+      2.431,
+      1.4
+    ],
+    "bbox_extent": [
+      0.262,
+      0.398,
+      1.429
+    ],
+    "object_tag": "ironing board"
+  },
+  {
+    "id": 17,
+    "bbox_center": [
+      0.251,
+      2.443,
+      0.815
+    ],
+    "bbox_extent": [
+      0.187,
+      0.195,
+      0.418
+    ],
+    "object_tag": "iron"
+  },
+  {
+    "id": 18,
+    "bbox_center": [
+      1.052,
+      1.28,
+      0.632
+    ],
+    "bbox_extent": [
+      0.376,
+      0.384,
+      0.447
+    ],
+    "object_tag": "backpack"
+  },
+  {
+    "id": 19,
+    "bbox_center": [
+      2.063,
+      1.132,
+      0.615
+    ],
+    "bbox_extent": [
+      0.607,
+      0.533,
+      0.635
+    ],
+    "object_tag": "nightstand"
+  },
+  {
+    "id": 20,
+    "bbox_center": [
+      4.484,
+      0.711,
+      0.418
+    ],
+    "bbox_extent": [
+      0.564,
+      0.507,
+      0.619
+    ],
+    "object_tag": "nightstand"
+  },
+  {
+    "id": 21,
+    "bbox_center": [
+      4.674,
+      0.605,
+      1.424
+    ],
+    "bbox_extent": [
+      0.2,
+      0.281,
+      0.292
+    ],
+    "object_tag": "lamp"
+  },
+  {
+    "id": 22,
+    "bbox_center": [
+      4.992,
+      0.545,
+      0.286
+    ],
+    "bbox_extent": [
+      0.402,
+      0.309,
+      0.357
+    ],
+    "object_tag": "bag"
+  },
+  {
+    "id": 23,
+    "bbox_center": [
+      5.329,
+      0.485,
+      0.299
+    ],
+    "bbox_extent": [
+      0.355,
+      0.351,
+      0.383
+    ],
+    "object_tag": "bag"
+  },
+  {
+    "id": 24,
+    "bbox_center": [
+      6.247,
+      1.6,
+      1.277
+    ],
+    "bbox_extent": [
+      0.439,
+      2.695,
+      2.397
+    ],
+    "object_tag": "wall"
+  },
+  {
+    "id": 25,
+    "bbox_center": [
+      6.053,
+      1.151,
+      1.421
+    ],
+    "bbox_extent": [
+      0.499,
+      1.493,
+      1.659
+    ],
+    "object_tag": "curtain"
+  },
+  {
+    "id": 26,
+    "bbox_center": [
+      6.08,
+      1.104,
+      0.293
+    ],
+    "bbox_extent": [
+      0.34,
+      1.059,
+      0.433
+    ],
+    "object_tag": "radiator"
+  },
+  {
+    "id": 27,
+    "bbox_center": [
+      6.025,
+      3.004,
+      0.276
+    ],
+    "bbox_extent": [
+      0.376,
+      0.366,
+      0.382
+    ],
+    "object_tag": "backpack"
+  },
+  {
+    "id": 28,
+    "bbox_center": [
+      2.703,
+      4.823,
+      0.456
+    ],
+    "bbox_extent": [
+      0.339,
+      0.308,
+      0.329
+    ],
+    "object_tag": "trash can"
+  },
+  {
+    "id": 29,
+    "bbox_center": [
+      3.076,
+      4.513,
+      0.483
+    ],
+    "bbox_extent": [
+      0.64,
+      0.579,
+      0.503
+    ],
+    "object_tag": "mini fridge"
+  }
+]

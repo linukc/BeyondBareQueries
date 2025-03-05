@@ -1,0 +1,306 @@
+[
+  {
+    "target": 5,
+    "utterance": "There is a dark brown wooden and leather chair. Placed in the table of the kitchen."
+  },
+  {
+    "target": 5,
+    "utterance": "You are looking for a chair on the side of the table facing the ovens. It will be the chair near the rail."
+  },
+  {
+    "target": 5,
+    "utterance": "You are looking for the chair closest to the front. It is on the right side, right behind the chair leg."
+  },
+  {
+    "target": 5,
+    "utterance": "This is a brown chair. It is to the left of another chair."
+  },
+  {
+    "target": 5,
+    "utterance": "This is a brown chair. It is at the table."
+  },
+  {
+    "target": 13,
+    "utterance": "There is a brown wooden chair. Placed beside other chairs in the middle of the kitchen."
+  },
+  {
+    "target": 13,
+    "utterance": "There is a large painting on the wall. There is a chair at the end of the table close to the painting, we are not talking about that share. We are talking about the other chair that is close to the trash can to the right side of the painting. It is brown and wooden."
+  },
+  {
+    "target": 13,
+    "utterance": "The chair is at the right end of the table. It is to the right of another chair. It is the last chair on this side of the table."
+  },
+  {
+    "target": 13,
+    "utterance": "This is a brown chair. It is to the right of another chair near the end of the table."
+  },
+  {
+    "target": 13,
+    "utterance": "This is a brown chair. It is near the end of the table."
+  },
+  {
+    "target": 9,
+    "utterance": "There is a dark brown chair. Brown leather and placed in he kitchen table."
+  },
+  {
+    "target": 9,
+    "utterance": "You are looking for the chair at the head of the table. It's near the door."
+  },
+  {
+    "target": 9,
+    "utterance": "This is a brown chair. It is at the end of the table."
+  },
+  {
+    "target": 9,
+    "utterance": "This is a brown chair. It is at the end of a long table."
+  },
+  {
+    "target": 9,
+    "utterance": "This is a tall chair. It is at the head of the table."
+  },
+  {
+    "target": 1,
+    "utterance": "There are brwon wooden cabinets. Placed on the side of the kitchen."
+  },
+  {
+    "target": 1,
+    "utterance": "There is a set of bottom kitchen cabinets in the room. It has a microwave in the middle of it."
+  },
+  {
+    "target": 1,
+    "utterance": "There is a set of bottom kitchen cabinets in the room. There is a microwave in the middle of them."
+  },
+  {
+    "target": 1,
+    "utterance": "Brown kitchen cabinets, the top is decorated with marble layers it is placed on the left in the direction of view. The right are 4 brown chairs."
+  },
+  {
+    "target": 1,
+    "utterance": "The kitchen cabinets are located along the right wall. They are below the counter top. The kitchen cabinets are located to the right of the table and chairs."
+  },
+  {
+    "target": 18,
+    "utterance": "There is a black square tv. Placed on the wall of the kitchen."
+  },
+  {
+    "target": 18,
+    "utterance": "This is a big black tv. It is above a thin table."
+  },
+  {
+    "target": 18,
+    "utterance": "This is a rectangular tv. It is above a small thin table."
+  },
+  {
+    "target": 18,
+    "utterance": "This is a black tv. It is mounted to the wall."
+  },
+  {
+    "target": 18,
+    "utterance": "This is a big screen tv. It is affixed to the wall."
+  },
+  {
+    "target": 17,
+    "utterance": "There is a large painting on the wall. This the long skinny table under the painting hanging on the wall. It is wooden with a glass top."
+  },
+  {
+    "target": 17,
+    "utterance": "This is the long skinny table under the painting on the wall. The painting upon the wall is gray. The wall the painting is on its opposite the doors."
+  },
+  {
+    "target": 17,
+    "utterance": "This is a brown table. It is to the left of a trash can."
+  },
+  {
+    "target": 17,
+    "utterance": "It is a narrow wood console table. The table sits in the kitchen, along the wall that has the tv. It sits under the tv."
+  },
+  {
+    "target": 17,
+    "utterance": "This is a thin table. It is against the wall."
+  },
+  {
+    "target": 25,
+    "utterance": "This is a long kitchen counter. It is grey. There are ovens under it."
+  },
+  {
+    "target": 25,
+    "utterance": "This is a long kitchen counter. It is below two windows."
+  },
+  {
+    "target": 25,
+    "utterance": "It is a light gray counter. It sit on top of wooden cabinets that go along one side of the kitchen. It is on the same side of the kitchen as the refrigerator."
+  },
+  {
+    "target": 25,
+    "utterance": "This is a black kitchen counter. It is on top of a kitchen cabinet."
+  },
+  {
+    "target": 25,
+    "utterance": "There is a long kitchen counter. It has a window on both sides and a sink to its left."
+  },
+  {
+    "target": 15,
+    "utterance": "It is a tall gray trash can. The trash can sits along the wall in the kitchen next to the console table that is under the tv."
+  },
+  {
+    "target": 15,
+    "utterance": "It is a gray trash can. The trash can sits in the corner by where the tv is."
+  },
+  {
+    "target": 15,
+    "utterance": "This is a round trash can. It is in the corner of the room."
+  },
+  {
+    "target": 15,
+    "utterance": "A gray trash can in the middle of the pillar and a small brown table. Above the small table is a black tv, in front of the trash is a brown table."
+  },
+  {
+    "target": 15,
+    "utterance": "This is a gray trash can. It is to the right of a table."
+  },
+  {
+    "target": 27,
+    "utterance": "It is a stainless steel refrigerator. The refrigerator sits to the left of the windows above the counter."
+  },
+  {
+    "target": 27,
+    "utterance": "It is a stainless steel refrigerator with a bottom freezer. The refrigerator is at the end of the counter and to the left of the windows above the counter."
+  },
+  {
+    "target": 27,
+    "utterance": "This is a rectangular refrigerator. It is to the left of a kitchen counter."
+  },
+  {
+    "target": 27,
+    "utterance": "It is a silver stainless steel refrigerator with a freezer on bottom. It is at the end of the cabinets under the window to the left."
+  },
+  {
+    "target": 27,
+    "utterance": "There is a stainless steel refrigerator in corner of the room. There are entry doors to its left."
+  },
+  {
+    "target": 6,
+    "utterance": "The chair is one of four chairs facing the table. It is the second chair from the left."
+  },
+  {
+    "target": 6,
+    "utterance": "The chair is at the table. There are two chairs to the right of it, and one chair to the left of it."
+  },
+  {
+    "target": 6,
+    "utterance": "You are looking for the chair on the side of the table near the ovens. The chair will be the one in the center."
+  },
+  {
+    "target": 6,
+    "utterance": "A brown chair. It is placed next to a table. In the right-to-left direction it is the third chair."
+  },
+  {
+    "target": 19,
+    "utterance": "It is a white refrigerator. The refrigerator sits in the corner of the kitchen. It sits at the end of the counter and, along the wall with the tv on it."
+  },
+  {
+    "target": 19,
+    "utterance": "This is a stainless steel refrigerator. It is to the right of a kitchen counter."
+  },
+  {
+    "target": 19,
+    "utterance": "The refridgerator appears to be brownish silver. It is in the corner of the room, and sits next to a pair of ovens."
+  },
+  {
+    "target": 19,
+    "utterance": "It is a stainless steel refrigerator. It sit in the corner of the room,at the end of the counter,to the right of the windows above the counter."
+  },
+  {
+    "target": 12,
+    "utterance": "There is a tall chair pulled up to the table in the room. It is the second from the right."
+  },
+  {
+    "target": 12,
+    "utterance": "There is a chair pushed up to the table. It is the second from the right."
+  },
+  {
+    "target": 12,
+    "utterance": "There is a chair pulled up to the table. It is second from the right."
+  },
+  {
+    "target": 12,
+    "utterance": "This is a brown chair. It sets at a dining room table."
+  },
+  {
+    "target": 20,
+    "utterance": "This is a brown cabinet. It is above a refrigerator."
+  },
+  {
+    "target": 20,
+    "utterance": "This is a brown cabinet. It is behind chairs."
+  },
+  {
+    "target": 20,
+    "utterance": "This is a brown cabinet. It sets along the wall, right next to a window."
+  },
+  {
+    "target": 20,
+    "utterance": "There is an upper cabinet in the room. It has a fridge to its right."
+  },
+  {
+    "target": 11,
+    "utterance": "This is a brown chair. It is in between other chairs."
+  },
+  {
+    "target": 11,
+    "utterance": "This is a brown chair. It is in between two other chairs."
+  },
+  {
+    "target": 11,
+    "utterance": "A brown chair, it is placed next to a table. In the left-to-right direction it is the second chair."
+  },
+  {
+    "target": 11,
+    "utterance": "This is a brown chair. There are many identical chairs setting around the table it sets at."
+  },
+  {
+    "target": 11,
+    "utterance": "The chair is pulled into the table. There is one chair to it's left, and two chairs to it's right."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a brown chair. It's back is to a thin table."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a brown chair. It is turned toward the end of the table."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a brown chair. It is at a high table."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a chair with no arms. It is at a high table."
+  },
+  {
+    "target": 4,
+    "utterance": "This is a brown chair. It is in front of a thin table."
+  },
+  {
+    "target": 2,
+    "utterance": "This is a long table. There are three brown chairs behind it."
+  },
+  {
+    "target": 2,
+    "utterance": "This is a long table. It is surrounded by chairs."
+  },
+  {
+    "target": 2,
+    "utterance": "There is a large table in the room. It has ten chairs pulled up to it."
+  },
+  {
+    "target": 2,
+    "utterance": "A brown table, placed in the middle of the room, on the left is 4 brown chairs, on the right are 4 brown chairs. The front is a brown door with light shining on."
+  },
+  {
+    "target": 2,
+    "utterance": "This is a brown table. It is surrounded by quite a few matching chairs."
+  }
+]
