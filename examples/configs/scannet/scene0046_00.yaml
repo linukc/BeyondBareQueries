@@ -1,6 +1,6 @@
 dataset:
   name: "ScanNet"
-  base_dir: /datasets/ScanNet/scans/
+  base_dir: /workspace-SR006.nfs2/Tatiana_Z/ScanNet/scans_bbq
   sequence: "scene0046_00"
   start: 0
   end: -1
@@ -22,7 +22,7 @@ dataset:
 nodes_constructor:
   mask_generator:
     model: "MobileSAM"
-    weights_path: "/home/docker_user/bbq_weights/mobilesamv2/weight"
+    weights_path: "/home/jovyan/Tatiana_Z/bbq_demo/weight"
   dino_generator:
     model: "dinov2_vits14_reg_lc"
     load_size: 448
@@ -55,6 +55,6 @@ nodes_constructor:
   postprocessing:
     obj_min_points: 300
     obj_min_detections: 5
-  output_path: "/home/docker_user/BeyondBareQueries/output/scenes"
+  output_path: "/home/jovyan/Tatiana_Z/bbq_demo/BeyondBareQueries/output/scenes"
   output_name_nodes: "scannet_scene0046_00.json"
   output_name_objects: "scannet_scene0046_00_objects.pkl.gz"

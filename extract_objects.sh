@@ -1,0 +1,9 @@
+export PYTHONPATH=/home/jovyan/Tatiana_Z/bbq_demo/MobileSAM/MobileSAMv2:$PYTHONPATH
+python3 main.py --config_path=examples/configs/scannet/scene0011_00.yaml
+python3 main.py --config_path=examples/configs/scannet/scene0030_00.yaml
+python3 main.py --config_path=examples/configs/scannet/scene0046_00.yaml
+python3 main.py --config_path=examples/configs/scannet/scene0086_00.yaml
+python3 main.py --config_path=examples/configs/scannet/scene0222_00.yaml
+python3 main.py --config_path=examples/configs/scannet/scene0378_00.yaml
+python3 main.py --config_path=examples/configs/scannet/scene0389_00.yaml
+python3 main.py --config_path=examples/configs/scannet/scene0435_00.yaml

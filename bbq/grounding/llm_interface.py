@@ -209,6 +209,9 @@ class Llama3:
         generated_ids = self.model.generate(model_inputs, max_new_tokens=1000, pad_token_id=self.tokenizer.eos_token_id, do_sample=True)
         decoded = self.tokenizer.batch_decode(generated_ids)
         LLMAnswer = decoded[0].split('"id": ')[-1]
-        pred = int(''.join(c if c.isdigit() else '' for c in LLMAnswer.split("}")[0]))
+        try:
+            pred = int(''.join(c if c.isdigit() else '' for c in LLMAnswer.split("}")[0]))
+        except:
+            pred = 0
         pretty_answer = decoded[0].split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[-1].split('<|eot_id|>')[0]
         return decoded[0], pred, relations, pretty_answer

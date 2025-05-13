@@ -16,16 +16,17 @@ class ObjectsAssociator:
 
     def __call__(self, detected_objects, scene_objects):
         # compute spatial sim
-        spatial_sim = compute_spatial_similarities(detected_objects, scene_objects)
-        spatial_sim[spatial_sim <= self.merge_det_obj_spatial_sim_thresh] = float('-inf')
-
-        # compute vis sim
-        visual_sim = compute_visual_similarities(detected_objects, scene_objects, spatial_sim)
-        visual_sim[visual_sim < self.merge_det_obj_visual_sim_thresh] = float('-inf')
-
-        # merge det to objects
-        scene_objects = self.merge_detections_to_objects(detected_objects, scene_objects,
-            visual_sim, self.downsample_voxel_size)
+        if len(detected_objects) > 0:
+            spatial_sim = compute_spatial_similarities(detected_objects, scene_objects)
+            spatial_sim[spatial_sim <= self.merge_det_obj_spatial_sim_thresh] = float('-inf')
+    
+            # compute vis sim
+            visual_sim = compute_visual_similarities(detected_objects, scene_objects, spatial_sim)
+            visual_sim[visual_sim < self.merge_det_obj_visual_sim_thresh] = float('-inf')
+    
+            # merge det to objects
+            scene_objects = self.merge_detections_to_objects(detected_objects, scene_objects,
+                visual_sim, self.downsample_voxel_size)
 
         return scene_objects
 

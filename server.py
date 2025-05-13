@@ -170,7 +170,7 @@ def describe_objects(objects):
             Examples: 
             a white test tube rack;
             a robotic arm;
-            a closed wooden door with a glass panel;
+            a blue and gray electronic scales with two knobs.;
             a pillow with a floral pattern;
             a wooden table;
             a gray wall.
@@ -482,9 +482,9 @@ def main():
     #    [0.0, 0.0, 1.0, 0.0],
     #    [0.0, 0.0, 0.0, 1.0],
     #])
-    #pose = torch.from_numpy(pose).to("cuda")
+    pose = torch.from_numpy(pose).to("cuda")
 
-    # global FIRST_POSE
+    #global FIRST_POSE
     # if FIRST_POSE is None:
     #     FIRST_POSE = torch.clone(pose)
     #     pose = torch.from_numpy(np.array([
@@ -502,12 +502,12 @@ def main():
 
     #print("FIRST POSE", pose, FIRST_POSE)
 
-    pose = torch.from_numpy(np.array([
-             [1.0, 0.0, 0.0, 0.0],
-             [0.0, 1.0, 0.0, 0.0],
-             [0.0, 0.0, 1.0, 0.0],
-             [0.0, 0.0, 0.0, 1.0],
-         ]))
+    #pose = torch.from_numpy(np.array([
+    #         [1.0, 0.0, 0.0, 0.0],
+    #         [0.0, 1.0, 0.0, 0.0],
+    #         [0.0, 0.0, 1.0, 0.0],
+    #         [0.0, 0.0, 0.0, 1.0],
+    #     ]))
     frame = (color, depth, INTRINSICS, pose)
     segmentation = nodes_constructor.integrate(0, frame,
         SAVE_PATH)
@@ -598,8 +598,11 @@ def wait_for_message():
         if os.path.exists(TEXT_FILE):
             mod_time = os.path.getmtime(TEXT_FILE)
             if last_mod_time is None or mod_time > last_mod_time:
+                if not (last_mod_time is None):
+                    main()
                 last_mod_time = mod_time
-                main()
+                #if not
+                #main()
         time.sleep(1)  # Проверка раз в секунду
 
 if __name__ == "__main__":
