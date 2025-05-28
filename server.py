@@ -51,8 +51,8 @@ LLAMA_PATH = "/workspace-SR006.nfs2/Tatiana_Z/Meta-Llama-3-8B-Instruct"
 DEBUG = False
 
 INTRINSICS = np.array([
-    [954.4869995117188, 0, 639.8150634765625, 0],  # fx,  0, cx, tx
-    [0, 954.4869995117188, 350.4607238769531, 0],  #  0, fy, cy, ty
+    [909.809, 0, 647.274, 0],  # fx,  0, cx, tx
+    [0, 908.94, 363.877, 0],  #  0, fy, cy, ty
     [0, 0, 1, 0]       #  0,  0,  1,  0
 ], dtype=np.float32)
 DEPTH_SCALE = 1000
@@ -164,13 +164,13 @@ def describe_objects(objects):
             image_tensor = [image.to("cuda", dtype=torch.float16) for image in image_features]
             
             query_tail = """
-            The object is one we usually see in indoor scenes, specifically in laboratories. 
+            The object is one we usually see in indoor scenes, specifically in office spaces on tables. 
             It signature must be short and sparse, describe appearance, geometry, material. Don't describe background.
             Fit you description in four or five words.
             Examples: 
-            a white test tube rack;
+            a red pen;
             a robotic arm;
-            a blue and gray electronic scales with two knobs.;
+            a bottle;
             a pillow with a floral pattern;
             a wooden table;
             a gray wall.
@@ -280,7 +280,8 @@ def draw_answer(result, targets, anchors, relations, segmentation, depth, intrin
     fig = plt.figure(figsize=(5, 5))  # Wider figure
     ax1 = fig.add_subplot(111, projection='3d')
 
-    ax1.view_init(elev=0, azim=-90) 
+    ax1.view_init(elev=0, azim=-90) # -XZ axis
+    #ax1.view_init(elev=90, azim=-90) # XY axis
     #ax1.set_xlim([-0.15, 2])  # Set X-axis limits from 0 to 1
     #ax1.set_ylim([-0.15, 1])  # Set Y-axis limits from 0 to 1
     #ax1.set_zlim([0.5, 3])  # Set Z-axis limits from 0 to 1
@@ -474,14 +475,15 @@ def main():
     depth = cv2.imread(DEPTH_PATH, cv2.IMREAD_UNCHANGED).astype(np.float64)
     depth = np.expand_dims(depth, -1)
     depth = torch.from_numpy(depth).to("cuda") / DEPTH_SCALE
+    print(torch.mean(depth))
 
-    pose = np.loadtxt(POSE_PATH)
-    #pose = np.array([
-    #    [1.0, 0.0, 0.0, 0.0],
-    #    [0.0, 1.0, 0.0, 0.0],
-    #    [0.0, 0.0, 1.0, 0.0],
-    #    [0.0, 0.0, 0.0, 1.0],
-    #])
+    #pose = np.loadtxt(POSE_PATH)
+    pose = np.array([
+        [1.0, 0.0, 0.0, 0.0],
+        [0.0, 1.0, 0.0, 0.0],
+        [0.0, 0.0, 1.0, 0.0],
+        [0.0, 0.0, 0.0, 1.0],
+    ])
     pose = torch.from_numpy(pose).to("cuda")
 
     #global FIRST_POSE
